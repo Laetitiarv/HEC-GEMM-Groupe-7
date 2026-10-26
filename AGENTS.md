@@ -1,3 +1,3 @@
 # Pointeur
 
-Lire d'abord `REGLES.md`, puis `A PROPOS DU PROJET.md` et `SAVOIRS/hot.md`.
+Lire d'abord `RULES.md` (les règles de tout assistant dans ce brain), puis `README.md`.
