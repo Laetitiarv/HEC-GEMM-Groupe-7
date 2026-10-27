@@ -1,6 +1,6 @@
 # Recherches préliminaires pour la construction du projet — Modèles de référence et clients potentiels
 
-**Date : 26/10/2026** · Fonction : `1 DIRECTION` · Statut : document de travail (recherches préliminaires, non validé par l'équipe)
+**Date : 26/10/2026** · Fonction : `1 DIRECTION/STRATEGIE` · Statut : document de travail (recherches préliminaires, non validé par l'équipe)
 
 > Projet retenu le 26/10 au soir : une plateforme de mise en relation entre des **locaux vacants** (sur des plages horaires, entre deux baux, etc.) et des particuliers, communautés ou associations qui cherchent un lieu pour se réunir. La plateforme assure une offre clé en main (assurance, nettoyage, etc.), avec une possibilité d'abonnement, dans les villes denses.
 >
