@@ -13,7 +13,7 @@ Permettre aux restaurants de rentabiliser leurs soirs de fermeture, en vendant �
 ### Socle commun
 
 - Un restaurant parisien exclusif, occupé le soir de sa fermeture. Le chef invité est annoncé avant la soirée.
-- Un sommelier invité et des accords hors carte, **inclus** dans le prix.
+- Un sommelier invité et des accords hors carte (mets-vins ou mets-jus, au choix), **inclus** dans le prix.
 - Prix **TTC par personne, tout compris** (menu, accords, service), hors options.
 - Un plan de table composé par nous, avec des convives sélectionnés, différents à chaque soirée.
 - Capacité de 20 à 24 couverts, à ajuster selon le lieu.
@@ -33,6 +33,20 @@ Permettre aux restaurants de rentabiliser leurs soirs de fermeture, en vendant �
 **Le Voyage : « Dépaysés pour une nuit. »** Une cuisine absente de Paris (thaïlandaise gastronomique, grande cuisine japonaise, une région italienne précise), portée par un chef reconnu dans son pays. Le décor connu est transformé : menu, musique et mise en scène du lieu. 7 services, sommelier invité.
 
 **La Grande Nuit : « Le chef qu'il faut prendre l'avion pour goûter. »** Une seule table, 20 couverts, 8 à 9 services, accords prestige et menu numéroté signé par le chef. C'est la soirée dont on parle pendant des mois.
+
+### L'accord mets-jus (sans alcool)
+
+Chaque soirée propose, **au même prix**, un accord mets-vins ou un accord mets-jus, choisi à la réservation (P). Le convive qui ne boit pas d'alcool vit la même soirée que les autres, pas une version au rabais.
+
+- **Un vrai accord, conçu par le sommelier invité**, avec autant de verres que l'accord mets-vins de la soirée.
+- **Des boissons à la hauteur du menu** : jus pressés de variétés rares, thés et infusions d'exception servis chauds ou froids, boissons fermentées (kombucha, kéfir), vins désalcoolisés haut de gamme.
+- **Le même rituel** : mêmes verres, même service, même présentation à table. Rien ne distingue les deux accords aux yeux des autres convives.
+- **Un choix par convive** : à une même table, chacun prend l'accord qu'il préfère, et un couple peut en mélanger les deux.
+- **Un accord qui suit la cuisine du chef** : par exemple des thés pour un menu japonais, des infusions d'herbes fraîches pour une cuisine thaïlandaise.
+
+**Prix inchangé : 290 €, 420 € et 690 € selon la soirée (P).** I Trois raisons : la valeur vendue est l'accord conçu par un sommelier, pas le contenu du verre ; une décote donnerait l'impression d'un accord de second rang ; les boissons d'exception ne sont pas bon marché. L'économie sur les vins, surtout à La Grande Nuit, est réinvestie dans des boissons plus rares.
+
+À valider : le coût réel d'un accord mets-jus par soirée, la nécessité d'un second profil (maître de thé, spécialiste des boissons sans alcool) pour le concevoir, et le recueil du choix de chaque convive à la réservation, avec ses régimes et allergies.
 
 ### Ce qui donne envie de revenir
 
@@ -59,6 +73,8 @@ Exemples :
 - 24 convives avec un chef étoilé : 10 000 + 24 × 420 = **20 080 €**
 
 À 24 convives, la privatisation revient environ **20 à 30 % plus cher par personne** que le siège en soirée ouverte. Ce supplément paie l'exclusivité et le choix. Le forfait fixe explique aussi pourquoi un tête-à-tête coûte très cher par personne : c'est normal, et c'est l'achat du persona « grand romantique », peu sensible au prix.
+
+Pour la privatisation, le choix entre accord mets-vins et accord mets-jus se fait par convive et ne change pas le prix par convive (P). Un groupe qui ne boit pas d'alcool peut demander un accord mets-jus pour toute la table.
 
 ## La logique de pricing
 
