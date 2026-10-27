@@ -58,7 +58,7 @@ I Lecture : B exige quatre fois moins de réservations pour couvrir ses coûts f
 
 ## 4. Risques propres au scénario B
 
-Juridique et voisinage (à faire valider par le pôle Juridique RH ; aucune analyse ici ne vaut avis juridique).
+Juridique et voisinage (à faire valider par le pôle Juridique ; aucune analyse ici ne vaut avis juridique).
 
 F Le propriétaire reste responsable des troubles causés par ses locataires même quand la location est conforme : bruit répété, allées et venues, fêtes, dégradation des parties communes ; le juge peut ordonner la cessation du trouble sous astreinte et des dommages et intérêts (SeLoger, 13/08/2026). F Le règlement de copropriété peut interdire certaines locations, et l'assemblée générale peut voter à la majorité des deux tiers l'interdiction des meublés de tourisme pour les lots qui ne sont pas des résidences principales (même source). F À Paris, la location meublée d'un logement à une clientèle de passage hors résidence principale exige une autorisation de changement d'usage, sous peine d'une amende pouvant atteindre 100 000 € par logement (même source). I Une location à l'heure pour un événement, sans nuitée, n'est pas une location meublée de tourisme au sens habituel ; mais la question de sa compatibilité avec la destination d'habitation de l'immeuble et avec le règlement de copropriété n'est pas établie par les sources et doit être tranchée avant tout pilote.
 
@@ -80,11 +80,11 @@ Dommages. I Mobilier et objets de valeur, sols et œuvres : un seul sinistre peu
 | Concurrence directe | Offre municipale gratuite, salles associatives | Giggster, Peerspace, privatisation de restaurants et de lieux de réception |
 | Attrait pour un jury | Utilité sociale, valorisation de lieux sous-utilisés | Modèle premium lisible, mais proche de l'existant |
 
-I Conclusion de travail : le scénario B ne corrige pas la fragilité économique du modèle initial, il la déplace. Il réduit le volume nécessaire mais ajoute un risque juridique et de voisinage qui peut bloquer le pilote, et il éloigne le projet de sa promesse d'origine. P Une variante à examiner par la Direction : garder A comme cœur du projet et traiter les lieux de prestige comme une gamme premium marginale, sous réserve que le pôle Juridique RH confirme la faisabilité en copropriété.
+I Conclusion de travail : le scénario B ne corrige pas la fragilité économique du modèle initial, il la déplace. Il réduit le volume nécessaire mais ajoute un risque juridique et de voisinage qui peut bloquer le pilote, et il éloigne le projet de sa promesse d'origine. P Une variante à examiner par la Direction : garder A comme cœur du projet et traiter les lieux de prestige comme une gamme premium marginale, sous réserve que le pôle Juridique confirme la faisabilité en copropriété.
 
 ## 6. Points non établis, à confier aux pôles
 
-Le coût horaire réel d'un agent ou d'un régisseur sur place (devis, pôle Opérations). Le prix d'une assurance couvrant un logement de valeur pour un événement (pôle Juridique RH). La part du prix que des propriétaires de biens prestigieux accepteraient de céder (pôle Ventes). Le prix qu'un particulier est prêt à payer pour une soirée dans un appartement de standing (pôle Marketing). La compatibilité d'une location événementielle à l'heure avec un règlement de copropriété type à Paris (pôle Juridique RH).
+Le coût horaire réel d'un agent ou d'un régisseur sur place (devis, pôle Opérations). Le prix d'une assurance couvrant un logement de valeur pour un événement (pôle Juridique). La part du prix que des propriétaires de biens prestigieux accepteraient de céder (pôle Ventes). Le prix qu'un particulier est prêt à payer pour une soirée dans un appartement de standing (pôle Marketing). La compatibilité d'une location événementielle à l'heure avec un règlement de copropriété type à Paris (pôle Juridique).
 
 ## Sources
 

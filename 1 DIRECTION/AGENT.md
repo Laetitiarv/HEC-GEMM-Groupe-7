@@ -25,5 +25,5 @@
 ## Règles propres à la direction
 - Distinguer ce qu'une personne **recommande** de ce qu'une instance **vote**.
 - Un projet de contrat n'est pas un contrat signé : un projet, une proposition ou un devis se citent comme tels.
-- Un contrat se lit en entier avant d'en tirer une conclusion : exclusivité, durée, coût minimum, clauses de sortie (voir `7 JURIDIQUE RH/`).
-- Qui peut décider quoi se lit dans les statuts et le pacte d'associés (voir `7 JURIDIQUE RH/`), pas dans l'organigramme.
+- Un contrat se lit en entier avant d'en tirer une conclusion : exclusivité, durée, coût minimum, clauses de sortie (voir `7 JURIDIQUE/`).
+- Qui peut décider quoi se lit dans les statuts et le pacte d'associés (voir `7 JURIDIQUE/`), pas dans l'organigramme.

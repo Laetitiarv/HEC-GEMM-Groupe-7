@@ -18,7 +18,7 @@ Un second brain partagé : les documents de l'équipe, des notes reliées entre 
 | [`4 VENTES/`](4%20VENTES/AGENT.md) | Clients, prospects, pipeline, partenaires, contrats clients | Assistant IA Ventes |
 | [`5 PRODUIT/`](5%20PRODUIT/AGENT.md) | Produits, versions, priorités, retours des utilisateurs | Assistant IA Produit |
 | [`6 OPERATIONS/`](6%20OPERATIONS/AGENT.md) | Technique, fabrication, livraison, fournisseurs, délais | Assistant IA Opérations |
-| [`7 JURIDIQUE RH/`](7%20JURIDIQUE%20RH/AGENT.md) | Statuts, contrats, équipe, recrutement ; tenue des sources | Assistant IA Juridique et RH, archiviste |
+| [`7 JURIDIQUE/`](7%20JURIDIQUE/AGENT.md) | Statuts, contrats, équipe, recrutement ; tenue des sources | Assistant IA Juridique, archiviste |
 | [`PRODUCTIONS ASSISTANTS/`](PRODUCTIONS%20ASSISTANTS/LISEZ-MOI.md) | Ce que les assistants IA produisent à la demande | — |
 
 Sept fonctions, sept dossiers : un par membre de l'équipe. Chaque dossier de fonction contient :
@@ -30,7 +30,7 @@ Quatre couches, comme dans tout second brain : les **documents d'origine** (`sou
 ## Le cycle d'un document
 
 1. On dépose le document dans `0 INBOX/`.
-2. L'archiviste (`7 JURIDIQUE RH/`) le range dans `sources/` sous un identifiant (`S01`, `S02`…) et l'inscrit dans [SOURCES](SOURCES.md).
+2. L'archiviste (`7 JURIDIQUE/`) le range dans `sources/` sous un identifiant (`S01`, `S02`…) et l'inscrit dans [SOURCES](SOURCES.md).
 3. Les faits utiles passent dans le `README.md` de la fonction concernée, chacun avec sa source.
 4. Une décision prise par un humain entre dans le [registre des décisions](1%20DIRECTION/REGISTRE%20DES%20DECISIONS.md).
 
@@ -42,19 +42,20 @@ La date compte : une question datée n'utilise que les faits connus à cette dat
 
 ## Travailler à plusieurs
 
-- **Une personne = une fonction = un dossier.** Chacun n'écrit que dans le dossier de sa fonction, comme son assistant IA (voir son `AGENT.md`). Dans une équipe de six, une même personne prend `5 PRODUIT/` et `6 OPERATIONS/`.
+- **Une personne = une fonction = un dossier.** Chacun n'écrit que dans le dossier de sa fonction, comme son assistant IA (voir son `AGENT.md`).
 
   | Fonction | Responsable |
   |---|---|
-  | `1 DIRECTION` | |
-  | `2 FINANCE` | |
-  | `3 MARKETING` | |
-  | `4 VENTES` | |
-  | `5 PRODUIT` | |
-  | `6 OPERATIONS` | |
-  | `7 JURIDIQUE RH` (archiviste) | |
+  | `1 DIRECTION` | [@Laetitiarv](https://github.com/Laetitiarv) |
+  | `2 FINANCE` | [@Vianney-wind](https://github.com/Vianney-wind) |
+  | `3 MARKETING` | [@serge2309](https://github.com/serge2309) |
+  | `4 VENTES` | [@xavierjuraflo-ship-it](https://github.com/xavierjuraflo-ship-it) |
+  | `5 PRODUIT` | [@Fredlay26](https://github.com/Fredlay26) |
+  | `6 OPERATIONS` | [@jonathanstarke-hec](https://github.com/jonathanstarke-hec) |
+  | `7 JURIDIQUE` (archiviste) | [@alexanderzhelev-dev](https://github.com/alexanderzhelev-dev) |
 
-- Seul le responsable de `1 DIRECTION/` écrit dans le registre des décisions ; seul l'archiviste (`7 JURIDIQUE RH/`) range les pièces et attribue les identifiants `S01`, `S02`…
+- Chaque membre a un accès en écriture au dépôt et peut ajouter, modifier et supprimer librement les fichiers de son dossier. Le fichier `.github/CODEOWNERS` désigne le responsable de chaque dossier : il est notifié de tout changement le concernant.
+- Seul le responsable de `1 DIRECTION/` écrit dans le registre des décisions ; seul l'archiviste (`7 JURIDIQUE/`) range les pièces et attribue les identifiants `S01`, `S02`…
 - Récupérer le travail des autres avant de commencer (`git pull`), publier le sien aussitôt après, en petits commits (`git commit`, `git push`).
 - Un message de commit dit ce qui a changé et pourquoi.
 - Les noms de fichiers créés commencent par la date : `AAAA MMJJ Nom` (ex. `2026 1026 Note de décision.md`).

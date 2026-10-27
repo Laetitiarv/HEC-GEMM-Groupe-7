@@ -35,7 +35,7 @@ Légende (voir [[RULES]]) : **F** = fait constaté sur la source citée · **I**
 | **Nestore** | France | Restaurants et boutiques éphémères | **F** Guide et offre de location de restaurants éphémères (exemple : un lieu à Paris 3ᵉ) | [Nestore – restaurant éphémère](https://www.nestore.com/guide/louer-un-restaurant-ephemere-definition-atouts-et-informations-cles) |
 | **Disco Crêpes** | France (Paris 3ᵉ) | Un restaurant en activité, loué en dehors de ses heures d'ouverture | **F** Restaurant équipé loué pour quelques heures, une journée ou plusieurs jours (pop-up, lancement, test de concept) | [Disco Crêpes – location](https://discocrepes.com/location-restaurant-paris/) |
 
-**Cadre juridique à retenir.** **F** Le bail dérogatoire (ou bail de courte durée) est adapté à un commerce éphémère : il est conclu par écrit et sa durée totale ne peut pas dépasser 3 ans ([Service-Public Entreprendre](https://entreprendre.service-public.gouv.fr/vosdroits/F32304)). **I** La convention d'occupation précaire relève d'un autre régime et exige des circonstances particulières. Le montage doit être validé au cas par cas avec `7 JURIDIQUE RH`.
+**Cadre juridique à retenir.** **F** Le bail dérogatoire (ou bail de courte durée) est adapté à un commerce éphémère : il est conclu par écrit et sa durée totale ne peut pas dépasser 3 ans ([Service-Public Entreprendre](https://entreprendre.service-public.gouv.fr/vosdroits/F32304)). **I** La convention d'occupation précaire relève d'un autre régime et exige des circonstances particulières. Le montage doit être validé au cas par cas avec `7 JURIDIQUE`.
 
 **Point de vigilance (recherches du 26/10).** **I** Un local vacant n'est utilisable que s'il reste équipé et peut être exploité sans travaux lourds, et si le propriétaire peut réellement en disposer (bail terminé, propriété des équipements établie). **P** Exclure du pilote les locaux vidés, dégradés ou en litige.
 
@@ -138,8 +138,8 @@ Les besoins listés ci-dessous sont des **hypothèses** à valider par les entre
 
 - Plateforme légère (modèle Sharesy) ou gestion déléguée (modèle School Space) ? → Direction, Finance, Opérations.
 - Le prix « plus intéressant que l'offre existante » couvre-t-il l'assurance, le nettoyage et l'accueil ? → Finance.
-- Quels usages les propriétaires accepteront-ils (bruit, alcool, cuisson, horaires) ? → Ventes, Juridique RH.
-- Quel cadre contractuel pour la vacance entre deux baux ? → Juridique RH.
+- Quels usages les propriétaires accepteront-ils (bruit, alcool, cuisson, horaires) ? → Ventes, Juridique.
+- Quel cadre contractuel pour la vacance entre deux baux ? → Juridique.
 
 Décision à prendre par : l'équipe (voir [[REGISTRE DES DECISIONS]]). Cette fiche formule des propositions, mais ne décide rien.
 

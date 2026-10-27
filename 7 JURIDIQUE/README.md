@@ -1,4 +1,4 @@
-# Juridique et RH — faits datés
+# Juridique — faits datés
 
 Un fait par ligne, du plus ancien au plus récent, chacun avec sa source. Voir [[RULES]].
 

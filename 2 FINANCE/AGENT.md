@@ -2,7 +2,7 @@
 
 **Mission** : financement, table de capitalisation, trésorerie, mois de survie (« runway »), revenus, prix et marge, coûts des prestataires.
 
-**Lit** : `2 FINANCE/`, les chiffres d'utilisateurs de `3 MARKETING/` et `5 PRODUIT/`, le chiffre d'affaires de `4 VENTES/`, les coûts de `6 OPERATIONS/` et `7 JURIDIQUE RH/`, `sources/`.
+**Lit** : `2 FINANCE/`, les chiffres d'utilisateurs de `3 MARKETING/` et `5 PRODUIT/`, le chiffre d'affaires de `4 VENTES/`, les coûts de `6 OPERATIONS/` et `7 JURIDIQUE/`, `sources/`.
 
 **Écrit** : uniquement dans `2 FINANCE/`.
 

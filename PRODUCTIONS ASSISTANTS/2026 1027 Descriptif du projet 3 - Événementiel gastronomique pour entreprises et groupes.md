@@ -111,7 +111,7 @@ Calendrier. I Les fermetures de restaurants tombent souvent en début de semaine
 
 Saisonnalité. F Les périodes de septembre à octobre et de tout début ou fin d'année sont les plus chères pour les événements d'entreprise (Prestagency), signe d'une demande concentrée. I Le chiffre d'affaires sera concentré sur quelques mois.
 
-Juridique (pôle Juridique RH, aucune analyse ici ne vaut avis juridique) : forme du contrat avec le restaurateur pour une soirée ; licence de débit de boissons et responsabilité ce soir-là ; règles d'hygiène et usage de la cuisine et des stocks ; statut du chef (salarié en contrat d'usage, prestataire indépendant) et accord de sa maison d'origine s'il est second ; assurance de l'événement.
+Juridique (pôle Juridique, aucune analyse ici ne vaut avis juridique) : forme du contrat avec le restaurateur pour une soirée ; licence de débit de boissons et responsabilité ce soir-là ; règles d'hygiène et usage de la cuisine et des stocks ; statut du chef (salarié en contrat d'usage, prestataire indépendant) et accord de sa maison d'origine s'il est second ; assurance de l'événement.
 
 Commercial : délai de vente auprès des entreprises, part des ventes passant par des agences, prix réellement accepté.
 

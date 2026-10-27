@@ -90,7 +90,7 @@ P Cinq leviers sont à tester pour rendre le modèle viable. Le premier est de r
 
 ## 6. Points à vérifier avant tout pilote
 
-Cadre juridique (pôle Juridique RH, aucune analyse ici ne vaut avis juridique) : sous quelle forme la start-up exploite-t-elle un fonds de commerce qui ne lui appartient pas, une soirée (mise à disposition ponctuelle, prestation de service, location-gérance) ; qui détient la licence de débit de boissons et en assume la responsabilité ce soir-là ; qui répond des règles d'hygiène, des stocks et des équipements du restaurateur ; quelle assurance couvre la soirée.
+Cadre juridique (pôle Juridique, aucune analyse ici ne vaut avis juridique) : sous quelle forme la start-up exploite-t-elle un fonds de commerce qui ne lui appartient pas, une soirée (mise à disposition ponctuelle, prestation de service, location-gérance) ; qui détient la licence de débit de boissons et en assume la responsabilité ce soir-là ; qui répond des règles d'hygiène, des stocks et des équipements du restaurateur ; quelle assurance couvre la soirée.
 
 Données de marché (pôles Marketing et Ventes) : ce qu'un chef à forte notoriété accepte comme rémunération pour une soirée, et sous quelle forme ; ce qu'un restaurateur demande pour ouvrir un soir de fermeture ; le prix qu'un client du réseau accepte de payer et la vitesse de remplissage d'une salle ; le budget d'une maison de champagne pour ce type d'événement ; le prix d'une soirée privatisée pour une entreprise.
 

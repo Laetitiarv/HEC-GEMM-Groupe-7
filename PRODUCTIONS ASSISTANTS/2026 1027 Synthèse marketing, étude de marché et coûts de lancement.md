@@ -262,7 +262,7 @@ Hypothèses reprises du fichier [[2026 1027 Scénario appartements de prestige -
 - **Exploitation** : un incident (dégât, bruit) fait perdre un lieu. Réponse : règles claires, caution, état des lieux photographié.
 
 **Non établi par les sources, à faire chiffrer**
-- Le coût réel d'une assurance par événement (pôle Juridique RH).
+- Le coût réel d'une assurance par événement (pôle Juridique).
 - Le coût par clic d'une publicité pour la location de salles à Paris (pôle Marketing, avec l'outil de planification des mots-clés de Google).
 - Le taux de vacance des commerces à Paris : seul un chiffre national a été trouvé, dans un résumé de recherche, et il n'est pas repris ici.
 - Le nombre de salles d'entreprise ou d'écoles vides le soir à Paris : aucune source trouvée.
