@@ -2,7 +2,7 @@
 
 Un fait par ligne, du plus ancien au plus récent, chacun avec sa source. Voir [[RULES]].
 
-Rangement : `MARCHE/` (taille, segments), `CONCURRENCE/` (une note par concurrent), `MESSAGES/` (positionnement, campagnes, presse).
+Rangement : `MARCHE/` (taille, segments), `CONCURRENCE/` (une note par concurrent), `MESSAGES/` (positionnement, campagnes, presse). Dossiers des tâches confiées par la Direction (plan de travail du 26/10, mis à jour le 27/10) : `ENTRETIENS/` (action 10), `SEGMENTS/`, `BENCHMARK/` (action 11), `CIBLE ET PROMESSE/` (action 12), `CANAUX ET LANCEMENT/`, `PITCH/` (slides 2 et 3).
 
 | Date | Fait | Nature (fait / inférence / proposition) | Source |
 |---|---|---|---|
