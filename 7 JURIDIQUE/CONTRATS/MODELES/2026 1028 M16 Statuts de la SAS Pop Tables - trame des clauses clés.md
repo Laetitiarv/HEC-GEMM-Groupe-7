@@ -1,6 +1,6 @@
 # M16 — Statuts de la SAS Pop Tables : trame des clauses clés et état des actes de la société en formation
 
-**Modèle du 28/10/2026** · **Trame, non relue par un avocat : ne pas déposer en l'état.** Les statuts complets seront rédigés à partir d'un modèle de greffe ou par un avocat ; cette trame fixe les **choix à faire par les associés**. Les analyses seront rangées dans `7 JURIDIQUE/STATUTS ET PACTE/` ; les statuts signés iront dans `sources/` (archiviste).
+**Modèle du 28/10/2026** · **Trame, non relue par un avocat : ne pas déposer en l'état.** Les statuts complets seront rédigés à partir d'un modèle de greffe ou par un avocat ; cette trame fixe les **choix à faire par les associés**. Un **projet de statuts complets** rédigé à partir de cette trame est disponible : [[2026 1028 M21 Projet de statuts de la SAS Pop Tables]]. Les analyses seront rangées dans `7 JURIDIQUE/STATUTS ET PACTE/` ; les statuts signés iront dans `sources/` (archiviste).
 
 Données du dépôt (**H**, Finance donnée n° 17) : 7 associés à 1 000 € chacun, création visée au 01/11/2026. Levée : tranche 1 d'environ 135 000 € avant février 2027, dont 110 000 € en BSA AIR (D-23). Associé gastronomique entrant contre un apport non monétaire (D-17).
 

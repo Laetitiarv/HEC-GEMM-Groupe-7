@@ -27,6 +27,7 @@ Règles : un modèle n'est pas un contrat ; un contrat signé est une pièce, ra
 | M15 | Accord de confidentialité (option embargo presse) | Maisons de luxe, restaurants, chefs, partenaires, journalistes | Protection de leurs informations ; pour le journaliste, son indépendance | **P0** (dès les premiers échanges) |
 | **M16** | Statuts de la SAS : trame des clauses clés et état des actes en formation | Fondateurs | Règles de décision, entrée de l'associé gastronomique, reprise des actes | **P0** avant l'immatriculation |
 | **M17** | Pacte d'associés et engagements des fondateurs | Fondateurs | Gouvernance, départ d'un associé, cession des créations à la société, non-concurrence | **P0** |
+| **M21** | **Projet de statuts complets de la SAS Pop Tables** (rédigé à partir de M16 ; 11 choix à faire par les associés) | Fondateurs | Idem M16 | **P0** avant l'immatriculation |
 | M18 | Convention avec l'associé gastronomique | Associé gastronomique (D-17) | Part du capital juste, protection de sa réputation, liberté de ses activités | P1 avant la levée |
 | M19 | Mentions légales, politique de confidentialité, consentements | Visiteurs du site, liste privée | Transparence, contrôle de leurs données (allergies), désinscription facile | **P1** avant la mise en ligne |
 | M20 | BSA AIR : points clés | Investisseurs (D-23) | Décote ou plafond, conversion, information | P1 avant février 2027 |
