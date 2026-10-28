@@ -2,7 +2,7 @@
 
 Un fait par ligne, du plus ancien au plus récent, chacun avec sa source. Voir [[RULES]].
 
-Rangement : `STATUTS ET PACTE/` (qui décide quoi), `CONTRATS/` (une note par contrat ; modèles dans `CONTRATS/MODELES/`), `EQUIPE/` (recrutement, rémunérations), `POINTS A REVOIR/` (questions juridiques à traiter plus tard), `ASSURANCES/` (récapitulatif des assurances, devis, contrats d'assurance), `SECURITE ALIMENTAIRE/` (responsabilité sanitaire, clauses, fiches pour les chefs) ; et, comme archiviste, `0 INBOX/`, `sources/` et [[SOURCES]].
+Rangement : `STATUTS ET PACTE/` (qui décide quoi), `CONTRATS/` (une note par contrat ; modèles dans `CONTRATS/MODELES/`), `EQUIPE/` (recrutement, rémunérations), `POINTS A REVOIR/` (questions juridiques à traiter plus tard), `ASSURANCES/` (récapitulatif des assurances, devis, contrats d'assurance), `SECURITE ALIMENTAIRE/` (responsabilité sanitaire, clauses, fiches pour les chefs), `LICENCE ALCOOL/` (licence propre de Pop Tables, D-09) ; et, comme archiviste, `0 INBOX/`, `sources/` et [[SOURCES]].
 
 | Date | Fait | Nature (fait / inférence / proposition) | Source |
 |---|---|---|---|
@@ -13,3 +13,4 @@ Rangement : `STATUTS ET PACTE/` (qui décide quoi), `CONTRATS/` (une note par co
 | 28/10/2026 | Orientation du responsable Juridique : provision d'assurance de 1,5 % du chiffre d'affaires HT de chaque soirée (annulation comprise, socle de 50 € par mois maintenu) | Orientation du pôle (pas une décision de la Direction) | [[2026 1028 Récapitulatif des assurances de Pop Tables]], § 4 |
 | 28/10/2026 | Modèles de contrats M01 à M20 (restaurants, chefs, vignerons, extras, fournisseurs, clients, prescripteurs, créateurs, société, site, levée), projets non relus par un avocat | Proposition | `CONTRATS/MODELES/LISEZ-MOI.md` |
 | 28/10/2026 | Coût des assurances aligné sur le modèle de la Finance (D-21) : 150 € HT par soirée et 2 % du chiffre d'affaires pour la protection juridique et l'assurance de la société ; remplace la provision de 1,5 % notée plus haut | Fait (hypothèses de la Finance) | [[2026 1028 Récapitulatif des assurances de Pop Tables]], § 4 |
+| 28/10/2026 | Proposition de licence propre (D-09) pour la vente de vin et de champagne uniquement (3e groupe) : petite licence restaurant en cible, petite licence à emporter en complément, question écrite à la Préfecture de police, formation au permis d'exploitation | Proposition | [[2026 1028 Proposition de licence pour la vente de vin et de champagne]] |

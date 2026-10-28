@@ -16,7 +16,7 @@ Légende (voir [[RULES]]) : **F** = fait constaté dans le dépôt · **I** = in
 
 | # | Point | Pourquoi bloquant | Statut |
 |---|---|---|---|
-| P1 | Montage de la licence de débit de boissons (§ 2) | Sans montage clair, pas de vente d'alcool possible | à revoir |
+| P1 | Montage de la licence de débit de boissons (§ 2) | Sans montage clair, pas de vente d'alcool possible | en cours : proposition du 28/10/2026 (vin et champagne uniquement, 3e groupe), réponse écrite de la Préfecture de police à obtenir ([[2026 1028 Proposition de licence pour la vente de vin et de champagne]]) |
 | P2 | Qui est l'exploitant alimentaire et porte la responsabilité sanitaire (§ 1.2) | Responsabilité en cas d'intoxication | en cours : orientation retenue le 28/10/2026, Pop Tables est l'exploitant alimentaire ; actions avant le pilote à mener ([[2026 1028 Responsabilité sanitaire - orientations retenues]]) |
 | P3 | Assurance des biens confiés et RC organisateur (§ 1.6) | Le matériel du restaurateur est souvent exclu des RC standard | en cours : récapitulatif des assurances du 28/10/2026 au soir, devis à demander ([[2026 1028 Récapitulatif des assurances de Pop Tables]]) |
 | P4 | Dépôt GitHub public alors que `RULES.md` le dit privé (§ 4) | Toute pièce versée est lisible par tous | à revoir |
@@ -31,7 +31,7 @@ Légende (voir [[RULES]]) : **F** = fait constaté dans le dépôt · **I** = in
 | 1.2 | Hygiène et sécurité alimentaire | Si la start-up vend le repas, partir du principe qu'elle est l'exploitant alimentaire : plan de maîtrise sanitaire, traçabilité, au moins une personne formée à l'hygiène. Vérifier l'obligation de déclaration d'activité (DDPP) pour la start-up et pour le labo externe | en cours ([[2026 1028 Responsabilité sanitaire - orientations retenues]]) ; adresse de déclaration et plats témoins non confirmés par la DDPP |
 | 1.3 | Chaîne du froid | Production à l'avance + transport = liaison froide : températures, délais, relevés conservés comme preuve | à revoir |
 | 1.4 | Équipement du lieu | Liste d'équipements minimum en annexe du contrat avec le lieu | à revoir |
-| 1.5 | Alcool | Voir § 2 : une licence est attachée à l'établissement et à son exploitant ; elle ne se prête pas pour une soirée | à revoir |
+| 1.5 | Alcool | Voir § 2 : une licence est attachée à l'établissement et à son exploitant ; elle ne se prête pas pour une soirée | en cours : proposition du 28/10/2026 (vin et champagne uniquement, 3e groupe), réponse écrite de la Préfecture de police à obtenir ([[2026 1028 Proposition de licence pour la vente de vin et de champagne]]) |
 | 1.6 | Sécurité des personnes | Effectif maximal autorisé du lieu (établissement recevant du public) dans le contrat et dans la jauge vendue ; un lieu non autorisé à recevoir du public est à exclure pour un événement payant. Assurance : RC organisateur + extension **biens confiés** | à revoir |
 | 1.7 | Déchets et voisinage | Tri obligatoire des biodéchets pour les professionnels ; clause d'horaires et de bruit répartissant la responsabilité entre la start-up et le restaurateur | à revoir |
 | 1.8 | Plan de secours | Clause de remplacement du chef « par un chef de niveau équivalent » ou remboursement (risque de pratique commerciale trompeuse si le chef annoncé change) ; force majeure ; annulation par le lieu ; obligations du chef en cas de désistement | à revoir |
