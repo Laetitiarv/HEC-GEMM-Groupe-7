@@ -1,16 +1,24 @@
 # Stratégie de communication
 
-Date : 27/10/2026 · Orientations définies par Serge Muller (responsable Marketing), stratégie rédigée par un assistant IA et validée par Serge · Statut : proposition, à valider par l'équipe
+Date : 27/10/2026 · Orientations définies par Serge Muller (responsable Marketing), stratégie rédigée par un assistant IA et validée par Serge · Mise à jour du 28/10/2026 au soir selon les décisions D-08, D-11, D-12, D-15 et le BMC V5 (D-20) : vente en drop, aucun prix public, pas de photographe · Statut : proposition, à valider par l'équipe
 
 ## Principe directeur
 
-On ne communique pas sur la rareté comme on vend un produit de grande consommation. Plus l'offre est exclusive, plus la communication doit être sobre, allusive et sélective : montrer trop, c'est banaliser. Nous montrerons donc des fragments, un chef, une porte de restaurant fermée, un verre, une table dressée, jamais la soirée entière, et nous n'afficherons ni prix ni calendrier public. L'objectif n'est pas l'audience, c'est le désir, puis la demande qualifiée.
+On ne communique pas sur la rareté comme on vend un produit de grande consommation. Plus l'offre est exclusive, plus la communication doit être sobre, allusive et sélective : montrer trop, c'est banaliser. Nous montrerons donc des fragments, un chef, une porte de restaurant fermée, un verre, une table dressée, jamais la soirée entière. Nous n'afficherons aucun prix en public, ni sur le site, ni sur Instagram, ni dans la presse : le prix est communiqué au moment de la réservation, au particulier comme à l'entreprise (D-11). L'objectif n'est pas l'audience, c'est le désir, puis la demande qualifiée.
+
+## Le drop : vendre la rareté comme une collab du luxe
+
+Chaque soirée vendue à la place est un drop (D-12), sur le modèle des collabs du monde du luxe : une annonce courte, une quantité limitée, une ouverture de la vente à une date et une heure précises, et rien ensuite. Le rythme est fixé par la Direction : une soirée à la place par mois et par ville (D-15).
+
+La signature du drop est le chef. Chaque annonce porte son nom, son parcours et la cuisine qu'il apporte, comme une collab porte le nom de son créateur ; quand un vigneron est invité, il co-signe la soirée. Le lieu, lui, reste secret jusqu'au jour même.
+
+La mécanique proposée (P) : annonce quelques jours avant l'ouverture des ventes, sur Instagram, à la liste privée et auprès des prescripteurs ; accès prioritaire de 48 heures pour les membres de la liste privée ; un quota de places réservé aux concierges et conciergeries partenaires ; ouverture générale à date et heure fixes sur le site de Pop Tables ; vente close dès que les 40, 35 ou 30 places sont parties, puis liste d'attente. Les privatisations ne passent pas par le drop : elles se vendent directement aux entreprises et aux groupes constitués, à prix fixe.
 
 ## Instagram : la vitrine du désir
 
-C'est là que la bande des capitales, le grand romantique et les maisons de luxe viendront vérifier qui nous sommes (voir [[2026 1027 Personas]]). Trois piliers de contenu : le portrait des chefs, leur parcours, leurs maisons, leur cuisine rare, publié avant chaque soirée ; la mise en scène du paradoxe qui fonde le concept, le lieu fermé qui ouvre pour quelques-uns (« Ce soir, ce restaurant est fermé. Sauf pour dix personnes. ») ; la trace après l'événement, quelques images choisies, jamais les invités sans leur accord.
+C'est là que la bande des capitales, le grand romantique et les maisons de luxe viendront vérifier qui nous sommes (voir [[2026 1027 Personas]]). Trois piliers de contenu : le portrait des chefs, leur parcours, leurs maisons, leur cuisine rare, publié avant chaque soirée ; la mise en scène du paradoxe qui fonde le concept, le lieu fermé qui ouvre pour quelques-uns (« Ce soir, ce restaurant est fermé. Sauf pour dix personnes. ») ; la trace après l'événement, quelques images choisies, jamais les invités sans leur accord. Il n'y a pas de photographe aux soirées (D-08) : les convives peuvent prendre des photos avec leur téléphone, et ce sont ces images, avec celles des créateurs invités, qui nourrissent le compte.
 
-Rythme proposé : trois publications par semaine, plus des stories à chaque soirée. Le compte conduit vers une liste privée, par message ou formulaire, plutôt que vers une réservation en ligne. Les créateurs de contenu (dossier « 5 Communauté d'influenceurs ») sont invités comme convives plutôt que rémunérés pour des publications, ce qui préserve la crédibilité.
+Rythme proposé : trois publications par semaine, plus des stories à chaque soirée. Le compte conduit vers la liste privée et vers les drops, plutôt que vers une réservation permanente. Les créateurs de contenu (dossier « 5 Communauté d'influenceurs ») sont invités comme convives plutôt que rémunérés pour des publications, ce qui préserve la crédibilité.
 
 ## LinkedIn : la crédibilité professionnelle
 
@@ -38,10 +46,10 @@ Une liste privée sur invitation, qui fait de l'accès lui-même un privilège. 
 
 ## Calendrier
 
-Trois mois avant le lancement : ouverture d'Instagram et de LinkedIn en teasing, dîners des concierges. Au lancement : première soirée, avec l'exclusivité offerte à un journaliste. Ensuite : rythme régulier et montée en puissance de la recommandation.
+Trois mois avant le lancement : ouverture d'Instagram et de LinkedIn en teasing, constitution de la liste privée, dîners des concierges, mise en ligne du site de pré-vente (D-19). Au lancement : soirée de lancement, avec l'exclusivité offerte à un journaliste (voir [[2026 1028 Premier événement - Trois options]]). Ensuite : un drop par mois à Paris en année 1, puis dans chaque ville ouverte (D-15), et montée en puissance de la recommandation.
 
 ## Indicateurs de réussite
 
-Le nombre de demandes qualifiées et leur taux de transformation en soirées ; la part des soirées venues des concierges ; les rendez-vous obtenus grâce à LinkedIn. Le nombre d'abonnés Instagram compte beaucoup moins que les messages privés reçus.
+Ceux du BMC V5 : la part des places vendues dans les 72 heures qui suivent l'ouverture du drop ; la part des places achetées par la liste privée ; la part des réservations venues d'un concierge ou d'une conciergerie. S'y ajoutent, pour les privatisations, les rendez-vous obtenus grâce à LinkedIn et leur taux de transformation. Le nombre d'abonnés Instagram compte beaucoup moins que la longueur de la liste d'attente.
 
 Décision à prendre par : l'équipe (voir [[REGISTRE DES DECISIONS]]). Ce document propose une stratégie ; il ne décide rien.

@@ -1,6 +1,6 @@
 # Philosophie du projet
 
-Date : 27/10/2026 · Idées de Serge Muller (responsable Marketing), mises en forme par un assistant IA à sa demande · Statut : proposition, à valider par l'équipe
+Date : 27/10/2026 · Idées de Serge Muller (responsable Marketing), mises en forme par un assistant IA à sa demande · Mise à jour du 28/10/2026 au soir selon le [[2026 1028 Pop Tables - Cadre de référence]] et le BMC V5 (D-04, D-15, D-20) : convives sélectionnés pour la place à l'unité, ouverture à d'autres villes, vigneron invité · Statut : proposition, à valider par l'équipe
 
 ## Offrir ce qui ne s'achète pas
 
@@ -10,19 +10,19 @@ C'est à cette clientèle que nous nous adressons, et notre conviction est simpl
 
 ## Le premier inaccessible : le chef
 
-Le premier élément de rareté est un chef que nos clients ne peuvent pas rencontrer à Paris. Il cuisine à l'étranger. Il n'a pas de restaurant dans la capitale. Ou il maîtrise une cuisine d'excellence presque absente de Paris : la gastronomie thaïlandaise, qu'on ne confond pas avec les adresses thaïes du quotidien ; la grande cuisine japonaise, que quelques chefs seulement représentent ici ; une cuisine régionale italienne précise, loin de l'Italie générique des cartes parisiennes.
+Le premier élément de rareté est un chef que nos clients ne peuvent pas rencontrer dans leur ville. Il peut être français ou étranger, déjà reconnu ou encore montant : ce qui compte, c'est que sa cuisine soit introuvable là où nous l'accueillons. Il cuisine à l'étranger. Il n'a pas de restaurant dans la ville. Ou il maîtrise une cuisine d'excellence presque absente de Paris : la gastronomie thaïlandaise, qu'on ne confond pas avec les adresses thaïes du quotidien ; la grande cuisine japonaise, que quelques chefs seulement représentent ici ; une cuisine régionale italienne précise, loin de l'Italie générique des cartes parisiennes.
 
 Notre critère n'est pas la célébrité pour elle-même, c'est la conjonction de l'excellence et de l'absence. Un grand chef que l'on peut réserver demain soir ne nous intéresse pas. Un grand chef qu'il faudrait prendre l'avion pour goûter, ou dont la cuisine n'a pas d'équivalent à Paris, voilà ce que nous faisons venir.
 
 ## Le second inaccessible : le lieu
 
-Le deuxième élément de rareté est le lieu. Nous choisissons des restaurants parisiens eux-mêmes exclusifs, par leur décor, leur adresse, leur réputation, leur clientèle. Et nous les occupons au seul moment où personne ne peut y entrer : le soir où ils sont fermés.
+Le deuxième élément de rareté est le lieu. Nous choisissons, à Paris d'abord puis dans chaque ville où Pop Tables s'installera, des restaurants eux-mêmes exclusifs, par leur décor, leur adresse, leur réputation, leur clientèle. Et nous les occupons au seul moment où personne ne peut y entrer : le soir où ils sont fermés.
 
 Ce soir-là, le lieu change de nature. Il n'appartient plus à sa carte ni à ses habitudes ; il devient la scène d'un autre chef. Imaginons un restaurant de la rue Saint-Honoré, réputé pour sa cuisine française à la mode. Le soir de sa fermeture, un chef italien s'y installe. Il ne fait pas de pizza ; il apporte la cuisine d'une région, avec ses produits et ses gestes. Les invités, choisis à l'avance, retrouvent un décor qu'ils connaissent peut-être, mais habité par une cuisine qu'ils n'y ont jamais goûtée et qu'ils n'y goûteront plus jamais.
 
 ## Le troisième inaccessible : la cave
 
-À ces deux raretés s'en ajoute une troisième : un sommelier invité et une sélection de vins qui ne figurent pas sur la carte du lieu. Vins naturels, vins biologiques, vignobles plus lointains ou plus confidentiels que ceux qu'on y sert d'ordinaire. Le vin, lui aussi, sort de ses habitudes.
+À ces deux raretés s'en ajoute une troisième : un vigneron invité, qui vient présenter lui-même ses vins, ou à défaut une sélection qui ne figure pas sur la carte du lieu. Vins naturels, vins biologiques, vignobles plus lointains ou plus confidentiels que ceux qu'on y sert d'ordinaire, et un accord sans alcool ou peu alcoolisé pour ceux qui le souhaitent. Le vin, lui aussi, sort de ses habitudes.
 
 ## Défaire l'offre d'un lieu pour en faire un moment unique
 
@@ -36,6 +36,6 @@ Beaucoup de choses sont rares ; elles ne sont pas uniques pour autant. Une table
 
 ## Ce que nous nous interdisons
 
-Pour rester fidèles à cette philosophie, nous nous fixons quelques refus. Pas de chef dont la cuisine est déjà disponible à Paris dans les mêmes conditions. Pas de lieu banal, quelle que soit sa disponibilité. Pas de répétition d'une même combinaison de chef, de lieu et de cave. Pas d'ouverture au public : chaque soirée est réservée à un groupe constitué à l'avance. Et jamais une soirée prise au restaurateur : nous n'occupons que les soirs où son restaurant aurait été vide.
+Pour rester fidèles à cette philosophie, nous nous fixons quelques refus. Pas de chef dont la cuisine est déjà disponible dans la ville dans les mêmes conditions. Pas de lieu banal, quelle que soit sa disponibilité. Pas de répétition d'une même combinaison de chef, de lieu et de cave. Pas d'ouverture au public : à la place, des convives sélectionnés qui ne se connaissent pas encore ; en privatisation, votre groupe et personne d'autre. Et jamais une soirée prise au restaurateur : nous n'occupons que les soirs où son restaurant aurait été vide.
 
 Décision à prendre par : l'équipe (voir [[REGISTRE DES DECISIONS]]). Ce texte propose une philosophie ; il ne décide rien.

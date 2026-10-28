@@ -1,8 +1,8 @@
 # Nom de la société : comparaison des options
 
-Date : 28/10/2026 · Noms proposés par Serge Muller (responsable Marketing), analyse par un assistant IA · Statut : document de travail, choix à faire par l'équipe
+Date : 28/10/2026 · Noms proposés par Serge Muller (responsable Marketing), analyse par un assistant IA · Statut : nom décidé par la Direction : Pop Tables (D-03, confirmé par le BMC V5, D-20). Ce document garde la comparaison qui a conduit à ce choix.
 
-Recherches d'antériorité effectuées le 27 et le 28/10/2026 dans la base marques de l'INPI, qui couvre les marques françaises et les marques de l'Union européenne valables en France. Recherche sur les noms à l'identique : elle ne remplace pas l'avis d'un conseil en propriété industrielle, qui devra apprécier les risques de confusion avant tout dépôt, en classes 41 (organisation d'événements) et 43 (restauration). Voir aussi [[2026 1027 Nom de la société - Fou d'un soir]] et [[2026 1027 Philosophie du projet]].
+Recherches d'antériorité effectuées le 27 et le 28/10/2026 dans la base marques de l'INPI, qui couvre les marques françaises et les marques de l'Union européenne valables en France. Recherche sur les noms à l'identique : elle ne remplace pas l'avis d'un conseil en propriété industrielle, qui devra apprécier les risques de confusion avant tout dépôt, en classes 41 (organisation d'événements) et 43 (restauration). Voir aussi [[2026 1027 Philosophie du projet]] ; la note du 27/10 sur « Fou d'un soir », nom de travail abandonné, est rangée dans `OLD/`.
 
 ## 1. Tableau comparatif des finalistes
 
@@ -30,11 +30,13 @@ Once and Food est le plus astucieux pour un anglophone et le plus fragile en Fra
 
 Pop Tables (ajouté le 28/10/2026) est le nom le plus équilibré des noms internationaux : « table » se dit et se comprend de la même façon en français et en anglais, ce qui supprime tout problème de prononciation ; le mot appartient au vocabulaire de la haute gastronomie (« une grande table ») et remplace avantageusement « food » ; le pluriel suggère un réseau de lieux, fidèle au concept ; il est libre à l'identique. Sa faiblesse : il dit l'éphémère plus que l'unique, et sonne plus moderne que glamour.
 
-## 3. Recommandation
+## 3. Décision et suites
 
-Fou d'un soir, parce que le premier marché est Paris et que c'est le nom qui a le plus d'âme. Pour l'international, une signature en anglais compenserait sa faiblesse, par exemple « Fou d'un soir, one night only », qui récupère l'idée de « Once ». Si l'équipe préfère un nom international, Pop Tables devient la meilleure option, devant Once Food (sous réserve, pour ce dernier, de l'avis d'un conseil sur la marque ONCE).
+Décision de la Direction du 28/10/2026 au soir : la société s'appelle Pop Tables (D-03). « Fou d'un soir » n'était qu'un nom de travail et est abandonné partout. Le BMC V5 prévoit le dépôt de la marque en classes 41 (organisation d'événements) et 43 (restauration), en France et à l'international.
 
-Test proposé avant de trancher : faire prononcer et commenter les finalistes à une dizaine de personnes de la cible, moitié françaises, moitié américaines.
+Vérifications à mener avec le Juridique avant le dépôt : recherche d'antériorités par un conseil en propriété industrielle, sur la base de l'INPI (marques françaises et de l'Union européenne) et sur TMview pour les autres pays ; disponibilité des noms de domaine (.com, .fr et pays des villes ouvertes) et des comptes Instagram ; risque de confusion avec les marques en « pop food » signalées au § 1.
+
+Test de perception demandé par le BMC V5 (Marketing et Juridique) : présenter le nom à une dizaine de particuliers et d'acheteurs d'entreprise, moitié en France, moitié à l'étranger, pour vérifier qu'il se prononce sans difficulté et qu'il évoque bien le luxe et l'éphémère ; en tirer, le cas échéant, une signature en anglais pour les villes étrangères.
 
 ## 4. Autres noms examinés et écartés
 
@@ -46,4 +48,4 @@ Point à clarifier si un nom en « Mad » est retenu : il s'adosserait à la mar
 
 [Data INPI, base marques](https://data.inpi.fr) · [Data INPI, marque « popfood » EM 018081190](https://data.inpi.fr/marques/EM018081190) · [Data INPI, marque « POP FOOD » EM 018736645](https://data.inpi.fr/marques/EM018736645) · [Monte-Carlo SBM, Mada One](https://meetings.montecarlosbm.com/en/restaurants/mada-one) · [Add To Event, The Pop Up Food Company](https://www.addtoevent.co.uk/suppliers/the-pop-up-food-company-0)
 
-Décision à prendre par : l'équipe (voir [[REGISTRE DES DECISIONS]]). Ce document compare ; il ne décide rien.
+Décision prise par : la Direction, D-03 (voir [[REGISTRE DES DECISIONS]]).
