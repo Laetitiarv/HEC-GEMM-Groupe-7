@@ -22,3 +22,4 @@ La référence est désormais :
 | [[2026 1028 17h24 Synthèse du projet et incohérences]] | 28/10, 17 h 24 | Les 18 incohérences ont reçu une réponse : voir le relevé, § 4 | Relevé de décisions |
 | [[2026 1028 Note du Marketing - conviction, cohérence, atouts et poids morts]] | 28/10 | Note du Marketing traitée par le relevé. Les recommandations encore valables sont reprises dans le relevé (§ 3 et § 5) : validation terrain, marge de La Grande Nuit, Mad Lords, dépôt public | Relevé de décisions |
 | `2026 1028 Business Model Canvas V4 - Pop Tables.xlsx` | 28/10, soir | Remplacé par le BMC V5, acté avec l'équipe (D-20) | BMC V5 |
+| `2026 1028 Business Model Canvas V5 - Pop Tables.xlsx` | 28/10, soir | Remplacé par le BMC V6, qui intègre le budget Finance sur 36 mois (D-24) | BMC V6 |
