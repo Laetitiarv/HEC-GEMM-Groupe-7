@@ -18,7 +18,7 @@ Légende (voir [[RULES]]) : **F** = fait constaté dans le dépôt · **I** = in
 |---|---|---|---|
 | P1 | Montage de la licence de débit de boissons (§ 2) | Sans montage clair, pas de vente d'alcool possible | à revoir |
 | P2 | Qui est l'exploitant alimentaire et porte la responsabilité sanitaire (§ 1.2) | Responsabilité en cas d'intoxication | à revoir |
-| P3 | Assurance des biens confiés et RC organisateur (§ 1.6) | Le matériel du restaurateur est souvent exclu des RC standard | à revoir |
+| P3 | Assurance des biens confiés et RC organisateur (§ 1.6) | Le matériel du restaurateur est souvent exclu des RC standard | en cours : questionnaire et grille prêts le 28/10/2026, devis à demander ([[2026 1028 Questionnaire pour les courtiers d'assurance]]) |
 | P4 | Dépôt GitHub public alors que `RULES.md` le dit privé (§ 4) | Toute pièce versée est lisible par tous | à revoir |
 
 ---
