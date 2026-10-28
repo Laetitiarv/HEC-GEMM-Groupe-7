@@ -1,3 +1,5 @@
+> **DOCUMENT DÉPASSÉ — rangé dans `1 DIRECTION/OLD/` le 28/10/2026 (soir).** Il n'est plus cohérent avec le projet Pop Tables. Référence : [[2026 1028 Pop Tables - Cadre de référence]] et [[2026 1028 Relevé de décisions du 28 octobre (soir)]]. Conservé pour l'historique.
+
 # Note du Marketing à la Direction : rendre le dossier plus convaincant et plus cohérent
 
 Date : 28/10/2026 · Demandée par Serge Muller (responsable Marketing), rédigée par un assistant IA · Destinataire : Direction (@Laetitiarv) · Statut : proposition, elle ne décide rien (voir [[REGISTRE DES DECISIONS]])

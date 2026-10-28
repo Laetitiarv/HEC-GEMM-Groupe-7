@@ -1,3 +1,5 @@
+> **DOCUMENT DÉPASSÉ — rangé dans `1 DIRECTION/OLD/` le 28/10/2026 (soir).** Il n'est plus cohérent avec le projet Pop Tables. Référence : [[2026 1028 Pop Tables - Cadre de référence]] et [[2026 1028 Relevé de décisions du 28 octobre (soir)]]. Conservé pour l'historique.
+
 # Synthèse du projet à date — 28 octobre 2026
 
 > Statut : document de travail préparé pour la Direction (@Laetitiarv). Il synthétise les versions les plus récentes du dépôt `HEC-GEMM-Groupe-7` (dernier commit lu : `8deba29`, 28/10/2026, 13 h 44 UTC). Il propose ; il ne décide rien (voir le [registre des décisions](https://github.com/Laetitiarv/HEC-GEMM-Groupe-7/blob/main/1%20DIRECTION/REGISTRE%20DES%20DECISIONS.md)).

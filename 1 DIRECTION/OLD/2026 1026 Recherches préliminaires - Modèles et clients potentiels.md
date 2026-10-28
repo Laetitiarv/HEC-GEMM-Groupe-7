@@ -1,3 +1,5 @@
+> **DOCUMENT DÉPASSÉ — rangé dans `1 DIRECTION/OLD/` le 28/10/2026 (soir).** Il n'est plus cohérent avec le projet Pop Tables. Référence : [[2026 1028 Pop Tables - Cadre de référence]] et [[2026 1028 Relevé de décisions du 28 octobre (soir)]]. Conservé pour l'historique.
+
 # Recherches préliminaires pour la construction du projet — Modèles de référence et clients potentiels
 
 **Date : 26/10/2026** · Fonction : `1 DIRECTION/STRATEGIE` · Statut : document de travail (recherches préliminaires, non validé par l'équipe)

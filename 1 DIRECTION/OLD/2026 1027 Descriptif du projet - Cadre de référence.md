@@ -1,3 +1,5 @@
+> **DOCUMENT DÉPASSÉ — rangé dans `1 DIRECTION/OLD/` le 28/10/2026 (soir).** Il n'est plus cohérent avec le projet Pop Tables. Référence : [[2026 1028 Pop Tables - Cadre de référence]] et [[2026 1028 Relevé de décisions du 28 octobre (soir)]]. Conservé pour l'historique.
+
 # Descriptif du projet — cadre de référence pour toutes les fonctions
 
 Date : 27/10/2026 · Décidé par la Direction ([@Laetitiarv](https://github.com/Laetitiarv)) le 27/10/2026 · Statut : **cadre de référence de l'équipe** — voir [[REGISTRE DES DECISIONS]], D-01

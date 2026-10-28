@@ -1,3 +1,5 @@
+> **DOCUMENT DÉPASSÉ — rangé dans `1 DIRECTION/OLD/` le 28/10/2026 (soir).** Il n'est plus cohérent avec le projet Pop Tables. Référence : [[2026 1028 Pop Tables - Cadre de référence]] et [[2026 1028 Relevé de décisions du 28 octobre (soir)]]. Conservé pour l'historique.
+
 > Statut : document de travail préparé par un assistant IA à la demande de la direction. Il contient des propositions et des hypothèses, pas des décisions (voir [[REGISTRE DES DECISIONS]]).
 
 # Fiche de synthèse du projet — itération du 27 octobre 2026
