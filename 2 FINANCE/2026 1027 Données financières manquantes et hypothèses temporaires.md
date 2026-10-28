@@ -1,6 +1,6 @@
 # Données financières manquantes et hypothèses temporaires
 
-Date : 27/10/2026, mis à jour le 28/10/2026 (frais généraux) · Auteur : assistant IA Finance, à la demande de Vianney (responsable Finance) · Statut : document de travail. Les chiffres sont des hypothèses temporaires, pas des décisions (voir [[REGISTRE DES DECISIONS]]).
+Date : 27/10/2026, mis à jour le 28/10/2026 (frais généraux, puis staffing des Opérations) · Auteur : assistant IA Finance, à la demande de Vianney (responsable Finance) · Statut : document de travail. Les chiffres sont des hypothèses temporaires, pas des décisions (voir [[REGISTRE DES DECISIONS]]).
 
 Légende (voir [[RULES]]) : F = fait constaté dans une source citée · I = inférence · P = proposition · H = hypothèse temporaire, à remplacer.
 
@@ -12,44 +12,46 @@ Fichiers mis à jour, dans lesquels chaque valeur porte sa nature et sa source :
 ## 1. L'essentiel
 
 - **F** Dans le dépôt, les seuls chiffres propres au projet sont les prix et capacités proposés par le Produit (P, établis « sans donnée de coûts ») : `5 PRODUIT/Fou d'un soir le pricing.md` et le plan des deux soirées pilotes. Aucun coût réel, aucun devis, aucun financement, aucune pièce bancaire n'existe encore.
+- **F** Depuis le 28/10/2026, les Opérations proposent les effectifs d'une soirée (P) : `6 OPERATIONS/PRODUCTION/2026 1028 Calculateur de staffing par événement.xlsx` et la note « Typologie des événements, process et staffing ». Ils ne donnent ni les heures ni les coûts horaires.
 - **I** Hypothèses centrales retenues :
   - lieu payé au prix du marché ;
   - remplissage de 80 % ;
-  - TVA moyenne de 12 %.
+  - TVA moyenne de 12 % ;
+  - équipe de chaque soirée selon les effectifs des Opérations, avec des heures et des coûts horaires en hypothèse (onglet « Staffing » du modèle Prévisions).
 
-  Avec ces hypothèses, les trois soirées de l'offre A perdent de l'argent :
+  Le staffing des Opérations change fortement le résultat :
 
-  | Soirée | Perte par soirée | Taux |
-  |---|---|---|
-  | Premier soir | −854 € | −17 % |
-  | Le Voyage | −863 € | −12 % |
-  | La Grande Nuit | −2 352 € | −24 % |
+  | Soirée | Personnes payées (hors chef et fondateurs) | Coût de l'équipe | Hypothèse du 27/10 (cible du Produit) |
+  |---|---|---|---|
+  | Premier soir | 13 | 3 636 € | 870 € |
+  | Le Voyage | 13 | 3 636 € | 1 080 € |
+  | La Grande Nuit | 11 | 3 076 € | 1 350 € |
+  | Privatisation (table de 10) | 7 | 2 040 € | 950 € |
 
-  La privatisation avec un chef confirmé dégage +1 232 € par soirée (+15 %).
-- **I** Pour être à l'équilibre au prix affiché, il faudrait un remplissage de 100 % au Premier soir, 94 % au Voyage et 111 % à la Grande Nuit (donc impossible). Le seuil de confirmation de 70 % proposé par le Produit ne garantit pas l'équilibre.
-- **I** Le prix plancher TTC par convive (marge nulle) serait de :
-  - 341 € pour le Premier soir (affiché 290 €) ;
-  - 474 € pour Le Voyage (affiché 420 €) ;
-  - 876 € pour La Grande Nuit (affiché 690 €).
-- **I** Le principal écart porte sur le restaurateur. Le Produit vise 11 à 12 % du prix, soit 750 à 1 350 € par soirée. Les prix de location observés sont plus élevés :
-  - **F** Giggster : de 35 à 620 €/h, moyenne d'environ 373 à 386 €/h ;
-  - **F** Privateaser : « à partir de 2 916 € ».
+  Avec ces hypothèses, les trois soirées de l'offre A perdent nettement de l'argent, et la privatisation est à peine à l'équilibre :
 
-  Ces deux sources sont citées dans `3 MARKETING/old project/MARCHE/`. Si le restaurateur accepte la part visée par le Produit et que la salle est pleine, les marges deviennent :
+  | Soirée | Marge par soirée | Taux | Remplissage d'équilibre | Prix plancher TTC par convive |
+  |---|---|---|---|---|
+  | Premier soir | −3 620 € | −74 % | 168 % | 507 € (affiché 290 €) |
+  | Le Voyage | −3 419 € | −48 % | 139 % | 636 € (affiché 420 €) |
+  | La Grande Nuit | −4 078 € | −41 % | 134 % | 1 013 € (affiché 690 €) |
+  | Privatisation | +142 € | +2 % | 91 % | 282 € (affiché 300 €) |
+- **I** Aucune soirée de l'offre A n'atteint l'équilibre, même salle pleine. Le seuil de confirmation de 70 % proposé par le Produit ne garantit pas l'équilibre.
+- **I** Deux postes pèsent le plus : l'équipe de la soirée et le restaurateur.
+  - **L'équipe** : si le restaurant fournit le personnel de salle, le coût de notre équipe descend à 2 051 € (Premier soir et Voyage), 1 736 € (Grande Nuit) et 945 € (privatisation). Les marges deviennent −2 035 €, −1 834 €, −2 738 € et +1 237 €. Mais la part du restaurateur augmenterait d'autant, ce que le modèle ne chiffre pas.
+  - **Le restaurateur** : le Produit vise 11 à 12 % du prix, soit 750 à 1 350 € par soirée. Les prix de location observés sont plus élevés :
+    - **F** Giggster : de 35 à 620 €/h, moyenne d'environ 373 à 386 €/h ;
+    - **F** Privateaser : « à partir de 2 916 € ».
 
-  | Soirée | Marge |
-  |---|---|
-  | Premier soir | +749 € (12 %) |
-  | Le Voyage | +748 € (8 %) |
-  | La Grande Nuit | +307 € (2,5 %) |
-  | Privatisation | +2 268 € (28 %) |
+    Ces deux sources sont citées dans `3 MARKETING/old project/MARCHE/`. Si le restaurateur accepte la part visée par le Produit et que la salle est pleine, avec le staffing des Opérations, les marges sont de −2 017 € (Premier soir), −1 808 € (Le Voyage), −1 419 € (La Grande Nuit) et +1 178 € (privatisation).
 - **I** Budget de l'année 1 (novembre 2026 à octobre 2027, H : 16 soirées dont 7 privatisations) :
   - chiffre d'affaires : 121 955 € HT ;
+  - marge sur coûts directs : −32 358 € ;
   - frais généraux : 12 672 €, dont 0 € de ressources humaines (fondateurs non rémunérés) et 12 672 € de frais matériels et de fonctionnement ;
-  - résultat : −16 256 €.
+  - résultat : −45 030 €.
 
-  En trésorerie, avec un apport de 7 000 €, le compte passerait sous zéro en février 2027.
-- **I** Plan à 3 ans (mis à jour le 28/10/2026, frais généraux détaillés poste par poste) :
+  Simulation de trésorerie, avec un apport de 7 000 € et 3 000 € d'investissements en novembre : le compte passerait sous zéro dès décembre 2026 et finirait à −41 030 € en octobre 2027.
+- **I** Plan à 3 ans (frais généraux détaillés poste par poste le 28/10/2026) :
 
   | Frais généraux | Année 1 | Année 2 | Année 3 |
   |---|---|---|---|
@@ -62,13 +64,14 @@ Fichiers mis à jour, dans lesquels chaque valeur porte sa nature et sa source :
   - deux fondateurs rémunérés et un commercial ou une commerciale en année 3 ;
   - des charges patronales de 45 % (H).
 
-  Le besoin de financement est de 309 726 € en hypothèses centrales. Il tombe à environ 93 000 € avec les conditions cibles du Produit (part du restaurateur visée et salle pleine).
-- **P** Trois chiffres décident du modèle :
-  1. ce que le restaurateur accepte pour un soir de fermeture ;
-  2. le cachet des chefs ;
-  3. le remplissage réel.
+  Avec le staffing des Opérations, le besoin de financement est de 557 940 € en hypothèses centrales (309 726 € avant le staffing). Il est d'environ 341 000 € avec la part du restaurateur visée par le Produit et la salle pleine.
+- **P** Quatre chiffres décident du modèle :
+  1. qui assure le service de salle (le restaurant ou nous) et à quel coût horaire ;
+  2. ce que le restaurateur accepte pour un soir de fermeture ;
+  3. le cachet des chefs ;
+  4. le remplissage réel.
 
-  Ce sont les premières données à obtenir, avant d'arrêter les prix.
+  Ce sont les premières données à obtenir, avant d'arrêter les prix. Avec les effectifs proposés, les prix de l'offre A ne couvrent pas les coûts : il faudra revoir soit les prix, soit le format (par exemple moins de services, ou une équipe plus réduite en criticité C1).
 
 ## 2. Données disponibles reprises
 
@@ -89,6 +92,7 @@ Fichiers mis à jour, dans lesquels chaque valeur porte sa nature et sa source :
 | SMIC | 1 867,02 € brut par mois au 01/06/2026 | F | Éditions Tissot, idem |
 | Photographe indépendant | 410 à 520 € par jour | F | Malt, via Modèles de Business Plan, 15/09/2026, idem |
 | Nombre de membres de l'équipe | 7 (un responsable par fonction) | F | `README.md` |
+| Effectifs d'une soirée (hors chef) | Premier soir et Le Voyage 15, La Grande Nuit 13, table de 10 : 9, dont 2 assurés par nous (production, interlocuteur client) | P | `6 OPERATIONS/PRODUCTION/2026 1028 Calculateur de staffing par événement.xlsx` (catégorie C2) |
 
 ## 3. Données manquantes, hypothèses temporaires et qui peut les fournir
 
@@ -100,7 +104,7 @@ Priorité : 1 = elle change le modèle, à obtenir avant les pilotes · 2 = util
 | 2 | Cachet des chefs par niveau (montant, confirmé, étoilé, étranger), déplacement et hébergement, accord de la maison d'origine | Ligne 20 | 950 € / 2 000 € / 3 700 € / 1 800 €, entièrement fixes | Ventes et Opérations (carnet de chefs) ; Direction (@Laetitiarv) pour l'associé gastronomique | 1 |
 | 3 | Taux de remplissage réaliste et disposition à payer de chaque persona | Ligne 8 ; budget | 80 % pour l'offre A ; 100 % pour la privatisation | Marketing (@serge2309), par des entretiens et la liste privée ; mesure réelle aux pilotes | 1 |
 | 4 | Coût matières par menu et coût des accords mets-vins et mets-jus | Lignes 23 et 24 | 85 € / 112 € / 166 € / 80 € par convive (cible du Produit) | Opérations, avec le chef et le sommelier ; devis fournisseurs et cavistes | 1 |
-| 5 | Qui assure le service (équipe du restaurant ou la nôtre), nombre d'heures, coût horaire des extras, cachet du sommelier invité | Ligne 26 | 870 € / 1 080 € / 1 350 € / 950 € (cible du Produit) | Produit (@Fredlay26), pour la décision ; Opérations, pour les devis d'agences d'extras | 1 |
+| 5 | Qui assure le service (équipe du restaurant ou la nôtre), heures par poste, coût horaire chargé de chaque poste, cachet du sommelier invité. **Effectifs reçus le 28/10/2026** (Opérations, P) | Onglet « Staffing » ; Prix et marges, ligne 26 | Heures : brigade 9 h, maître d'hôtel 8 h, salle, sommellerie et plonge 7 h. Coûts horaires : 35 €/h (brigade, serveurs), 45 € (maître d'hôtel), 60 € (sommelier invité), 38 € (aide sommelier), 30 € (plonge). Postes internes non rémunérés en année 1. Résultat : 3 636 € / 3 636 € / 3 076 € / 2 040 € par soirée | Opérations (@jonathanstarke-hec), devis d'agences d'extras (action n° 4 de leur note) ; Produit (@Fredlay26) et Direction pour la décision sur le service de salle | 1 |
 | 6 | Taux de TVA applicables : repas, boissons alcoolisées, forfait de privatisation, bons cadeaux | Ligne 12 ; tous les HT | 12 % de taux moyen | Expert-comptable, sollicité par la Finance ; Juridique (@alexanderzhelev-dev) pour les bons cadeaux | 1 |
 | 7 | Part des ventes passant par des concierges ou des agences, et commission demandée | Ligne 31 | 0 % / 5 % / 10 % / 10 % | Marketing (stratégie des concierges) ; Ventes | 2 |
 | 8 | Nombre de soirées par an que le carnet de lieux et de chefs permet, et calendrier | Budget mensuel ; plan à 3 ans | 9 soirées A et 7 privatisations en année 1 ; 24 et 24 en année 2 ; 36 et 48 en année 3 | Produit et Opérations ; décision de la Direction | 2 |
@@ -120,7 +124,8 @@ Priorité : 1 = elle change le modèle, à obtenir avant les pilotes · 2 = util
 ## 4. Contradictions et points signalés
 
 - **I** La part du restaurateur visée par le Produit (11 à 12 % du prix HT) est inférieure aux prix de location observés sur le marché (voir § 1). Le Produit le signale lui-même : « il faudra un chiffre clair et, sans doute, un minimum garanti ». Les fichiers retiennent le prix du marché (H). Ce choix est à trancher par la donnée n° 1.
-- **I** Le seuil de confirmation de 70 % est un seuil de vente, pas un seuil de rentabilité. Avec les hypothèses centrales, aucune soirée de l'offre A n'est rentable en dessous de 94 % de remplissage.
+- **I** Le seuil de confirmation de 70 % est un seuil de vente, pas un seuil de rentabilité. Avec les hypothèses centrales et le staffing des Opérations, aucune soirée de l'offre A n'est rentable, même salle pleine (remplissage d'équilibre de 134 à 168 %).
+- **I** Les effectifs des Opérations (13 personnes payées pour 24 couverts) et la répartition cible du Produit (équipe de service = 11 à 14 % du prix) ne sont pas compatibles aux prix affichés : l'équipe coûterait 31 à 74 % du chiffre d'affaires d'une soirée de l'offre A. Les deux pôles doivent en parler avant les pilotes.
 - **I** Les prix du Produit sont TTC, tout compris. Avec une TVA moyenne de 12 %, le prix HT est inférieur de 11 % au prix affiché : la répartition cible du Produit doit s'appliquer au prix HT.
 - **I** Le budget de l'année 1 repose sur la première année d'activité de pilotes. Il n'est pas comparable au plan du descriptif du projet 3 (30 événements de 40 convives), qui portait sur un autre format.
 
