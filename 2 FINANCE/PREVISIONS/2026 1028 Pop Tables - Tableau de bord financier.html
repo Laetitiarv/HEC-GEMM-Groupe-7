@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pop Tables finances</title>
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f6f5f2; --surface-1:#fcfcfb; --surface-2:#f0efec; --border:#e2e0da;
+  --text-primary:#0b0b0b; --text-secondary:#52514e; --text-muted:#76746f;
+  --grid:#e7e5df; --axis:#b9b7b0;
+  --series-1:#2a78d6; --series-2:#eb6834; --series-3:#1baf7a;
+  --pos:#2a78d6; --neg:#e34948;
+  --good:#0ca30c; --critical:#d03b3b; --warning:#b97800;
+  --accent:#1c5cab; --banner:#fff4e0; --banner-text:#6b4400;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#121211; --surface-1:#1a1a19; --surface-2:#242422; --border:#33332f;
+    --text-primary:#f0efec; --text-secondary:#c3c2b7; --text-muted:#9a988f;
+    --grid:#2c2c29; --axis:#55544f;
+    --series-1:#3987e5; --series-2:#d95926; --series-3:#199e70;
+    --pos:#3987e5; --neg:#e66767;
+    --accent:#86b6ef; --banner:#3a2e14; --banner-text:#f3d9a4;
+    --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#121211; --surface-1:#1a1a19; --surface-2:#242422; --border:#33332f;
+  --text-primary:#f0efec; --text-secondary:#c3c2b7; --text-muted:#9a988f;
+  --grid:#2c2c29; --axis:#55544f;
+  --series-1:#3987e5; --series-2:#d95926; --series-3:#199e70;
+  --pos:#3987e5; --neg:#e66767;
+  --accent:#86b6ef; --banner:#3a2e14; --banner-text:#f3d9a4;
+  --shadow:none;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--text-primary);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;}
+.wrap{max-width:1200px;margin:0 auto;padding:20px 16px 48px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:flex-end;justify-content:space-between;margin-bottom:14px}
+h1{font-size:22px;margin:0;letter-spacing:-.01em}
+.sub{color:var(--text-secondary);font-size:13px;margin-top:2px}
+.banner{background:var(--banner);color:var(--banner-text);border-radius:8px;padding:9px 12px;font-size:13px;margin-bottom:16px}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--border);margin-bottom:16px}
+.tab{appearance:none;border:0;background:none;color:var(--text-secondary);font:inherit;font-weight:600;padding:10px 14px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tab[aria-selected="true"]{color:var(--text-primary);border-bottom-color:var(--accent)}
+.controls{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-bottom:16px}
+.ctl-label{font-size:12px;color:var(--text-muted);margin-right:6px}
+.seg{display:inline-flex;background:var(--surface-2);border-radius:8px;padding:3px}
+.seg button{appearance:none;border:0;background:none;font:inherit;font-size:13px;color:var(--text-secondary);padding:5px 10px;border-radius:6px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--surface-1);color:var(--text-primary);box-shadow:var(--shadow);font-weight:600}
+.theme-btn{appearance:none;border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);font:inherit;font-size:13px;border-radius:8px;padding:5px 10px;cursor:pointer}
+.kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin-bottom:16px}
+.kpi{background:var(--surface-1);border:1px solid var(--border);border-radius:10px;padding:12px 14px;box-shadow:var(--shadow)}
+.kpi .k{font-size:12px;color:var(--text-secondary)}
+.kpi .v{font-size:22px;font-weight:650;margin-top:2px;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.kpi .d{font-size:12px;color:var(--text-muted);margin-top:2px}
+.st{display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:600}
+.st.bad{color:var(--critical)} .st.ok{color:var(--good)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--surface-1);border:1px solid var(--border);border-radius:10px;padding:14px 14px 10px;box-shadow:var(--shadow);min-width:0}
+.card h2{font-size:15px;margin:0}
+.card .cap{font-size:12px;color:var(--text-secondary);margin:2px 0 8px}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--text-secondary);margin-bottom:4px}
+.legend i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:5px}
+.legend i.sq{width:10px;height:10px;border-radius:2px}
+.chart{position:relative;width:100%}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.tick{font-size:11px;fill:var(--text-muted);font-variant-numeric:tabular-nums}
+.dlabel{font-size:11px;fill:var(--text-secondary);font-variant-numeric:tabular-nums}
+.tip{position:absolute;pointer-events:none;background:var(--surface-1);border:1px solid var(--border);border-radius:8px;padding:7px 9px;font-size:12px;box-shadow:0 4px 14px rgba(0,0,0,.12);white-space:nowrap;opacity:0;transition:opacity .08s;z-index:5}
+.tip b{display:block;margin-bottom:3px}
+.tip .row{display:flex;gap:10px;justify-content:space-between;font-variant-numeric:tabular-nums}
+.tip .sw{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:5px}
+details{margin-top:6px}
+summary{cursor:pointer;font-size:12px;color:var(--text-secondary)}
+table{border-collapse:collapse;width:100%;font-size:12px;font-variant-numeric:tabular-nums}
+th,td{padding:5px 6px;border-bottom:1px solid var(--border);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{color:var(--text-secondary);font-weight:600}
+.tscroll{overflow-x:auto}
+.full{grid-column:1/-1}
+.note{font-size:12px;color:var(--text-muted);margin-top:16px}
+.neg{color:var(--critical)}
+/* investisseurs */
+.sim{display:grid;grid-template-columns:minmax(260px,340px) minmax(0,1fr);gap:16px}
+@media (max-width:860px){.sim{grid-template-columns:minmax(0,1fr)}}
+.field{margin-bottom:14px}
+.field label{display:flex;justify-content:space-between;font-size:13px;color:var(--text-secondary);margin-bottom:4px}
+.field label output{color:var(--text-primary);font-weight:650;font-variant-numeric:tabular-nums}
+.field input[type=range]{width:100%;accent-color:var(--accent)}
+.field .hint{font-size:11px;color:var(--text-muted);margin-top:2px}
+.hero{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-bottom:16px}
+.hero .kpi .v{font-size:26px}
+.heat td{text-align:center}
+.heat td.cur{outline:2px solid var(--text-primary);outline-offset:-2px;font-weight:700}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <h1>Pop Tables · Tableau de bord financier</h1>
+    <div class="sub">Modèle Pop Tables du 28/10/2026 (soir) : décisions D-02 à D-20 et budget sur 36 mois revu par le responsable Finance · document interne au dépôt de l'équipe</div>
+  </div>
+  <button class="theme-btn" id="themeBtn" type="button">Thème : auto</button>
+</header>
+<div class="banner"><strong>Hypothèses temporaires.</strong> Les prix sont des propositions du Produit. Les coûts, volumes, frais généraux et financements sont des hypothèses (H) en attendant les devis et les premières soirées. Aucun chiffre n'est un résultat constaté. Les jauges des places à l'unité, l'enveloppe d'équipe et le photographe sont des décisions de la Direction (D-05, D-06, D-08). Le volume de privatisations (40 par ville et par an dès l'année 2) est fixé par le responsable Finance et reste à caler avec les Ventes (D-16). Détail et sources : <code>2 FINANCE/2026 1028 Pop Tables - Données financières manquantes et hypothèses.md</code>.</div>
+
+<div class="tabs" role="tablist">
+  <button class="tab" role="tab" id="t-pilot" aria-selected="true" aria-controls="p-pilot">Pilotage</button>
+  <button class="tab" role="tab" id="t-inv" aria-selected="false" aria-controls="p-inv">Investisseurs</button>
+</div>
+
+<div class="controls">
+  <span><span class="ctl-label">Scénario</span>
+    <span class="seg" id="segScen">
+      <button type="button" data-v="central" aria-pressed="true">Central (H)</button>
+      <button type="button" data-v="cible" aria-pressed="false">Cible du Produit</button>
+    </span></span>
+  <span id="horizonCtl"><span class="ctl-label">Horizon</span>
+    <span class="seg" id="segHor">
+      <button type="button" data-v="m" aria-pressed="true">Année 1, mois par mois</button>
+      <button type="button" data-v="y" aria-pressed="false">3 ans</button>
+    </span></span>
+</div>
+
+<!-- ================= PILOTAGE ================= -->
+<section id="p-pilot" role="tabpanel" aria-labelledby="t-pilot">
+  <div class="kpis" id="kpis"></div>
+  <div class="grid">
+    <div class="card">
+      <h2>Chiffre d'affaires cumulé</h2>
+      <div class="cap" id="capCA"></div>
+      <div class="legend"><span><i style="background:var(--series-1)"></i>CA cumulé</span><span><i style="background:var(--series-2)"></i>Coûts cumulés (directs + frais généraux)</span></div>
+      <div class="chart" id="chCA"></div>
+    </div>
+    <div class="card">
+      <h2>Cash-flow</h2>
+      <div class="cap" id="capCF"></div>
+      <div class="legend"><span><i class="sq" style="background:var(--pos)"></i>Flux positif</span><span><i class="sq" style="background:var(--neg)"></i>Flux négatif</span></div>
+      <div class="chart" id="chCF"></div>
+    </div>
+    <div class="card">
+      <h2>Trésorerie</h2>
+      <div class="cap" id="capTR"></div>
+      <div class="chart" id="chTR"></div>
+    </div>
+    <div class="card">
+      <h2>Marge par soirée, selon l'offre</h2>
+      <div class="cap">Marge sur coûts directs d'une soirée (€ HT), au remplissage retenu</div>
+      <div class="chart" id="chUE"></div>
+    </div>
+    <div class="card full">
+      <h2>Économie d'une soirée</h2>
+      <div class="cap">Prix affichés (P, Produit) et coûts (H). Remplissage d'équilibre : part des couverts à vendre pour couvrir les coûts directs.</div>
+      <div class="tscroll"><table id="tbUE"></table></div>
+    </div>
+    <div class="card full">
+      <h2>Données</h2>
+      <details><summary>Afficher le tableau des flux</summary><div class="tscroll"><table id="tbData"></table></div></details>
+    </div>
+  </div>
+  <p class="note">Trésorerie avant levée : apport de départ de 7 000 € (H, statut « Envisagé »), investissements payés le premier mois de chaque année (site de 15 000 €, D-19), TVA (taux par poste en hypothèse, reversement le mois suivant, crédit reporté) et pré-vente des places le mois qui précède la soirée (D-04) ; sans prêt ni levée. Décisions de la Direction intégrées : jauges de 40, 35 et 30 couverts (D-05 ; la privatisation passe à 30 couverts dans le budget revu, contre 20 dans D-05), équipe à 15 ou 20 % du chiffre d'affaires (D-06), sans photographe (D-08), soirée de lancement (D-14, montant H), 1 soirée par mois et par ville avec 1, 3 puis 6 villes (D-15). Ajouts du responsable Finance : campagne de lancement de 10 000 €, protection juridique et assurance à 2 % du chiffre d'affaires, budget des ventes, nouvelles villes actives dès novembre, 40 privatisations par ville et par an dès l'année 2, 1 coordinateur par événement hebdomadaire, 1 commercial par ville en année 3, un manager. Salle pleine : hypothèse (H). Impôt sur les sociétés non compté. Scénario « Cible du Produit » : part du restaurateur visée par le Produit.</p>
+</section>
+
+<!-- ================= INVESTISSEURS ================= -->
+<section id="p-inv" role="tabpanel" aria-labelledby="t-inv" hidden>
+  <div class="banner" style="margin-top:0">Simulation pédagogique à partir d'hypothèses temporaires : ce n'est ni une offre de titres ni une évaluation. Le plan financier s'arrête à l'année 3 ; les années 4 et 5 sont extrapolées avec le taux de croissance choisi.</div>
+  <div class="sim">
+    <div class="card">
+      <h2>Paramètres</h2>
+      <div class="cap">Faites varier les curseurs ; tout se recalcule.</div>
+      <div class="field"><label for="inAmt">Montant investi <output id="oAmt"></output></label><input type="range" id="inAmt" min="25000" max="500000" step="5000" value="110000"></div>
+      <div class="field"><label for="inPre">Valorisation avant investissement <output id="oPre"></output></label><input type="range" id="inPre" min="100000" max="2000000" step="25000" value="400000"><div class="hint">Hypothèse du fichier Financement : 400 000 € (H)</div></div>
+      <div class="field"><label for="inG">Croissance du CA, années 4 et 5 <output id="oG"></output></label><input type="range" id="inG" min="0" max="1" step="0.05" value="0.4"></div>
+      <div class="field"><label>Méthode de valorisation à la sortie</label>
+        <span class="seg" id="segMeth"><button type="button" data-v="ca" aria-pressed="true">Multiple du CA</button><button type="button" data-v="ebitda" aria-pressed="false">Multiple de l'EBITDA</button></span></div>
+      <div class="field" id="fMultCA"><label for="inMCA">Multiple du CA à la sortie <output id="oMCA"></output></label><input type="range" id="inMCA" min="0.3" max="3" step="0.1" value="1"><div class="hint">H : aucun comparable sourcé dans le dépôt</div></div>
+      <div class="field" id="fMultE" hidden><label for="inME">Multiple de l'EBITDA <output id="oME"></output></label><input type="range" id="inME" min="3" max="15" step="0.5" value="8"></div>
+      <div class="field" id="fMarg" hidden><label for="inEM">Marge d'EBITDA en année 5 <output id="oEM"></output></label><input type="range" id="inEM" min="0" max="0.3" step="0.01" value="0.1"><div class="hint">Plan actuel : résultat d'exploitation de 9 % du CA en année 3, avant impôt</div></div>
+      <div class="field"><label for="inDil">Dilution des tours suivants <output id="oDil"></output></label><input type="range" id="inDil" min="0" max="0.6" step="0.05" value="0.2"></div>
+    </div>
+    <div>
+      <div class="hero" id="hero"></div>
+      <div class="card" style="margin-bottom:16px">
+        <h2>Multiple à 5 ans selon le montant investi</h2>
+        <div class="cap" id="capMult"></div>
+        <div class="chart" id="chMult"></div>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h2>Chiffre d'affaires sur 5 ans</h2>
+          <div class="cap">Années 1 à 3 : plan financier · années 4 et 5 : extrapolation</div>
+          <div class="legend"><span><i class="sq" style="background:var(--series-1)"></i>Plan</span><span><i class="sq" style="background:var(--series-1);opacity:.45"></i>Extrapolation</span></div>
+          <div class="chart" id="chCA5"></div>
+        </div>
+        <div class="card">
+          <h2>Sensibilité du multiple</h2>
+          <div class="cap" id="capHeat"></div>
+          <div class="tscroll"><table class="heat" id="tbHeat"></table></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="note">Multiple (MOIC) = valeur de la participation à la sortie ÷ montant investi. Participation à la sortie = montant ÷ (valorisation avant + montant) × (1 − dilution). TRI = multiple^(1/5) − 1. À valorisation fixe, chaque euro supplémentaire achète une part plus chère de la même entreprise : le multiple baisse quand le montant monte. Le modèle ne fait pas varier la croissance avec le montant levé.</p>
+</section>
+</div>
+
+<script>
+const DATA = {"central":{"plan":{"ev":[16,153,306],"inv":[18000,5000,10000],"adj":[38681.18,59146.33,6250.18],"mat":[93529.86,139240,218520],"cd":[162345.36,1444293.21,2896286.43],"ca":[219642.86,2068750,4137500],"rh":[0,97458.44,643836.89]},"offers":[{"ttc":290,"lieu":1000,"marge":2787.86,"fillEq":0.5895,"forfait":0,"fill":1,"name":"Premier soir (offre A)","cap":40,"serv":1553.57,"conv":40,"chef":950,"mat":3400,"cd":7569.29,"ca":10357.14,"plancher":210.67},{"ttc":420,"lieu":1000,"marge":2213.75,"fillEq":0.7345,"forfait":0,"fill":1,"name":"Le Voyage (offre A)","cap":35,"serv":2625,"conv":35,"chef":2000,"mat":3920,"cd":10911.25,"ca":13125,"plancher":344.15},{"ttc":690,"lieu":1000,"marge":4065.89,"fillEq":0.6814,"forfait":0,"fill":1,"name":"La Grande Nuit (offre A)","cap":30,"serv":3696.43,"conv":30,"chef":3500,"mat":4500,"cd":14416.25,"ca":18482.14,"plancher":527.48},{"ttc":500,"lieu":1000,"marge":4464.29,"fillEq":0.5409,"forfait":null,"fill":1,"name":"Privatisation, chef confirmé (offre B)","cap":30,"serv":2008.93,"conv":30,"chef":1800,"mat":3000,"cd":8928.57,"ca":13392.86,"plancher":324.56}],"monthly":{"ca":[0,0,10357.14,18482.14,13125,23750,31875,26517.86,10357.14,0,45267.86,39910.71],"ev":[0,0,1,1,1,2,2,2,1,0,3,3],"pv":[0,11600,9100,-6000,-3100,9100,-6000,-3100,-11600,20700,-6000,32300],"mat":[2712,4660,2452.14,7614.64,34307.5,2520,1682.5,1575.36,1252.14,10960,11950.36,11843.21],"cd":[0,0,8269.29,14871.25,10911.25,16497.86,23344.82,19839.82,7569.29,0,32273.39,28768.39],"tva":[-4051,-691,-238.36,-975.25,-3739.5,457.57,871.68,576.43,141.64,-1151,387.61,92.36],"rh":[0,0,0,0,0,0,0,0,0,0,0,0]},"kpi":{"min36":-52929,"besoin":54232,"minM":"mars 2027"}},"cible":{"plan":{"ev":[16,153,306],"inv":[18000,5000,10000],"adj":[36720.78,59522.53,4665.98],"mat":[93529.86,139240,218520],"cd":[172147.36,1537494.21,3082688.43],"ca":[219642.86,2068750,4137500],"rh":[0,97458.44,643836.89]},"offers":[{"ttc":290,"lieu":1243,"marge":2544.86,"fillEq":0.6253,"forfait":0,"fill":1,"name":"Premier soir (offre A)","cap":40,"serv":1553.57,"conv":40,"chef":950,"mat":3400,"cd":7812.29,"ca":10357.14,"plancher":217.59},{"ttc":420,"lieu":1575,"marge":1638.75,"fillEq":0.8035,"forfait":0,"fill":1,"name":"Le Voyage (offre A)","cap":35,"serv":2625,"conv":35,"chef":2000,"mat":3920,"cd":11486.25,"ca":13125,"plancher":363.85},{"ttc":690,"lieu":2033,"marge":3032.89,"fillEq":0.7624,"forfait":0,"fill":1,"name":"La Grande Nuit (offre A)","cap":30,"serv":3696.43,"conv":30,"chef":3500,"mat":4500,"cd":15449.25,"ca":18482.14,"plancher":568.77},{"ttc":500,"lieu":1607,"marge":3857.29,"fillEq":0.6033,"forfait":null,"fill":1,"name":"Privatisation, chef confirmé (offre B)","cap":30,"serv":2008.93,"conv":30,"chef":1800,"mat":3000,"cd":9535.57,"ca":13392.86,"plancher":348.42}],"monthly":{"ca":[0,0,10357.14,18482.14,13125,23750,31875,26517.86,10357.14,0,45267.86,39910.71],"ev":[0,0,1,1,1,2,2,2,1,0,3,3],"pv":[0,11600,9100,-6000,-3100,9100,-6000,-3100,-11600,20700,-6000,32300],"mat":[2712,4660,2452.14,7614.64,34307.5,2520,1682.5,1575.36,1252.14,10960,11950.36,11843.21],"cd":[0,0,8512.29,15904.25,11486.25,17347.86,24984.82,21021.82,7812.29,0,34520.39,30557.39],"tva":[-4051,-691,-286.96,-1181.85,-3854.5,287.57,543.68,340.03,93.04,-1151,-61.79,-265.44],"rh":[0,0,0,0,0,0,0,0,0,0,0,0]},"kpi":{"min36":-55150,"besoin":64034,"minM":"mars 2027"}}};
+const MONTHS = ['nov. 26','déc. 26','janv. 27','févr. 27','mars 27','avr. 27','mai 27','juin 27','juil. 27','août 27','sept. 27','oct. 27'];
+const YEARS = ['Année 1','Année 2','Année 3'];
+const APPORT = 7000;
+const state = { scen:'central', hor:'m', tab:'pilot', meth:'ca' };
+
+const eur0 = new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:0});
+const num1 = new Intl.NumberFormat('fr-FR',{maximumFractionDigits:1});
+const pct1 = new Intl.NumberFormat('fr-FR',{style:'percent',maximumFractionDigits:1});
+const fE = v => eur0.format(Math.round(v)).replace(/ /g,' ');
+function fK(v){ const a=Math.abs(v); if(a>=1e6) return num1.format(v/1e6)+' M€'; if(a>=1e3) return num1.format(Math.round(v/100)/10)+' k€'; return Math.round(v)+' €'; }
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+/* ---------- calculs ---------- */
+function series(){
+  const d = DATA[state.scen];
+  if(state.hor==='m'){
+    const m=d.monthly, inv=d.plan.inv[0];
+    const ca=m.ca, cost=m.ca.map((_,i)=>m.cd[i]+m.rh[i]+m.mat[i]);
+    const flux=m.ca.map((v,i)=>v-cost[i]-(i===0?inv:0)+m.tva[i]+(m.pv?m.pv[i]:0));
+    return {labels:MONTHS, ca, cost, flux, ev:m.ev, inv, tva:m.tva, pv:m.pv};
+  }
+  const p=d.plan;
+  const ca=p.ca, cost=p.ca.map((_,i)=>p.cd[i]+p.rh[i]+p.mat[i]);
+  const flux=p.ca.map((v,i)=>v-cost[i]-p.inv[i]+(p.adj?p.adj[i]:0));
+  return {labels:YEARS, ca, cost, flux, ev:p.ev};
+}
+const cumsum = a => a.reduce((o,v,i)=>(o.push((i?o[i-1]:0)+v),o),[]);
+function year1(){
+  const d=DATA[state.scen], m=d.monthly;
+  const ca=sum(m.ca), cd=sum(m.cd), fg=sum(m.rh)+sum(m.mat), ev=sum(m.ev), inv=d.plan.inv[0];
+  const flux=m.ca.map((v,i)=>v-m.cd[i]-m.rh[i]-m.mat[i]-(i===0?inv:0)+m.tva[i]+(m.pv?m.pv[i]:0));
+  const tres=cumsum(flux).map(v=>v+APPORT);
+  const neg=flux.filter(v=>v<0);
+  const burn= neg.length? -sum(neg)/neg.length : 0;
+  let minI=0; tres.forEach((v,i)=>{ if(v<tres[minI]) minI=i; });
+  const firstNeg=tres.findIndex(v=>v<0);
+  return {ca,cd,fg,ev,marge:ca-cd,res:ca-cd-fg,tres,minI,burn,firstNeg,flux};
+}
+function plan3(){
+  const p=DATA[state.scen].plan;
+  const flux=p.ca.map((v,i)=>v-p.cd[i]-p.rh[i]-p.mat[i]-p.inv[i]+(p.adj?p.adj[i]:0));
+  const cum=cumsum(flux);
+  const k=DATA[state.scen].kpi; return {flux,cum,need:k?Math.max(0,-k.min36):Math.max(0,-Math.min(...cum)), minM:k?k.minM:"", res:p.ca.map((v,i)=>v-p.cd[i]-p.rh[i]-p.mat[i])};
+}
+const sum = a => a.reduce((x,y)=>x+y,0);
+
+/* ---------- tiles ---------- */
+function tile(k,v,d,status){ return `<div class="kpi"><div class="k">${k}</div><div class="v">${v}</div>${d?`<div class="d">${d}</div>`:''}${status||''}</div>`; }
+const bad = t => `<div class="st bad">▼ ${t}</div>`, ok = t => `<div class="st ok">▲ ${t}</div>`;
+function renderKPIs(){
+  const y=year1(), p=plan3(), d=DATA[state.scen];
+  const mPerEv = y.ev? y.marge/y.ev : 0, fgM = y.fg/12;
+  const pm = mPerEv>0 ? num1.format(fgM/mPerEv)+' soirées / mois' : 'Non atteint';
+  const survie = y.burn>0 ? num1.format(APPORT/y.burn)+' mois' : '—';
+  const html = [
+    tile('Chiffre d\'affaires, année 1', fE(y.ca), `${y.ev} soirées · panier moyen ${fE(y.ev?y.ca/y.ev:0)} HT`),
+    tile('Marge sur coûts directs', fE(y.marge), `Taux : ${pct1.format(y.ca?y.marge/y.ca:0)}`, y.marge<0?bad('Négative'):ok('Positive')),
+    tile('Frais généraux, année 1', fE(y.fg), `${fE(y.fg/12)} par mois en moyenne`),
+    tile('Résultat d\'exploitation, année 1', fE(y.res), '', y.res<0?bad('Perte'):ok('Bénéfice')),
+    tile('Point mort', pm, `Marge moyenne de ${fE(mPerEv)} par soirée`, mPerEv>0?'':bad('Marge par soirée négative')),
+    tile('Trésorerie la plus basse', fE(y.tres[y.minI]), `${MONTHS[y.minI]} · départ ${fE(APPORT)}`, y.tres[y.minI]<0?bad(`Négative dès ${MONTHS[y.firstNeg]}`):ok('Toujours positive')),
+    tile('Mois de survie au départ', survie, `Apport ${fE(APPORT)} ÷ consommation moyenne ${fE(y.burn)}`),
+    tile('Besoin de trésorerie sur 3 ans', fE(p.need), 'Point bas de la trésorerie avant levée'+(p.minM?' ('+p.minM+')':'')+', apport de 7 000 € compris'),
+  ];
+  document.getElementById('kpis').innerHTML = html.join('');
+}
+
+/* ---------- moteur de graphiques SVG ---------- */
+function niceScale(min,max,ticks=5){
+  if(min===max){ max=min+1; }
+  const span=max-min, step0=span/ticks, mag=Math.pow(10,Math.floor(Math.log10(step0)));
+  const err=step0/mag, step=(err>=7.5?10:err>=3.5?5:err>=1.5?2:1)*mag;
+  const lo=Math.floor(min/step)*step, hi=Math.ceil(max/step)*step;
+  const t=[]; for(let v=lo; v<=hi+step/2; v+=step) t.push(+v.toFixed(6));
+  return {lo,hi,t};
+}
+function mkTip(el){ let t=el.querySelector('.tip'); if(!t){ t=document.createElement('div'); t.className='tip'; el.appendChild(t);} return t; }
+function placeTip(el,tip,x,y){
+  const w=el.clientWidth, tw=tip.offsetWidth, th=tip.offsetHeight;
+  let left=x+12; if(left+tw>w) left=x-tw-12; if(left<0) left=0;
+  let top=y-th-10; if(top<0) top=y+14;
+  tip.style.left=left+'px'; tip.style.top=top+'px'; tip.style.opacity=1;
+}
+function frame(el,h){
+  const W=Math.max(300,el.clientWidth), H=h;
+  const m={l:58,r:14,t:12,b:28};
+  return {W,H,m,iw:W-m.l-m.r,ih:H-m.t-m.b};
+}
+function axisY(g,sc,f){ return sc.t.map(v=>{ const y=f.m.t+f.ih-(v-sc.lo)/(sc.hi-sc.lo)*f.ih; return `<line x1="${f.m.l}" x2="${f.W-f.m.r}" y1="${y}" y2="${y}" stroke="${v===0?css('--axis'):css('--grid')}" stroke-width="1"/><text class="tick" x="${f.m.l-8}" y="${y+4}" text-anchor="end">${fK(v)}</text>`; }).join(''); }
+
+function lineChart(el,{labels,series,h=240,zero=false,threshold=null}){
+  const f=frame(el,h);
+  let mn=Math.min(...series.flatMap(s=>s.values)), mx=Math.max(...series.flatMap(s=>s.values));
+  if(zero){ mn=Math.min(0,mn); mx=Math.max(0,mx); }
+  const sc=niceScale(mn,mx);
+  const n=labels.length, X=i=> f.m.l + (n===1?f.iw/2: i*(f.iw/(n-1))), Y=v=> f.m.t+f.ih-(v-sc.lo)/(sc.hi-sc.lo)*f.ih;
+  let s=`<svg viewBox="0 0 ${f.W} ${f.H}" role="img" aria-label="${series.map(x=>x.name).join(', ')}">`;
+  s+=axisY(null,sc,f);
+  const every=Math.ceil(n/ (f.iw<420?4:7));
+  labels.forEach((l,i)=>{ if(i%every===0||i===n-1) s+=`<text class="tick" x="${X(i)}" y="${f.H-8}" text-anchor="middle">${l}</text>`; });
+  series.forEach(se=>{
+    const pts=se.values.map((v,i)=>`${X(i)},${Y(v)}`);
+    if(se.area){
+      const base=Y(Math.max(sc.lo,Math.min(0,sc.hi)));
+      s+=`<path d="M${X(0)},${base} L${pts.join(' L')} L${X(n-1)},${base} Z" fill="${se.color}" opacity=".12"/>`;
+    }
+    s+=`<polyline points="${pts.join(' ')}" fill="none" stroke="${se.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const li=n-1; s+=`<text class="dlabel" x="${X(li)}" y="${Y(se.values[li])-8}" text-anchor="end">${fK(se.values[li])}</text>`;
+  });
+  s+=`<line class="xh" x1="0" x2="0" y1="${f.m.t}" y2="${f.m.t+f.ih}" stroke="${css('--axis')}" stroke-width="1" opacity="0"/>`;
+  series.forEach((se,k)=>{ s+=`<circle class="dot${k}" r="4.5" fill="${se.color}" stroke="${css('--surface-1')}" stroke-width="2" opacity="0"/>`; });
+  s+=`<rect x="${f.m.l}" y="${f.m.t}" width="${f.iw}" height="${f.ih}" fill="transparent" class="hit"/></svg>`;
+  el.innerHTML=s; const tip=mkTip(el), svg=el.querySelector('svg');
+  const hit=svg.querySelector('.hit'), xh=svg.querySelector('.xh');
+  function show(evt){
+    const r=svg.getBoundingClientRect(), sx=(evt.clientX-r.left)*(f.W/r.width);
+    const i=Math.max(0,Math.min(n-1,Math.round((sx-f.m.l)/(n===1?1:f.iw/(n-1)))));
+    xh.setAttribute('x1',X(i)); xh.setAttribute('x2',X(i)); xh.setAttribute('opacity',1);
+    series.forEach((se,k)=>{ const c=svg.querySelector('.dot'+k); c.setAttribute('cx',X(i)); c.setAttribute('cy',Y(se.values[i])); c.setAttribute('opacity',1); });
+    tip.innerHTML=`<b>${labels[i]}</b>`+series.map(se=>`<div class="row"><span><span class="sw" style="background:${se.color}"></span>${se.name}</span><span>${fE(se.values[i])}</span></div>`).join('');
+    placeTip(el,tip,X(i)*r.width/f.W,Y(series[0].values[i])*r.height/f.H);
+  }
+  hit.addEventListener('pointermove',show); hit.addEventListener('pointerdown',show);
+  hit.addEventListener('pointerleave',()=>{ tip.style.opacity=0; xh.setAttribute('opacity',0); series.forEach((_,k)=>svg.querySelector('.dot'+k).setAttribute('opacity',0)); });
+}
+
+function barChart(el,{labels,values,h=240,tipRows,labelAll=false,colorFn}){
+  const f=frame(el,h);
+  const sc=niceScale(Math.min(0,...values),Math.max(0,...values));
+  const n=labels.length, bw=f.iw/n, w=Math.max(4,Math.min(46,bw*0.62));
+  const Y=v=> f.m.t+f.ih-(v-sc.lo)/(sc.hi-sc.lo)*f.ih, y0=Y(0);
+  let s=`<svg viewBox="0 0 ${f.W} ${f.H}" role="img" aria-label="diagramme en barres">`+axisY(null,sc,f);
+  const every=Math.ceil(n/(f.iw<420?4:7));
+  values.forEach((v,i)=>{
+    const cx=f.m.l+bw*i+bw/2, y=Math.min(Y(v),y0), hh=Math.max(1,Math.abs(Y(v)-y0));
+    const col=colorFn?colorFn(v,i):(v>=0?css('--pos'):css('--neg'));
+    const r=Math.min(4,hh/2), up=v>=0;
+    const path = up
+      ? `M${cx-w/2},${y0} L${cx-w/2},${y+r} Q${cx-w/2},${y} ${cx-w/2+r},${y} L${cx+w/2-r},${y} Q${cx+w/2},${y} ${cx+w/2},${y+r} L${cx+w/2},${y0} Z`
+      : `M${cx-w/2},${y0} L${cx-w/2},${y0+hh-r} Q${cx-w/2},${y0+hh} ${cx-w/2+r},${y0+hh} L${cx+w/2-r},${y0+hh} Q${cx+w/2},${y0+hh} ${cx+w/2},${y0+hh-r} L${cx+w/2},${y0} Z`;
+    s+=`<path d="${path}" fill="${col}"/>`;
+    if(i%every===0||i===n-1) s+=`<text class="tick" x="${cx}" y="${f.H-8}" text-anchor="middle">${labels[i]}</text>`;
+    if(labelAll && Math.abs(v)>0) s+=`<text class="dlabel" x="${cx}" y="${up?y-5:y0+hh+13}" text-anchor="middle">${fK(v)}</text>`;
+    s+=`<rect class="hb" data-i="${i}" x="${f.m.l+bw*i}" y="${f.m.t}" width="${bw}" height="${f.ih}" fill="transparent"/>`;
+  });
+  s+='</svg>'; el.innerHTML=s; const tip=mkTip(el), svg=el.querySelector('svg');
+  svg.querySelectorAll('.hb').forEach(rc=>{
+    const show=()=>{ const i=+rc.dataset.i, r=svg.getBoundingClientRect(), cx=f.m.l+bw*i+bw/2;
+      tip.innerHTML=`<b>${labels[i]}</b>`+tipRows(i).map(([k,v])=>`<div class="row"><span>${k}</span><span>${v}</span></div>`).join('');
+      placeTip(el,tip,cx*r.width/f.W,Math.min(Y(values[i]),y0)*r.height/f.H); rc.setAttribute('fill',css('--text-primary')); rc.setAttribute('fill-opacity','.04'); };
+    rc.addEventListener('pointermove',show); rc.addEventListener('pointerdown',show);
+    rc.addEventListener('pointerleave',()=>{ tip.style.opacity=0; rc.setAttribute('fill','transparent'); });
+  });
+}
+
+function hbarChart(el,{labels,values,tipRows}){
+  const rowH=40, f={W:Math.max(300,el.clientWidth),m:{l:Math.min(170,Math.max(120,el.clientWidth*.32)),r:56,t:6,b:24}};
+  f.H=f.m.t+f.m.b+rowH*labels.length; f.iw=f.W-f.m.l-f.m.r;
+  const sc=niceScale(Math.min(0,...values),Math.max(0,...values),4);
+  const X=v=> f.m.l+(v-sc.lo)/(sc.hi-sc.lo)*f.iw, x0=X(0);
+  let s=`<svg viewBox="0 0 ${f.W} ${f.H}" role="img" aria-label="marge par soirée">`;
+  sc.t.forEach(v=>{ s+=`<line x1="${X(v)}" x2="${X(v)}" y1="${f.m.t}" y2="${f.H-f.m.b}" stroke="${v===0?css('--axis'):css('--grid')}"/><text class="tick" x="${X(v)}" y="${f.H-6}" text-anchor="middle">${fK(v)}</text>`; });
+  values.forEach((v,i)=>{
+    const yc=f.m.t+rowH*i+rowH/2, hh=18, x=Math.min(X(v),x0), w=Math.max(1,Math.abs(X(v)-x0));
+    s+=`<text class="tick" style="fill:var(--text-secondary);font-size:12px" x="${f.m.l-8}" y="${yc+4}" text-anchor="end">${labels[i]}</text>`;
+    s+=`<rect x="${x}" y="${yc-hh/2}" width="${w}" height="${hh}" rx="4" fill="${v>=0?css('--pos'):css('--neg')}"/>`;
+    s+=`<text class="dlabel" x="${v>=0?X(v)+6:X(v)-6}" y="${yc+4}" text-anchor="${v>=0?'start':'end'}">${fE(v)}</text>`;
+    s+=`<rect class="hb" data-i="${i}" x="0" y="${yc-rowH/2}" width="${f.W}" height="${rowH}" fill="transparent"/>`;
+  });
+  s+='</svg>'; el.innerHTML=s; const tip=mkTip(el), svg=el.querySelector('svg');
+  svg.querySelectorAll('.hb').forEach(rc=>{
+    const show=(e)=>{ const i=+rc.dataset.i, r=svg.getBoundingClientRect();
+      tip.innerHTML=`<b>${labels[i]}</b>`+tipRows(i).map(([k,v])=>`<div class="row"><span>${k}</span><span>${v}</span></div>`).join('');
+      placeTip(el,tip,e.clientX-r.left,(f.m.t+rowH*i)*r.height/f.H); };
+    rc.addEventListener('pointermove',show); rc.addEventListener('pointerdown',show);
+    rc.addEventListener('pointerleave',()=>{ tip.style.opacity=0; });
+  });
+}
+
+/* ---------- page pilotage ---------- */
+function renderPilot(){
+  renderKPIs();
+  const S=series(), caC=cumsum(S.ca), costC=cumsum(S.cost);
+  const y1 = state.hor==='m';
+  document.getElementById('capCA').textContent = y1? 'Novembre 2026 à octobre 2027, € HT' : 'Années 1 à 3, € HT';
+  lineChart(document.getElementById('chCA'),{labels:S.labels,series:[
+    {name:'CA cumulé',values:caC,color:css('--series-1')},
+    {name:'Coûts cumulés',values:costC,color:css('--series-2')}]});
+  document.getElementById('capCF').textContent = (y1?'Flux net du mois':'Flux net de l\'année')+(y1?' = CA − coûts directs − frais généraux − investissements ± TVA ± pré-vente (€)':' = CA − coûts directs − frais généraux − investissements ± TVA ± pré-vente (€)');
+  barChart(document.getElementById('chCF'),{labels:S.labels,values:S.flux,labelAll:!y1,tipRows:i=>[
+    ['Chiffre d\'affaires',fE(S.ca[i])],['Coûts et investissements',fE(S.cost[i]+(y1&&i===0?S.inv:0))],...(S.tva?[['Effet de la TVA',fE(S.tva[i])],['Effet de la pré-vente',fE(S.pv?S.pv[i]:0)]]:[]),['Flux net',fE(S.flux[i])],['Soirées',String(S.ev[i])]]});
+  const tres=cumsum(S.flux).map(v=>v+APPORT);
+  document.getElementById('capTR').textContent = (y1?'Solde de fin de mois':'Solde de fin d\'année')+', départ '+fE(APPORT)+' d\'apport (€)';
+  lineChart(document.getElementById('chTR'),{labels:S.labels,zero:true,series:[{name:'Trésorerie',values:tres,color:css('--series-1'),area:true}]});
+  const o=DATA[state.scen].offers;
+  hbarChart(document.getElementById('chUE'),{labels:o.map(x=>x.name.replace(/ \(offre [AB]\)/,'').replace(', chef confirmé','')),values:o.map(x=>x.marge),tipRows:i=>[
+    ['Chiffre d\'affaires HT',fE(o[i].ca)],['Coûts directs',fE(o[i].cd)],['Marge',fE(o[i].marge)],['Taux de marge',pct1.format(o[i].ca?o[i].marge/o[i].ca:0)],['Convives payants',`${o[i].conv} / ${o[i].cap}`]]});
+  // tableau économie unitaire
+  let t='<tr><th>Offre</th><th>Prix TTC / convive</th><th>Convives</th><th>CA HT</th><th>Lieu</th><th>Chef</th><th>Matières et boissons</th><th>Équipe</th><th>Marge</th><th>Taux</th><th>Prix plancher TTC</th><th>Remplissage d\'équilibre</th></tr>';
+  o.forEach(x=>{ t+=`<tr><td>${x.name}</td><td>${fE(x.ttc)}${x.forfait?` + ${fE(x.forfait)}`:''}</td><td>${x.conv} / ${x.cap}</td><td>${fE(x.ca)}</td><td>${fE(x.lieu)}</td><td>${fE(x.chef)}</td><td>${fE(x.mat)}</td><td>${fE(x.serv)}</td><td class="${x.marge<0?'neg':''}">${fE(x.marge)}</td><td class="${x.marge<0?'neg':''}">${pct1.format(x.ca?x.marge/x.ca:0)}</td><td>${fE(x.plancher)}</td><td class="${x.fillEq>1?'neg':''}">${pct1.format(x.fillEq)}</td></tr>`; });
+  document.getElementById('tbUE').innerHTML=t;
+  let d='<tr><th>Période</th><th>Soirées</th><th>CA</th><th>Coûts</th><th>TVA</th><th>Flux net</th><th>CA cumulé</th><th>Trésorerie</th></tr>';
+  S.labels.forEach((l,i)=>{ d+=`<tr><td>${l}</td><td>${S.ev[i]}</td><td>${fE(S.ca[i])}</td><td>${fE(S.cost[i])}</td><td>${S.tva?fE(S.tva[i]):'—'}</td><td class="${S.flux[i]<0?'neg':''}">${fE(S.flux[i])}</td><td>${fE(caC[i])}</td><td class="${tres[i]<0?'neg':''}">${fE(tres[i])}</td></tr>`; });
+  document.getElementById('tbData').innerHTML=d;
+}
+
+/* ---------- page investisseurs ---------- */
+const $=id=>document.getElementById(id);
+function params(){ return {amt:+$('inAmt').value, pre:+$('inPre').value, g:+$('inG').value, mca:+$('inMCA').value, me:+$('inME').value, em:+$('inEM').value, dil:+$('inDil').value}; }
+function ca5(g){ const p=DATA[state.scen].plan.ca; const y4=p[2]*(1+g), y5=y4*(1+g); return [...p,y4,y5]; }
+function ev5(P){ const c=ca5(P.g)[4]; return state.meth==='ca' ? c*P.mca : c*P.em*P.me; }
+function moic(P,amt){ const stake=amt/(P.pre+amt)*(1-P.dil); return ev5(P)*stake/amt; }
+function renderInv(){
+  const P=params();
+  $('oAmt').textContent=fE(P.amt); $('oPre').textContent=fE(P.pre); $('oG').textContent=pct1.format(P.g);
+  $('oMCA').textContent=num1.format(P.mca)+'×'; $('oME').textContent=num1.format(P.me)+'×'; $('oEM').textContent=pct1.format(P.em); $('oDil').textContent=pct1.format(P.dil);
+  $('fMultCA').hidden=state.meth!=='ca'; $('fMultE').hidden=state.meth==='ca'; $('fMarg').hidden=state.meth==='ca';
+  const post=P.pre+P.amt, stake=P.amt/post, stakeX=stake*(1-P.dil), EV=ev5(P), val=EV*stakeX, M=val/P.amt, irr=M>0?Math.pow(M,1/5)-1:-1;
+  $('hero').innerHTML=[
+    tile('Multiple à 5 ans',num1.format(M)+'×', `Valeur de la part : ${fE(val)}`, M>=1?ok(M>=3?'Au-dessus de 3×':'Capital préservé'):bad('Perte en capital')),
+    tile('TRI annuel',pct1.format(irr),'Sur 5 ans'),
+    tile('Part après investissement',pct1.format(stake),`Valorisation après : ${fE(post)}`),
+    tile('Part à la sortie',pct1.format(stakeX),`Après ${pct1.format(P.dil)} de dilution`),
+    tile('Valeur de l\'entreprise, année 5',fE(EV), state.meth==='ca'?`CA ${fE(ca5(P.g)[4])} × ${num1.format(P.mca)}`:`EBITDA ${fE(ca5(P.g)[4]*P.em)} × ${num1.format(P.me)}`),
+    (()=>{ const p3=plan3(); const cov=p3.need>0?P.amt/p3.need:1; return tile('Couverture du besoin sur 3 ans',pct1.format(Math.min(cov,9.99)),`Besoin du plan : ${fE(p3.need)}`, cov>=1?ok('Besoin couvert'):bad('Besoin non couvert')); })(),
+    (()=>{ const r3=plan3().res[2]; return tile('Résultat d\'exploitation, année 3',fE(r3),'Plan financier, avant extrapolation', r3<0?bad('Encore en perte'):ok('Bénéficiaire')); })(),
+  ].join('');
+  // courbe multiple vs montant
+  const amts=[]; for(let a=25000;a<=500000;a+=25000) amts.push(a);
+  $('capMult').textContent=`Valorisation avant ${fE(P.pre)} · scénario ${state.scen==='central'?'central':'cible du Produit'} · montant actuel : ${fE(P.amt)}`;
+  lineChartX($('chMult'),amts,amts.map(a=>moic(P,a)),P.amt,moic(P,P.amt));
+  // CA 5 ans
+  const c5=ca5(P.g);
+  barChart($('chCA5'),{labels:['An 1','An 2','An 3','An 4','An 5'],values:c5,labelAll:true,colorFn:(v,i)=> i<3?css('--series-1'):hexA(css('--series-1'),.45),tipRows:i=>[['Chiffre d\'affaires',fE(c5[i])],['Source',i<3?'Plan financier':'Extrapolation']]});
+  // carte de sensibilité
+  const rowsA=[50000,100000,200000,300000,500000];
+  const cols = state.meth==='ca' ? [0.5,1,1.5,2,3] : [4,6,8,10,12];
+  $('capHeat').textContent = state.meth==='ca' ? 'Multiple selon le montant (lignes) et le multiple du CA à la sortie (colonnes)' : 'Multiple selon le montant (lignes) et le multiple de l\'EBITDA (colonnes)';
+  let h='<tr><th>Montant</th>'+cols.map(c=>`<th>${num1.format(c)}×</th>`).join('')+'</tr>';
+  rowsA.forEach(a=>{ h+=`<tr><td>${fK(a)}</td>`+cols.map(c=>{ const Q={...P}; if(state.meth==='ca') Q.mca=c; else Q.me=c; const m=moic(Q,a); const cur=(a===P.amt)&&(Math.abs((state.meth==='ca'?P.mca:P.me)-c)<1e-9); return `<td class="${cur?'cur':''}" style="background:${heatColor(m)}">${num1.format(m)}×</td>`; }).join('')+'</tr>'; });
+  $('tbHeat').innerHTML=h;
+}
+function hexA(hex,a){ const h=hex.replace('#',''); const r=parseInt(h.slice(0,2),16),g=parseInt(h.slice(2,4),16),b=parseInt(h.slice(4,6),16); return `rgba(${r},${g},${b},${a})`; }
+function heatColor(m){ // divergent : rouge < 1× < bleu
+  const t=Math.max(-1,Math.min(1,Math.log(m)/Math.log(5)));
+  const col=t<0?css('--neg'):css('--pos'); return hexA(col,Math.abs(t)*0.55);
+}
+function lineChartX(el,xs,ys,curX,curY){
+  const f=frame(el,250);
+  const sc=niceScale(0,Math.max(1.2,...ys));
+  const X=a=> f.m.l+(a-xs[0])/(xs[xs.length-1]-xs[0])*f.iw, Y=v=> f.m.t+f.ih-(v-sc.lo)/(sc.hi-sc.lo)*f.ih;
+  let s=`<svg viewBox="0 0 ${f.W} ${f.H}" role="img" aria-label="multiple selon le montant investi">`;
+  sc.t.forEach(v=>{ const y=Y(v); s+=`<line x1="${f.m.l}" x2="${f.W-f.m.r}" y1="${y}" y2="${y}" stroke="${css('--grid')}"/><text class="tick" x="${f.m.l-8}" y="${y+4}" text-anchor="end">${num1.format(v)}×</text>`; });
+  const y1=Y(1); s+=`<line x1="${f.m.l}" x2="${f.W-f.m.r}" y1="${y1}" y2="${y1}" stroke="${css('--axis')}" stroke-dasharray="4 4"/><text class="tick" x="${f.m.l+6}" y="${y1+14}" text-anchor="start">1× = capital récupéré</text>`;
+  [25000,100000,200000,300000,400000,500000].forEach(a=>{ s+=`<text class="tick" x="${X(a)}" y="${f.H-8}" text-anchor="middle">${fK(a)}</text>`; });
+  s+=`<polyline points="${xs.map((a,i)=>`${X(a)},${Y(ys[i])}`).join(' ')}" fill="none" stroke="${css('--series-1')}" stroke-width="2" stroke-linejoin="round"/>`;
+  s+=`<circle cx="${X(curX)}" cy="${Y(curY)}" r="5.5" fill="${css('--series-1')}" stroke="${css('--surface-1')}" stroke-width="2"/>`;
+  s+=`<text class="dlabel" x="${X(curX)+9}" y="${Y(curY)-9}">${num1.format(curY)}× pour ${fK(curX)}</text>`;
+  s+=`<line class="xh" y1="${f.m.t}" y2="${f.m.t+f.ih}" stroke="${css('--axis')}" opacity="0"/><circle class="hd" r="4.5" fill="${css('--series-1')}" stroke="${css('--surface-1')}" stroke-width="2" opacity="0"/>`;
+  s+=`<rect class="hit" x="${f.m.l}" y="${f.m.t}" width="${f.iw}" height="${f.ih}" fill="transparent"/></svg>`;
+  el.innerHTML=s; const tip=mkTip(el), svg=el.querySelector('svg'), xh=svg.querySelector('.xh'), hd=svg.querySelector('.hd');
+  const P=params();
+  const show=e=>{ const r=svg.getBoundingClientRect(), sx=(e.clientX-r.left)*(f.W/r.width);
+    let i=Math.round((sx-f.m.l)/(f.iw/(xs.length-1))); i=Math.max(0,Math.min(xs.length-1,i));
+    xh.setAttribute('x1',X(xs[i])); xh.setAttribute('x2',X(xs[i])); xh.setAttribute('opacity',1); hd.setAttribute('cx',X(xs[i])); hd.setAttribute('cy',Y(ys[i])); hd.setAttribute('opacity',1);
+    const st=xs[i]/(P.pre+xs[i]);
+    tip.innerHTML=`<b>${fE(xs[i])} investis</b><div class="row"><span>Multiple</span><span>${num1.format(ys[i])}×</span></div><div class="row"><span>Part après investissement</span><span>${pct1.format(st)}</span></div><div class="row"><span>Valeur à 5 ans</span><span>${fE(ys[i]*xs[i])}</span></div>`;
+    placeTip(el,tip,X(xs[i])*r.width/f.W,Y(ys[i])*r.height/f.H); };
+  const hit=svg.querySelector('.hit'); hit.addEventListener('pointermove',show); hit.addEventListener('pointerdown',show);
+  hit.addEventListener('pointerleave',()=>{ tip.style.opacity=0; xh.setAttribute('opacity',0); hd.setAttribute('opacity',0); });
+}
+
+/* ---------- interactions ---------- */
+function render(){ if(state.tab==='pilot') renderPilot(); else renderInv(); }
+function bindSeg(id,key){ document.querySelectorAll(`#${id} button`).forEach(b=>b.addEventListener('click',()=>{ state[key]=b.dataset.v; document.querySelectorAll(`#${id} button`).forEach(x=>x.setAttribute('aria-pressed',String(x===b))); render(); })); }
+bindSeg('segScen','scen'); bindSeg('segHor','hor'); bindSeg('segMeth','meth');
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  state.tab = t.id==='t-pilot'?'pilot':'inv';
+  document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',String(x===t)));
+  $('p-pilot').hidden = state.tab!=='pilot'; $('p-inv').hidden = state.tab!=='inv'; $('horizonCtl').hidden = state.tab!=='pilot';
+  render();
+}));
+document.querySelectorAll('#p-inv input[type=range]').forEach(i=>i.addEventListener('input',renderInv));
+const themes=['auto','light','dark'];
+function setTheme(t){ if(t==='auto') document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme',t); $('themeBtn').textContent='Thème : '+({auto:'auto',light:'clair',dark:'sombre'})[t]; try{localStorage.setItem('fds-theme',t);}catch(e){} render(); }
+$('themeBtn').addEventListener('click',()=>{ const cur=document.documentElement.getAttribute('data-theme')||'auto'; setTheme(themes[(themes.indexOf(cur)+1)%3]); });
+try{ const t=localStorage.getItem('fds-theme'); if(t&&t!=='auto') setTheme(t); }catch(e){}
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',render);
+let rt; new ResizeObserver(()=>{ clearTimeout(rt); rt=setTimeout(render,80); }).observe(document.querySelector('.wrap'));
+render();
+</script>
+</body>
+</html>
