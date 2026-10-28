@@ -2,7 +2,7 @@
 
 Date : 28/10/2026, soir · Décidé par : Direction ([@Laetitiarv](https://github.com/Laetitiarv)) · Mise en forme : assistant IA Direction · Statut : **décisions de la Direction**, inscrites au [[REGISTRE DES DECISIONS]] sous les numéros D-02 à D-19.
 
-Ce relevé répond aux 18 incohérences listées dans la synthèse du 28/10 à 17 h 24 (désormais rangée dans `1 DIRECTION/OLD/`, voir [[2026 1028 17h24 Synthèse du projet et incohérences]]). Il remplace le cadre D-01. Le nouveau cadre de référence est [[2026 1028 Pop Tables - Cadre de référence]]. Le BMC à jour est `STRATEGIE/2026 1028 Business Model Canvas V4 - Pop Tables.xlsx`.
+Ce relevé répond aux 18 incohérences listées dans la synthèse du 28/10 à 17 h 24 (désormais rangée dans `1 DIRECTION/OLD/`, voir [[2026 1028 17h24 Synthèse du projet et incohérences]]). Il remplace le cadre D-01. Le nouveau cadre de référence est [[2026 1028 Pop Tables - Cadre de référence]]. Le BMC qui fait foi est désormais le `STRATEGIE/2026 1028 Business Model Canvas V5 - Pop Tables.xlsx` (D-20) ; la V4 est rangée dans `OLD/`.
 
 **Chaque pôle met à jour son propre dossier à partir de ce relevé** (§ 3). La Direction n'écrit pas dans les dossiers des autres pôles.
 

@@ -2,6 +2,8 @@
 
 Date : 28/10/2026 (soir) · Décidé par la Direction ([@Laetitiarv](https://github.com/Laetitiarv)) · Statut : **cadre de référence de l'équipe**. Il remplace le cadre D-01 du 27/10 (rangé dans `1 DIRECTION/OLD/`). Voir le [[REGISTRE DES DECISIONS]], D-02 à D-19, et le [[2026 1028 Relevé de décisions du 28 octobre (soir)]].
 
+> **Mise à jour du 28/10/2026 (soir) — D-20.** Le `STRATEGIE/2026 1028 Business Model Canvas V5 - Pop Tables.xlsx`, acté avec l'équipe, fait foi pour l'ensemble du projet. En cas d'écart entre ce cadre et le BMC V5, le BMC V5 prévaut. Les éléments financiers ci-dessous seront ajustés après le travail de la Finance sur l'équilibre financier.
+
 Légende (voir [[RULES]]) : **Décision** = arrêté par la Direction le 28/10/2026 · **F** = fait constaté dans un fichier du dépôt · **P** = proposition, à reprendre par la fonction concernée.
 
 ## 1. Le projet (décision)
