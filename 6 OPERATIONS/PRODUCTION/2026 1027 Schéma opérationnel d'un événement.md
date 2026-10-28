@@ -52,14 +52,18 @@ Les durées sont **à mesurer** lors de la simulation : elles ne sont pas établ
 
 | Sujet | Opérations | Ventes | Marketing | Juridique | Finance |
 |---|---|---|---|---|---|
-| Lieu | Grille d'audit | Premiers partenaires | — | Contrat type de mise à disposition, assurance | Partage de valeur avec le lieu |
+| Lieu | Grille d'audit, y compris la vérification du bail, de la licence et de l'effectif autorisé | Premiers partenaires | — | Contrat type de mise à disposition, assurance | Partage de valeur avec le lieu |
 | Chef | Brief, planning, logistique (déplacement d'un chef étranger) | Premiers partenaires | Mise en avant | Contrat type de prestation | Rémunération, partage de valeur |
 | Personnel du jour J | Planning, encadrement | — | — | Statuts, contrats | Coût par événement |
 | Matières premières | Commandes, réception | — | — | Contrats fournisseurs | Coût matière |
 | Client | Exécution | Devis (corporate, privé) | Vente des places (foodies) | Contrat client | Encaissement |
-| Incident | Gestion sur place | — | — | Assurance, responsabilité | Provision |
+| Incident | Gestion sur place | — | — | Assurance ; la société répond face au client, puis exerce un recours contre le chef ou le fournisseur | Provision |
+| Alcool | Applique le montage retenu | — | — | Tranche le montage de licence **avant toute vente** | TVA sur les boissons |
+| Données des convives (allergies) | Transmet les allergies au seul chef, puis les supprime | — | Gère le fichier de la communauté | Politique de confidentialité, consentement pour les données de santé | — |
 
 ---
+
+Les ajouts des lignes Lieu, Incident, Alcool et Données des convives reprennent les corrections proposées par le Juridique le 28/10/2026 ([[2026 1028 Points juridiques à revoir]], § 1).
 
 ## 4. Points critiques à couvrir (I, à vérifier)
 

@@ -76,29 +76,33 @@ Aucune norme officielle n'existe : les ratios ci-dessous viennent de guides de t
 
 ### 3.2 Équipe type par taille (P)
 
-Les effectifs sont des **propositions** tirées des repères ci-dessus, à valider avec un chef et une agence d'extras.
+Les effectifs sont des **propositions** tirées des repères ci-dessus, à valider avec un chef et une agence d'extras. Les règles de calcul (1 serveur pour 7 couverts, 1 membre de brigade pour 10 couverts, seuils pour le maître d'hôtel, l'aide sommelier, la plonge et la production) sont détaillées et modifiables dans [[2026 1028 Calculateur de staffing par événement]] (même dossier).
 
 | Rôle | T1 (2–8) | T2 (10–16) | T3 (20–30) | T4 (31–60) | Qui fournit (à trancher) |
 |---|---|---|---|---|---|
 | Chef invité | 1 | 1 | 1 | 1 | Le vivier de chefs |
-| Brigade (second, commis) | 0 à 1 | 1 à 2 | 2 à 3 | 4 à 6 | L'équipe du chef, ou des extras |
+| Brigade (second, commis) | 1 | 1 à 2 | 2 à 3 | 4 à 6 | L'équipe du chef, ou des extras |
 | Maître d'hôtel / responsable de salle | — (le sommelier assure ce rôle) | 1 | 1 | 1 à 2 | Nous ou le restaurant |
-| Serveurs / chefs de rang | 1 | 2 | 3 à 4 | 5 à 8 | Extras ou personnel du restaurant |
+| Serveurs / chefs de rang | 1 | 2 à 3 | 3 à 5 | 5 à 9 | Extras ou personnel du restaurant |
 | Sommelier invité | 1 | 1 | 1 | 1 | Le réseau des sommeliers |
 | Aide sommelier (accords vins et jus en parallèle) | — | — | 1 | 1 à 2 | Extras |
 | Plongeurs | 1 | 1 | 2 | 2 à 3 | Extras |
 | Responsable de production sur place (nous) | 1 | 1 | 1 | 2 | Équipe Fou d'un soir |
-| **Total, base C1** | **5 à 6** | **8 à 9** | **12 à 14** | **17 à 25** | |
+| **Total, base C1** | **6** | **8 à 10** | **12 à 15** | **17 à 26** | |
 
 ### 3.3 Ce que la criticité ajoute (P)
 
 | Niveau | Personnes en plus |
 |---|---|
 | **C1** | Aucune : l'équipe de base suffit |
-| **C2** | **+1 serveur de réserve** (en cas d'absence) ; un **interlocuteur client** joignable le jour J (rôle des Ventes) ; un chef de secours identifié (comme le prévoit le plan des pilotes) |
+| **C2** | **+1 serveur de réserve** (en cas d'absence) ; **+1 interlocuteur client** joignable le jour J (rôle des Ventes) ; un chef de secours identifié, mais pas présent (comme le prévoit le plan des pilotes) |
 | **C3** | Ce qui est prévu en C2, plus : **une hôtesse ou un hôte d'accueil et de vestiaire** ; **un responsable des relations presse et des invités** (Marketing) ; un **photographe et un vidéaste** (F : prévus dans les trois options de lancement) ; **un serveur par salon** si le lieu compte plusieurs salons (option 2, Lapérouse) ; un poste **logistique d'accès** si le lieu l'exige (option 3 : bateaux de nuit) |
 
-**I** Exemple : la soirée de lancement, option 2 (environ 30 invités, plusieurs salons, presse), est classée **T3 / C3**. Elle mobilise environ 13 à 14 personnes en base, puis 4 à 6 de plus pour la réserve, l'accueil, la presse, les images et les salons, **soit environ 17 à 20 personnes**, chef compris.
+**I** Exemples calculés avec le calculateur :
+- **Pilote 1, « Premier soir »** (24 couverts, T3 / C2) : **16 personnes**, chef compris.
+- **Pilote 2, « La Grande Nuit »** (20 couverts, T3 / C2) : **14 personnes**.
+- **Soirée de lancement, option 2** (30 invités, T3 / C3, en supposant 3 salons) : 15 personnes en base et 8 de plus (réserve, interlocuteur client, accueil, presse, photographe, vidéaste, 2 serveurs pour les salons), **soit 23 personnes**, chef compris.
+- Si le restaurant fournit la salle, le « Premier soir » descend à **10 personnes** à mobiliser par nous.
 
 ### 3.4 La question qui change tout
 
