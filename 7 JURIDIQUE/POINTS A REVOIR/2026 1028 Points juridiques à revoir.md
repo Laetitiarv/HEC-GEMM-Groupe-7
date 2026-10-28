@@ -17,7 +17,7 @@ Légende (voir [[RULES]]) : **F** = fait constaté dans le dépôt · **I** = in
 | # | Point | Pourquoi bloquant | Statut |
 |---|---|---|---|
 | P1 | Montage de la licence de débit de boissons (§ 2) | Sans montage clair, pas de vente d'alcool possible | à revoir |
-| P2 | Qui est l'exploitant alimentaire et porte la responsabilité sanitaire (§ 1.2) | Responsabilité en cas d'intoxication | à revoir |
+| P2 | Qui est l'exploitant alimentaire et porte la responsabilité sanitaire (§ 1.2) | Responsabilité en cas d'intoxication | en cours : orientation retenue le 28/10/2026, Pop Tables est l'exploitant alimentaire ; actions avant le pilote à mener ([[2026 1028 Responsabilité sanitaire - orientations retenues]]) |
 | P3 | Assurance des biens confiés et RC organisateur (§ 1.6) | Le matériel du restaurateur est souvent exclu des RC standard | en cours : questionnaire et grille prêts le 28/10/2026, devis à demander ([[2026 1028 Questionnaire pour les courtiers d'assurance]]) |
 | P4 | Dépôt GitHub public alors que `RULES.md` le dit privé (§ 4) | Toute pièce versée est lisible par tous | à revoir |
 
@@ -28,7 +28,7 @@ Légende (voir [[RULES]]) : **F** = fait constaté dans le dépôt · **I** = in
 | # | Point du schéma (§ 4) | Ce qui reste à revoir (I / P) | Statut |
 |---|---|---|---|
 | 1.1 | Respect du lieu prêté | Clauses du contrat de mise à disposition : inventaire et état des lieux photographiés à l'entrée et à la sortie, stocks interdits sauf achat facturé, liste des équipements autorisés, caution ou franchise. Éviter la requalification en location-gérance ou en sous-location ; vérifier que le bail du restaurateur autorise ce prêt | à revoir |
-| 1.2 | Hygiène et sécurité alimentaire | Si la start-up vend le repas, partir du principe qu'elle est l'exploitant alimentaire : plan de maîtrise sanitaire, traçabilité, au moins une personne formée à l'hygiène. Vérifier l'obligation de déclaration d'activité (DDPP) pour la start-up et pour le labo externe | à revoir |
+| 1.2 | Hygiène et sécurité alimentaire | Si la start-up vend le repas, partir du principe qu'elle est l'exploitant alimentaire : plan de maîtrise sanitaire, traçabilité, au moins une personne formée à l'hygiène. Vérifier l'obligation de déclaration d'activité (DDPP) pour la start-up et pour le labo externe | en cours ([[2026 1028 Responsabilité sanitaire - orientations retenues]]) ; adresse de déclaration et plats témoins non confirmés par la DDPP |
 | 1.3 | Chaîne du froid | Production à l'avance + transport = liaison froide : températures, délais, relevés conservés comme preuve | à revoir |
 | 1.4 | Équipement du lieu | Liste d'équipements minimum en annexe du contrat avec le lieu | à revoir |
 | 1.5 | Alcool | Voir § 2 : une licence est attachée à l'établissement et à son exploitant ; elle ne se prête pas pour une soirée | à revoir |
