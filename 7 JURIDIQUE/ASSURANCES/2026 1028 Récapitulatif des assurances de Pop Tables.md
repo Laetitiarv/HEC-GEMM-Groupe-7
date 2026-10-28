@@ -68,7 +68,7 @@ Sources des coûts : [Coover, événementiel](https://www.coover.fr/responsabili
 
 **I** Un **contrat annuel** couvrant toutes les soirées reviendra probablement moins cher que des polices séparées : le coût par événement baisse nettement dès le deuxième ou le troisième événement couvert ([France Épargne](https://www.france-epargne.fr/academy/assurances-professionnelles/assurance-festival-concert-spectacle-guide)).
 
-**Retenu par le responsable Juridique le 28/10/2026 (soir)** : prévoir **1,5 % du chiffre d'affaires HT de chaque soirée** pour les assurances, annulation comprise, à la place des 150 € par soirée ; le socle de 50 € par mois est maintenu. Soit 155 € (Premier soir), 197 € (Le Voyage), 277 € (La Grande Nuit) et 161 € (privatisation). Cette règle remplace la proposition d'une ligne « annulation » à 2 % du coût direct. Transmis à la Finance : [[2026 1028 Note à la Finance - provision d'assurance de 1,5 % par soirée]]. Le modèle reste à la main de la Finance.
+**Retenu par le responsable Juridique le 28/10/2026 (soir)** : prévoir **1,5 % du chiffre d'affaires HT de chaque soirée** pour les assurances, annulation comprise, à la place des 150 € par soirée ; le socle de 50 € par mois est maintenu. Soit 155 € (Premier soir), 197 € (Le Voyage), 277 € (La Grande Nuit) et 161 € (privatisation). Cette règle remplace la proposition d'une ligne « annulation » à 2 % du coût direct.
 
 ---
 
