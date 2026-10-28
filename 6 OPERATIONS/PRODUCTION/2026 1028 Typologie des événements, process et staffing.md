@@ -78,12 +78,12 @@ Aucune norme officielle n'existe : les ratios ci-dessous viennent de guides de t
 
 Les effectifs sont des **propositions** tirées des repères ci-dessus, à valider avec un chef et une agence d'extras. Les règles de calcul (1 serveur pour 7 couverts, 1 membre de brigade pour 10 couverts, seuils pour le maître d'hôtel, l'aide sommelier, la plonge et la production) sont détaillées et modifiables dans [[2026 1028 Calculateur de staffing par événement]] (même dossier).
 
-| Rôle | T1 (2–8) | T2 (10–16) | T3 (20–30) | T4 (31–60) | Qui fournit (à trancher) |
+| Rôle | T1 (2–8) | T2 (10–16) | T3 (20–30) | T4 (31–60) | Qui fournit |
 |---|---|---|---|---|---|
 | Chef invité | 1 | 1 | 1 | 1 | Le vivier de chefs |
-| Brigade (second, commis) | 1 | 1 à 2 | 2 à 3 | 4 à 6 | L'équipe du chef, ou des extras |
-| Maître d'hôtel / responsable de salle | — (le sommelier assure ce rôle) | 1 | 1 | 1 à 2 | Nous ou le restaurant |
-| Serveurs / chefs de rang | 1 | 2 à 3 | 3 à 5 | 5 à 9 | Extras ou personnel du restaurant |
+| Brigade (second, commis) | 1 | 1 à 2 | 2 à 3 | 4 à 6 | Fou d'un soir : extras, ou équipe habituelle du chef engagée et payée par nous |
+| Maître d'hôtel / responsable de salle | — (le sommelier assure ce rôle) | 1 | 1 | 1 à 2 | Fou d'un soir (extras du pool) |
+| Serveurs / chefs de rang | 1 | 2 à 3 | 3 à 5 | 5 à 9 | Fou d'un soir (extras du pool) |
 | Sommelier invité | 1 | 1 | 1 | 1 | Le réseau des sommeliers |
 | Aide sommelier (accords vins et jus en parallèle) | — | — | 1 | 1 à 2 | Extras |
 | Plongeurs | 1 | 1 | 2 | 2 à 3 | Extras |
@@ -102,12 +102,13 @@ Les effectifs sont des **propositions** tirées des repères ci-dessus, à valid
 - **Pilote 1, « Premier soir »** (24 couverts, T3 / C2) : **16 personnes**, chef compris.
 - **Pilote 2, « La Grande Nuit »** (20 couverts, T3 / C2) : **14 personnes**.
 - **Soirée de lancement, option 2** (30 invités, T3 / C3, en supposant 3 salons) : 15 personnes en base et 8 de plus (réserve, interlocuteur client, accueil, presse, photographe, vidéaste, 2 serveurs pour les salons), **soit 23 personnes**, chef compris.
-- Si le restaurant fournit la salle, le « Premier soir » descend à **10 personnes** à mobiliser par nous.
 
-### 3.4 La question qui change tout
+### 3.4 Qui fournit le personnel
 
-**F** Le Produit pose la question sans la trancher : « Qui assure le service : l'équipe du restaurant ou la nôtre ? » (offre, point 2 ; pricing, point 3). La Finance en a fait sa donnée n° 5 (priorité 1).
-**I** Si le restaurant hôte fournit son personnel de salle, nos effectifs de salle tombent à zéro, mais la part du restaurateur augmente. Le tableau § 3.2 reste le **besoin**, quel que soit **qui fournit** le personnel.
+**F** Le Produit posait la question sans la trancher : « Qui assure le service : l'équipe du restaurant ou la nôtre ? » (offre, point 2 ; pricing, point 3). La Finance en avait fait sa donnée n° 5 (priorité 1).
+**P** Réponse du pôle Opérations, orientation du responsable Opérations du 28/10/2026 : **Fou d'un soir fournit toujours le personnel de la soirée** : salle, sommellerie, brigade et plonge. Le restaurant prête son lieu et sa cuisine, pas son équipe. Si des membres de son personnel travaillent ce soir-là, c'est comme extras engagés et payés par nous.
+**I** Conséquences : la part du restaurateur ne couvre que la mise à disposition du lieu, et toute l'équipe du § 3.2 est à notre charge. Les leviers d'économie se limitent donc à nos propres choix ([[2026 1028 Scénarios de staffing - leviers de coût]]).
+Cette orientation modifie une question que le Produit et la Direction avaient laissée ouverte : **elle est à porter au [[REGISTRE DES DECISIONS]] par la Direction.**
 
 ---
 
@@ -177,7 +178,7 @@ Les effectifs sont des **propositions** tirées des repères ci-dessus, à valid
 | N° | Action | Pôle | Dépend de |
 |---|---|---|---|
 | 1 | Faire valider les classes T1 à T4 et les niveaux C1 à C3 par l'équipe | Opérations → Direction | — |
-| 2 | Trancher : le service est-il assuré par le restaurant ou par nous ? | Produit, Direction | — |
+| 2 | Inscrire au registre l'orientation « Fou d'un soir fournit toujours le personnel » (§ 3.4) | Direction | — |
 | 3 | Trancher : les mariages et les grands événements (T5) font-ils partie du projet ? | Direction | — |
 | 4 | Confirmer les effectifs du § 3.2 avec un chef et une agence d'extras, et obtenir le coût horaire de chaque poste | Opérations | — |
 | 5 | Transmettre à la Finance les effectifs et les heures de travail par catégorie (donnée n° 5) | Opérations → Finance | 4 |

@@ -56,7 +56,7 @@ La colonne « Pôle responsable » reprend la déclinaison par fonction du cadre
 
 Les ratios et les délais sont **non établis par les sources** : il faut les obtenir auprès de traiteurs ou d'agences d'extras (action proposée ci-dessous).
 
-**I** Quand l'événement a lieu dans un restaurant fermé, une partie de son personnel connaît déjà la cuisine et la salle. Il faut demander au propriétaire si ce personnel peut être mobilisé, et dans quel cadre.
+**P** Le 28/10/2026, le responsable Opérations a retenu que **Fou d'un soir fournit toujours le personnel** (voir [[2026 1028 Typologie des événements, process et staffing]], § 3.4). **I** Quand l'événement a lieu dans un restaurant fermé, une partie de son personnel connaît déjà la cuisine et la salle. Il faut demander au propriétaire si ce personnel peut être engagé par nous, comme extras, et dans quel cadre.
 
 ### Questions adressées à `7 JURIDIQUE` (I, rien n'est tranché ici)
 - **Extras** : l'hôtellerie-restauration recourt couramment au CDD d'usage pour les extras. Il faut vérifier les conditions applicables et la convention collective concernée.
