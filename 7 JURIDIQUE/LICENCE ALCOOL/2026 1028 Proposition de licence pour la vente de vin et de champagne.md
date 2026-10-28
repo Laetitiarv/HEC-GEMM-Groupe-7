@@ -1,12 +1,12 @@
 # Proposition de licence pour la vente de vin et de champagne
 
-**Date : 28/10/2026 (soir)** · Fonction : `7 JURIDIQUE/LICENCE ALCOOL` · Production d'assistant IA à la demande du responsable Juridique · Statut : **proposition, rien n'est décidé ni engagé**. Ce document ne vaut pas avis juridique : le montage doit être confirmé par écrit par la Préfecture de police de Paris ou par un avocat.
+**Date : 28/10/2026 (soir)** · Fonction : `7 JURIDIQUE/LICENCE ALCOOL` · Production d'assistant IA à la demande du responsable Juridique · Statut : **proposition, rien n'est décidé ni engagé**. Ce document ne vaut pas avis juridique : le montage est à faire relire par un avocat.
 
 Cadre : **D-09** (« je prendrai une licence adaptée à l'événementiel comme un traiteur ») ; Business Model Canvas V6 : « La licence propre de Pop Tables est obtenue avant la première soirée avec alcool » (hypothèse **bloquante**, propriétaire : Juridique) ; relevé de décisions du 28/10, § 3, Juridique, point 1 ; [[2026 1028 Points juridiques à revoir]] (P1, § 2).
 
 Précision du responsable Juridique (28/10/2026) : **Pop Tables vend uniquement du vin et du champagne.** Les accords sans alcool (jus, thés, infusions) ne demandent aucune licence.
 
-Légende (voir [[RULES]]) : **F** = fait constaté sur la source citée · **I** = inférence · **P** = proposition.
+Légende (voir [[RULES]]) : **F** = fait constaté sur la source citée · **I** = inférence · **P** = proposition · **R** = choix du responsable Juridique.
 
 ---
 
@@ -32,23 +32,23 @@ Légende (voir [[RULES]]) : **F** = fait constaté sur la source citée · **I**
 ## 3. Proposition (P)
 
 ### 3.1 Montage proposé
-1. **Licence cible : la petite licence restaurant (A)**, au nom de Pop Tables, avec un **permis d'exploitation** au nom du président. Elle couvre exactement nos soirées, pour les deux offres (places à l'unité et privatisations), si la Préfecture de police accepte une activité dans des restaurants différents.
-2. **En complément ou à défaut : la petite licence à emporter (B)**, avec le **PVBAN**, pour les privatisations vendues au forfait boissons comprises, si la Préfecture confirme l'analyse « traiteur ».
+1. **Licence cible : la petite licence restaurant (A)**, au nom de Pop Tables, avec un **permis d'exploitation** au nom du président. Elle couvre exactement nos soirées, pour les deux offres (places à l'unité et privatisations). Elle est déclarée au siège de Pop Tables (§ 3.2).
+2. **En complément ou à défaut : la petite licence à emporter (B)**, avec le **PVBAN**, pour les privatisations vendues au forfait boissons comprises, selon l'analyse « traiteur » de la réponse ministérielle citée au § 2.
 3. **Solution de transition, à ne retenir que sur décision de la Direction** (elle s'écarte de D-09) : pour une soirée où notre licence ne serait pas encore en place, le restaurant hôte vend le vin sous sa propre licence (modèle M01, annexe D). La licence temporaire par une association est **écartée** (5 soirées par an au plus, risque de prête-nom).
 
-### 3.2 La question à poser à la Préfecture de police (indispensable)
-**I** Sans réponse écrite sur ce point, aucune des deux licences ne peut être demandée avec certitude, et la licence est une hypothèse **bloquante** du BMC V6. Question proposée, à adresser par écrit à la Préfecture de police de Paris (service des débits de boissons) :
+### 3.2 Le point qui reste ouvert
+**R** Le responsable Juridique a choisi, le 28/10/2026, de **ne pas interroger la Préfecture de police** sur ce montage.
 
-> « Pop Tables, SAS dont le siège est à Paris, conçoit et vend des dîners gastronomiques préparés et servis par son propre personnel dans des restaurants partenaires, les jours où ces restaurants sont fermés au public. Seuls du vin et du champagne sont servis, avec le repas. Les places sont vendues à l'avance, à l'unité ou pour une salle entière.
-> 1. Pop Tables peut-elle obtenir une petite licence restaurant à son siège pour cette activité, exercée dans des restaurants différents ?
-> 2. À défaut, une petite licence à emporter, avec un permis de vente de nuit, convient-elle quand un client paie un forfait comprenant les boissons ?
-> 3. Quelles obligations s'appliquent le soir de la soirée (affichage, présence du titulaire du permis) ? »
+**I** Le point bloquant du § 2 (une licence liée à un établissement, alors que Pop Tables n'en a pas) reste donc **non confirmé**. Pour en limiter le risque :
+- déclarer la licence à l'adresse du **siège** de Pop Tables, en décrivant exactement l'activité (dîners servis avec le repas dans des restaurants partenaires) ;
+- conserver le récépissé et le permis d'exploitation sur place à chaque soirée ;
+- garder prête la **solution de transition** (§ 3.1, point 3) si l'administration conteste le montage ;
+- faire relire le montage par un avocat avant la première vente.
 
 ### 3.3 Calendrier proposé
 
 | Étape | Échéance | Qui |
 |---|---|---|
-| Envoyer la question écrite à la Préfecture de police | **Dès l'immatriculation** (visée au 01/11/2026) | Juridique |
 | Inscrire le président à la formation du **permis d'exploitation** (20 h, 3 jours) [et du PVBAN si option B] | **Novembre 2026** | Juridique, Finance |
 | Déclarer la licence (au moins 15 jours avant la première vente) | **Avant l'ouverture de la pré-vente** de la première soirée avec vin | Juridique |
 | Première soirée avec vin | Janvier 2027 dans le budget (**H**) | — |
@@ -80,7 +80,7 @@ Légende (voir [[RULES]]) : **F** = fait constaté sur la source citée · **I**
 
 | Sujet | Qui décide |
 |---|---|
-| Choix de la licence cible (A, B, ou les deux) après la réponse de la Préfecture | Direction, sur proposition du Juridique |
+| Choix de la licence cible (A, B, ou les deux) | Direction, sur proposition du Juridique |
 | Personne qui suit la formation du permis d'exploitation (président proposé) | Direction |
 | Recours éventuel à la solution de transition (licence du restaurant) | Direction (écart à D-09) |
 | Coût de la formation au budget | Finance |
