@@ -19,7 +19,7 @@ Légende (voir [[RULES]]) : **I** = inférence · **P** = proposition. Toutes le
 - **Responsable** : Opérations (audit), avec les Ventes (relation avec le propriétaire).
 
 **Étapes**
-1. Recueillir les informations de base : jours et horaires de fermeture, capacité assise, nombre de salles et de salons.
+1. Recueillir les informations de base : jours et horaires de fermeture, capacité assise, nombre de salles et de salons. **Depuis le 28/10/2026 (P) : 40 couverts assis en une salle pour l'offre A**, et une cuisine capable d'envoyer 240 à 270 assiettes.
 2. Vérifier les points juridiques avec le restaurateur : son bail autorise-t-il le prêt ? Quelle licence de débit de boissons ? Quel effectif maximal autorisé à recevoir du public ? (Juridique 1.1, 1.5, 1.6).
 3. Visiter la cuisine : feux, fours, froid positif et négatif, plonge (lave-vaisselle ?), espace de dressage.
 4. Visiter la salle : accès des invités, vestiaire, toilettes, éclairage, son.
@@ -40,7 +40,7 @@ Légende (voir [[RULES]]) : **I** = inférence · **P** = proposition. Toutes le
 - **Responsable** : Ventes (premier contact), Opérations (besoins de production).
 
 **Étapes**
-1. Brief du chef : format, nombre de couverts, lieu, nombre de services, thème, budget matière.
+1. Brief du chef : format, nombre de couverts, lieu, nombre de services, thème, budget matière. **Remise du [[2026 1028 Cahier des charges du chef]]** (ratios de mise en place et d'envoi, exigences de qualité), annexé à son contrat.
 2. Besoins de production : taille de sa brigade, matériel spécifique, produits importés, temps de mise en place.
 3. Logistique : transport, hébergement, arrivée au plus tard à J-1 pour un chef venu de l'étranger (I).
 4. Si le chef est second dans une maison : obtenir l'accord écrit de la maison (Juridique 3.2).
@@ -60,7 +60,7 @@ Légende (voir [[RULES]]) : **I** = inférence · **P** = proposition. Toutes le
 - **Responsable** : Opérations.
 
 **Contenu**
-- Catégorie (taille / criticité), date, horaires, lieu, chef, sommelier.
+- Catégorie (taille / criticité), date, horaires, lieu, chef, vigneron d'AdVini (sommelier invité jusqu'au 28/10/2026).
 - Couverts, menu, services, accords vins et accords jus.
 - Allergies et régimes : on n'y indique que les numéros de table, sans nom ; les données de santé ne vont qu'au chef (Juridique 1.9).
 - Équipe : sortie du calculateur de staffing.
@@ -100,13 +100,13 @@ Légende (voir [[RULES]]) : **I** = inférence · **P** = proposition. Toutes le
 
 - **Objectif** : avoir les produits, les boissons et le matériel à temps, au bon coût, avec leur traçabilité.
 - **Déclencheur** : le menu, en version provisoire.
-- **Responsable** : Opérations, avec le chef et le sommelier.
+- **Responsable** : Opérations, avec le chef et le vigneron d'AdVini.
 
 **Étapes**
 1. Le chef fournit la liste des produits et les quantités.
 2. Choisir le circuit pour chaque famille de produits : grossiste de Rungis, réseau du chef, importateur.
 3. C2 et C3 : commander les produits rares ou importés à J-35 (J-42 en C3).
-4. Le sommelier fournit la liste des vins et des boissons sans alcool. Le montage pour l'alcool doit être tranché par le Juridique (§ 2) **avant toute commande**.
+4. Le vigneron d'AdVini fournit la liste des vins ; la personne chargée de l'accord mets-jus (à désigner, Produit) fournit les boissons sans alcool. Le montage pour l'alcool doit être tranché par le Juridique (§ 2) **avant toute commande**.
 5. Réserver la location de matériel et le transport frigorifique si besoin ; confirmer à J-7.
 6. Confirmer les commandes de produits frais à J-7, pour une livraison à J-1 ou le jour J.
 7. Contrôler la réception : quantités, températures, dates limites. Conserver les bons de livraison (traçabilité).
@@ -145,7 +145,7 @@ Légende (voir [[RULES]]) : **I** = inférence · **P** = proposition. Toutes le
 |---|---|
 | H-6 | Arrivée du chef et de la brigade ; réception des produits ; état des lieux d'entrée photographié |
 | H-4 | Livraison du matériel loué ; mise en place de la salle |
-| H-2 | Arrivée de l'équipe de salle et du sommelier ; dressage des tables |
+| H-2 | Arrivée de l'équipe de salle et du vigneron d'AdVini ; dressage des tables |
 | H-1 | Briefing de toute l'équipe (PR-04, étape 6) ; contrôle final |
 | H-0:30 | Accueil prêt ; vestiaire ouvert |
 | H | Arrivée des invités ; apéritif |

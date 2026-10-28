@@ -2,6 +2,8 @@
 
 **Date : 28/10/2026** · Fonction : `6 OPERATIONS/PRODUCTION` · Statut : document de travail du pôle Opérations (propositions, rien n'est décidé)
 
+> **Mise à jour du 28/10/2026 (soir).** Le responsable Opérations retient les jauges du modèle de la Finance : 40, 35, 30 et 20 couverts. Il supprime le sommelier invité : le vigneron d'AdVini présente et vend son vin, sans être rémunéré. Il garde l'effectif de S3. Les effectifs de cette note restent ceux des anciennes jauges ; les nouveaux sont dans [[2026 1028 Staffing aux jauges de la Finance - équipe fixe sans sommelier]] et le [[2026 1028 Cahier des charges du chef]].
+
 > **Cadre.** [[REGISTRE DES DECISIONS]], **D-01** (27/10/2026) et [[2026 1027 Descriptif du projet - Cadre de référence]].
 > Cette note s'appuie sur l'offre du pôle Produit (`5 PRODUIT/Fou d'un soir l'offre.md`, `… le pricing.md`, `… plan des deux soirées pilotes.md`, 27/10/2026), sur les options de soirée de lancement du Marketing ([[2026 1028 Premier événement - Trois options]]), sur la liste du Juridique ([[2026 1028 Points juridiques à revoir]]) et sur les données manquantes de la Finance (`2 FINANCE/2026 1027 Données financières manquantes et hypothèses temporaires.md`, donnée n° 5).
 > Elle complète [[2026 1027 Schéma opérationnel d'un événement]] (les 9 étapes) et [[2026 1027 Besoins humains et compétences]] (les rôles).
@@ -24,7 +26,7 @@ Légende (voir [[RULES]]) : **F** = fait constaté sur une source citée · **I*
 | **T4 Grand** | 31 à 60 | Soirée de lancement, option 3 (environ 40) ; soirée d'une maison de luxe élargie | Oui, au cas par cas |
 | **T5 Très grand** | Plus de 60 | Mariages, grands événements d'entreprise | **Non à ce stade** : D-01 dit « éventuellement privés » et la fiche de synthèse de la Direction parle d'une « extension à évaluer ». À trancher par la Direction |
 
-**F** L'offre du Produit fixe la capacité d'une soirée à « 20 à 24 couverts, à ajuster selon le lieu ».
+**F** L'offre du Produit fixe la capacité d'une soirée à « 20 à 24 couverts, à ajuster selon le lieu ». **P** Le 28/10/2026, le responsable Opérations retient 40, 35, 30 et 20 couverts (jauges du modèle de la Finance) : le Premier soir et Le Voyage passent en T4.
 
 ### 1.2 Criticité (importance et niveau de risque)
 
@@ -84,7 +86,7 @@ Les effectifs sont des **propositions** tirées des repères ci-dessus, à valid
 | Brigade (second, commis) | 1 | 1 à 2 | 2 à 3 | 4 à 6 | Fou d'un soir : extras, ou équipe habituelle du chef engagée et payée par nous |
 | Maître d'hôtel / responsable de salle | — (le sommelier assure ce rôle) | 1 | 1 | 1 à 2 | Fou d'un soir (extras du pool) |
 | Serveurs / chefs de rang | 1 | 2 à 3 | 3 à 5 | 5 à 9 | Fou d'un soir (extras du pool) |
-| Sommelier invité | 1 | 1 | 1 | 1 | Le réseau des sommeliers |
+| Sommelier invité | 1 | 1 | 1 | 1 | Le réseau des sommeliers. **P 28/10/2026 : 0**, remplacé par le vigneron d'AdVini, non rémunéré |
 | Aide sommelier (accords vins et jus en parallèle) | — | — | 1 | 1 à 2 | Extras |
 | Plongeurs | 1 | 1 | 2 | 2 à 3 | Extras |
 | Responsable de production sur place (nous) | 1 | 1 | 1 | 2 | Équipe Fou d'un soir |
@@ -99,8 +101,8 @@ Les effectifs sont des **propositions** tirées des repères ci-dessus, à valid
 | **C3** | Ce qui est prévu en C2, plus : **une hôtesse ou un hôte d'accueil et de vestiaire** ; **un responsable des relations presse et des invités** (Marketing) ; un **photographe et un vidéaste** (F : prévus dans les trois options de lancement) ; **un serveur par salon** si le lieu compte plusieurs salons (option 2, Lapérouse) ; un poste **logistique d'accès** si le lieu l'exige (option 3 : bateaux de nuit) |
 
 **I** Exemples calculés avec le calculateur :
-- **Pilote 1, « Premier soir »** (24 couverts, T3 / C2) : **16 personnes**, chef compris.
-- **Pilote 2, « La Grande Nuit »** (20 couverts, T3 / C2) : **14 personnes**.
+- **Pilote 1, « Premier soir »** (24 couverts, T3 / C2) : **16 personnes**, chef compris. *Aux jauges du 28/10/2026 (40 couverts, sans sommelier) : 13 personnes, dont 10 payées, pour 2 761 €.*
+- **Pilote 2, « La Grande Nuit »** (20 couverts, T3 / C2) : **14 personnes**. *Aux jauges du 28/10/2026 (30 couverts) : 12 personnes, dont 9 payées, pour 2 446 €.*
 - **Soirée de lancement, option 2** (30 invités, T3 / C3, en supposant 3 salons) : 15 personnes en base et 8 de plus (réserve, interlocuteur client, accueil, presse, photographe, vidéaste, 2 serveurs pour les salons), **soit 23 personnes**, chef compris.
 
 ### 3.4 Qui fournit le personnel

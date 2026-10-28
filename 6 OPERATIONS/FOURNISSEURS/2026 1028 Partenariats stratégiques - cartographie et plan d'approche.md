@@ -28,7 +28,7 @@ Les faits sur les prestataires ont été relevés le 28/10/2026 avec un moteur d
 |---|---|
 | **Ce que l'on sait (F)** | Le marché est réservé aux professionnels titulaires d'une carte acheteur. La carte est traitée sous 48 h ouvrées selon le site officiel. L'entrée est payante, avec des réductions pour les abonnés. Les grossistes vendent aussi en ligne aux professionnels sur **rungismarket.com**. L'annuaire officiel classe les grossistes par famille de produits. |
 | **Rôle pour nous (P)** | Les familles de base, achetées en direct : marée, viandes, fruits et légumes, crèmerie. **Un grossiste principal et un de secours par famille**, choisis dans l'annuaire officiel. |
-| **Ce que Rungis ne couvre pas (I)** | Les produits rares ou importés demandés par un chef étranger : ils passent par le réseau du chef ou des importateurs spécialisés. La cave hors carte (vins géorgiens, mexicains…) passe par le sommelier invité, des cavistes et des importateurs. |
+| **Ce que Rungis ne couvre pas (I)** | Les produits rares ou importés demandés par un chef étranger : ils passent par le réseau du chef ou des importateurs spécialisés. La cave hors carte (vins géorgiens, mexicains…) passe par le sommelier invité, des cavistes et des importateurs. **P 28/10/2026** : plus de sommelier invité ; les vins viennent du vigneron d'AdVini, présent à la soirée et non rémunéré (accord non signé ; dépendance à un seul partenaire, voir [[2026 1028 Staffing aux jauges de la Finance - équipe fixe sans sommelier]], § 4). |
 | **Qui commande (P)** | Le chef établit la liste ; **nous commandons et payons**, pour garder la traçabilité et maîtriser le coût matière. À valider avec le Juridique, puisque l'exploitant alimentaire porte la responsabilité sanitaire (Points juridiques, P2). |
 | **Ce que l'on peut proposer en échange (P)** | Nommer le producteur ou le grossiste sur le menu et dans le récit de la soirée. Cette mise en avant doit être validée par le Marketing ; pour les boissons, il faut vérifier l'encadrement de la publicité (Juridique 2.5). |
 | **Questions à poser** | Livraison à Paris intra-muros un dimanche ou un lundi ? Minimum de commande ? Délai pour un produit sur commande ? Documents de traçabilité fournis ? Paiement à la commande ou à 30 jours ? |
@@ -89,7 +89,7 @@ Note de 1 à 5 par critère, multipliée par le poids. Les poids sont à discute
 | Fiabilité | 3 | Garantie de remplacement, absences, retards, références |
 | Qualité et gamme | 3 | Cohérence avec une soirée à 290 € et plus |
 | Souplesse | 2 | Pas de minimum, pas d'engagement de durée, conditions d'annulation |
-| Coût total | 2 | Prix tout compris (livraison, commission, casse), au volume d'une soirée de 24 couverts |
+| Coût total | 2 | Prix tout compris (livraison, commission, casse), au volume d'une soirée de 40 couverts (jauge du 28/10/2026 ; 24 auparavant) |
 | Conformité | 2 | Hygiène, statut des personnes, assurance, traçabilité |
 | Envie de partenariat | 1 | Intérêt pour la visibilité croisée, interlocuteur dédié |
 
@@ -100,7 +100,7 @@ Note de 1 à 5 par critère, multipliée par le poids. Les poids sont à discute
 | Étape | Quand | Ce qu'on fait | Résultat attendu | Qui |
 |---|---|---|---|---|
 | **1. Demande d'informations** | Maintenant, avant l'immatriculation | Questions du § 2 envoyées à 2 ou 3 prestataires par catégorie : tarifs indicatifs, **sans engagement** | Une fiche par prestataire (modèle dans [[2026 1027 Besoins fournisseurs et partenaires]], § 2) ; les heures et taux de la Finance (donnée n° 5) | Opérations (contacts pris par un membre de l'équipe) |
-| **2. Devis réels** | S-10 avant le premier pilote | Devis pour le Pilote 1 (24 couverts, T3 / C2), deux prestataires par catégorie | Coût réel par poste, à comparer à la répartition cible du Produit | Opérations, Finance |
+| **2. Devis réels** | S-10 avant le premier pilote | Devis pour le Pilote 1 (40 couverts depuis le 28/10/2026, T4 / C2), deux prestataires par catégorie | Coût réel par poste, à comparer à la répartition cible du Produit | Opérations, Finance |
 | **3. Test** | Les deux pilotes | Un prestataire principal par catégorie, un de secours identifié | Note de chaque prestataire selon la grille du § 3, après chaque soirée (PR-10) | Opérations |
 | **4. Contrats cadres** | Après le « Go » de S+7 | Pour chaque catégorie, 1 principal + 1 secours : tarifs fixés, priorité sur nos dates, interlocuteur dédié, visibilité croisée | Contrats relus par le Juridique, inscrits au registre si la Direction l'estime nécessaire | Opérations, Juridique, Direction |
 

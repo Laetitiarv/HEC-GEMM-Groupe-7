@@ -5,6 +5,8 @@
 > **Pourquoi cette note.** Le 28/10/2026, la Finance a intégré les effectifs du calculateur de staffing dans son modèle (`2 FINANCE/PREVISIONS/2026 1027 Modèle - Budget, plan financier, prix et marges.xlsx`, onglet « Staffing »). Elle conclut que « les effectifs des Opérations […] et la répartition cible du Produit (équipe de service = 11 à 14 % du prix) ne sont pas compatibles aux prix affichés » et que « les deux pôles doivent en parler avant les pilotes » (`2 FINANCE/2026 1027 Données financières manquantes et hypothèses temporaires.md`, § 4).
 > Cette note chiffre les leviers dont disposent les Opérations pour préparer cet échange, dans le cadre retenu le 28/10/2026 : **nous fournissons toujours le personnel** (§ 3). Elle s'appuie sur [[2026 1028 Typologie des événements, process et staffing]] et [[2026 1028 Partenariats stratégiques - cartographie et plan d'approche]].
 
+> **Mise à jour du 28/10/2026 (soir).** La Finance a porté les jauges à 40, 35, 30 et 20 couverts, avec des salles pleines. Le responsable Opérations garde l'effectif de S3 et supprime le sommelier invité (vigneron d'AdVini). Pour les soirées récurrentes, S3 est remplacé par l'équipe fixe de [[2026 1028 Staffing aux jauges de la Finance - équipe fixe sans sommelier]]. Les chiffres ci-dessous restent ceux de 24 et 20 couverts.
+
 Légende (voir [[RULES]]) : **F** = fait constaté dans le dépôt · **I** = inférence · **P** = proposition · **H** = hypothèse de la Finance, à remplacer par des devis.
 
 **Méthode** : tous les calculs reprennent **les heures et les coûts horaires de la Finance (H)**, pour que les résultats soient comparables à son modèle :
