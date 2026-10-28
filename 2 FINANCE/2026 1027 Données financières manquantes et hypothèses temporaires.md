@@ -1,6 +1,6 @@
 # Données financières manquantes et hypothèses temporaires
 
-Date : 27/10/2026, mis à jour le 28/10/2026 (frais généraux, staffing des Opérations, puis scénario S3) · Auteur : assistant IA Finance, à la demande de Vianney (responsable Finance) · Statut : document de travail. Les chiffres sont des hypothèses temporaires, pas des décisions (voir [[REGISTRE DES DECISIONS]]).
+Date : 27/10/2026, mis à jour le 28/10/2026 (frais généraux, staffing des Opérations, scénario S3, puis TVA et CFE) · Auteur : assistant IA Finance, à la demande de Vianney (responsable Finance) · Statut : document de travail. Les chiffres sont des hypothèses temporaires, pas des décisions (voir [[REGISTRE DES DECISIONS]]).
 
 Légende (voir [[RULES]]) : F = fait constaté dans une source citée · I = inférence · P = proposition · H = hypothèse temporaire, à remplacer.
 
@@ -61,21 +61,32 @@ Fichiers mis à jour, dans lesquels chaque valeur porte sa nature et sa source :
   - frais généraux : 12 672 €, dont 0 € de ressources humaines (fondateurs non rémunérés) et 12 672 € de frais matériels et de fonctionnement ;
   - résultat : −40 620 € (−45 030 € avant S3).
 
-  Simulation de trésorerie, avec un apport de 7 000 € et 3 000 € d'investissements en novembre : le compte passerait sous zéro dès décembre 2026 et finirait à −36 620 € en octobre 2027.
+  Simulation de trésorerie, avec un apport de 7 000 € et 3 000 € d'investissements en novembre : le compte passerait sous zéro dès décembre 2026 et finirait à −45 361 € en octobre 2027. Ce chiffre comprend −8 741 € de TVA.
+- **I** TVA (onglet « TVA » du modèle Prévisions, ajouté le 28/10/2026) :
+  - la TVA ne change pas le résultat, qui reste hors taxes, mais elle pèse sur la trésorerie ;
+  - en année 1, la TVA payée aux fournisseurs (23 376 €) dépasse chaque mois la TVA collectée sur les ventes (14 635 €) ;
+  - il en résulte un crédit de TVA de 8 741 € fin octobre 2027. Le modèle le reporte sans en demander le remboursement (H prudente) ;
+  - une demande de remboursement récupérerait l'essentiel de ce montant, avec un délai.
+
+  Pourquoi plus de TVA payée que collectée : les ventes sont taxées à 12 % en moyenne, la plupart des coûts à 20 %, et les coûts dépassent les ventes. Les taux par poste sont des hypothèses, à faire confirmer par l'expert-comptable (donnée n° 6).
+- **I** Autres impôts et taxes :
+  - **CFE** (cotisation foncière des entreprises) : 300 € en année 2 et 600 € en année 3 (H). Pas de CFE l'année de création.
+  - **Impôt sur les sociétés** : non modélisé, car le plan reste en perte sur 3 ans.
+  - **Charges sociales patronales** : déjà comptées, 45 % des salaires bruts (H).
 - **I** Plan à 3 ans (frais généraux détaillés poste par poste le 28/10/2026) :
 
   | Frais généraux | Année 1 | Année 2 | Année 3 |
   |---|---|---|---|
   | Ressources humaines | 0 € | 32 486 € | 168 206 € |
-  | Frais matériels et de fonctionnement | 12 672 € | 24 300 € | 57 800 € |
-  | **Total** | **12 672 €** | **56 786 €** | **226 006 €** |
+  | Frais matériels et de fonctionnement (CFE comprise) | 12 672 € | 24 600 € | 58 400 € |
+  | **Total** | **12 672 €** | **57 086 €** | **226 606 €** |
 
   Les ressources humaines comprennent :
   - un coordinateur ou une coordinatrice au SMIC dès l'année 2 ;
   - deux fondateurs rémunérés et un commercial ou une commerciale en année 3 ;
   - des charges patronales de 45 % (H).
 
-  Avec le staffing S3, le besoin de financement est de 516 430 € en hypothèses centrales. Il était de 557 940 € avec l'équipe complète partout et de 309 726 € avant le staffing des Opérations. Il est d'environ 299 000 € avec la part du restaurateur visée par le Produit et la salle pleine.
+  Avec le staffing S3 et la CFE, le besoin de financement est de 517 330 € en hypothèses centrales. Il était de 557 940 € avec l'équipe complète partout et de 309 726 € avant le staffing des Opérations. Il est d'environ 300 000 € avec la part du restaurateur visée par le Produit et la salle pleine. Ce besoin est calculé hors TVA : le crédit de TVA de l'année 1 (8 741 €) s'y ajouterait tant qu'il n'est pas remboursé.
 - **P** Quatre chiffres décident du modèle :
   1. le coût horaire réel de l'équipe (devis d'agences d'extras) et les heures réellement payées ;
   2. ce que le restaurateur accepte pour un soir de fermeture ;
@@ -117,7 +128,7 @@ Priorité : 1 = elle change le modèle, à obtenir avant les pilotes · 2 = util
 | 3 | Taux de remplissage réaliste et disposition à payer de chaque persona | Ligne 8 ; budget | 80 % pour l'offre A ; 100 % pour la privatisation | Marketing (@serge2309), par des entretiens et la liste privée ; mesure réelle aux pilotes | 1 |
 | 4 | Coût matières par menu et coût des accords mets-vins et mets-jus | Lignes 23 et 24 | 85 € / 112 € / 166 € / 80 € par convive (cible du Produit) | Opérations, avec le chef et le sommelier ; devis fournisseurs et cavistes | 1 |
 | 5 | Heures par poste, coût horaire chargé de chaque poste, cachet du sommelier invité, surcoût de location si le loueur reprend la vaisselle sale. **Effectifs reçus le 28/10/2026, puis scénario S3** (Opérations, P ; personnel toujours fourni par nous) | Onglet « Staffing » ; Prix et marges, ligne 26 ; Budget mensuel, lignes 37 à 40 | Heures : brigade 9 h, maître d'hôtel 8 h, salle, sommellerie et plonge 7 h. Coûts horaires : 35 €/h (brigade, serveurs), 45 € (maître d'hôtel), 60 € (sommelier invité), 38 € (aide sommelier), 30 € (plonge). Postes internes non rémunérés en année 1. Résultat S3 : 2 936 € / 2 936 € / 2 621 € / 2 040 € par soirée ; pilotes en S0 : 3 636 € et 3 076 €. Surcoût de location : non chiffré | Opérations (@jonathanstarke-hec), devis d'agences d'extras, réponse du loueur Options, heures réelles des pilotes (PR-10) ; Direction pour inscrire au registre que nous fournissons toujours le personnel | 1 |
-| 6 | Taux de TVA applicables : repas, boissons alcoolisées, forfait de privatisation, bons cadeaux | Ligne 12 ; tous les HT | 12 % de taux moyen | Expert-comptable, sollicité par la Finance ; Juridique (@alexanderzhelev-dev) pour les bons cadeaux | 1 |
+| 6 | Taux de TVA applicables : repas, boissons alcoolisées, forfait de privatisation, bons cadeaux ; TVA déductible de chaque poste de coût (lieu, chef, extras, photographe : facturent-ils la TVA ?) ; régime et rythme de déclaration ; remboursement du crédit de TVA ; montant de la CFE | Prix et marges, ligne 12 ; onglet « TVA » ; Frais généraux 3 ans, ligne 24 | 12 % de taux moyen sur les ventes ; 20 % sur la plupart des coûts, 5,5 % sur les matières, 0 % sur le chef, les assurances et les frais bancaires ; déclaration mensuelle, crédit reporté ; CFE 300 € puis 600 € | Expert-comptable, sollicité par la Finance ; Juridique (@alexanderzhelev-dev) pour les bons cadeaux ; Opérations pour le statut des chefs et des extras | 1 |
 | 7 | Part des ventes passant par des concierges ou des agences, et commission demandée | Ligne 31 | 0 % / 5 % / 10 % / 10 % | Marketing (stratégie des concierges) ; Ventes | 2 |
 | 8 | Nombre de soirées par an que le carnet de lieux et de chefs permet, et calendrier | Budget mensuel ; plan à 3 ans | 9 soirées A et 7 privatisations en année 1 ; 24 et 24 en année 2 ; 36 et 48 en année 3 | Produit et Opérations ; décision de la Direction | 2 |
 | 9 | Demande de privatisations et de contrats cadres (maisons de luxe, hôtes d'affaires) | Budget ; plan | Première privatisation en avril 2027, 2 par mois en septembre et octobre | Ventes (pipeline, premiers rendez-vous) | 2 |
@@ -128,7 +139,7 @@ Priorité : 1 = elle change le modèle, à obtenir avant les pilotes · 2 = util
 | 14 | Revenus de partenariats (maisons de vins et de champagne, co-signature) | Ligne 16 | 0 € | Ventes | 2 |
 | 15 | Règles d'encaissement : paiement à la réservation, acomptes des contrats cadres, délais de paiement des entreprises, remboursements | Trésorerie | Encaissement le mois de la soirée, sans remboursement | Produit (règles de vente) ; Ventes (conditions des entreprises) | 2 |
 | 16 | Rémunération des fondateurs, recrutements des années 2 et 3, taux de charges patronales | Onglet « Frais généraux 3 ans », partie Ressources humaines ; budget mensuel, lignes 17 à 21 | 0 € en année 1 ; un coordinateur ou une coordinatrice au SMIC dès l'année 2 ; deux fondateurs à 2 500 € brut et un commercial ou une commerciale à 2 800 € brut en année 3 ; charges de 45 % | Direction ; Juridique (`7 JURIDIQUE/EQUIPE/`) ; expert-comptable pour le taux de charges | 2 |
-| 16 bis | Frais matériels et de fonctionnement des années 2 et 3 (locaux, outils, marketing, assurance, honoraires, banque, déplacements) | Onglet « Frais généraux 3 ans », partie Frais matériels | 24 300 € en année 2, 57 800 € en année 3, dont un coworking en année 3 | Marketing (budget de communication) ; Produit (outils) ; Juridique (assurance, honoraires) | 2 |
+| 16 bis | Frais matériels et de fonctionnement des années 2 et 3 (locaux, outils, marketing, assurance, honoraires, banque, déplacements) | Onglet « Frais généraux 3 ans », partie Frais matériels | 24 600 € en année 2, 58 400 € en année 3, dont un coworking en année 3 et la CFE | Marketing (budget de communication) ; Produit (outils) ; Juridique (assurance, honoraires) | 2 |
 | 17 | Associés, capital social, répartition des titres, date de création de la société | Financement, table de capitalisation ; trésorerie de départ | 7 associés à 1 000 € chacun, création au 01/11/2026 | Direction ; Juridique (`STATUTS ET PACTE/`) | 3 |
 | 18 | Financements possibles : prêt d'honneur, subventions, concours, levée, associé gastronomique | Financement, suivi | Statut « Envisagé » pour tous : 20 000 € de prêt d'honneur, 5 000 € de subvention, 100 000 € de levée sur 400 000 € de valorisation | Finance (dossiers à identifier) ; Direction (associé gastronomique) | 3 |
 | 19 | Ouverture du compte bancaire et premier relevé | Trésorerie, états | Solde de 7 000 € au 01/11/2026, sans pièce | Finance, après l'immatriculation (Juridique) | 3 |
@@ -144,6 +155,6 @@ Priorité : 1 = elle change le modèle, à obtenir avant les pilotes · 2 = util
 ## 5. Prochaines étapes proposées
 
 1. **P** Obtenir de deux ou trois restaurateurs une fourchette d'indemnité pour un soir de fermeture (Ventes), et de deux chefs par niveau un cachet indicatif (Ventes, Opérations).
-2. **P** Faire confirmer les taux de TVA par un expert-comptable.
+2. **P** Faire confirmer par un expert-comptable les taux de TVA, le régime de déclaration et le montant de la CFE ; demander le remboursement du crédit de TVA dès qu'il est possible.
 3. **P** Recalculer alors les prix planchers (onglet Prix et marges, lignes 42 et 43), puis proposer à l'équipe un ajustement de prix ou de format : moins de couverts mais plus chers, ou un minimum par soirée. La décision revient à l'équipe et va au registre des décisions.
 4. **P** Remplacer chaque H par le chiffre obtenu, en passant la colonne Nature à F et en citant la pièce. Après les pilotes, remplir l'onglet « Prévu et réel ».

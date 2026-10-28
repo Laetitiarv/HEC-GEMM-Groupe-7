@@ -168,7 +168,7 @@ th{color:var(--text-secondary);font-weight:600}
       <details><summary>Afficher le tableau des flux</summary><div class="tscroll"><table id="tbData"></table></div></details>
     </div>
   </div>
-  <p class="note">Trésorerie : apport de départ de 7 000 € (H, statut « Envisagé ») et investissements de l'année déduits le premier mois de l'année ; sans TVA, sans délais de paiement, sans prêt ni levée. Coût de l'équipe de chaque soirée : effectifs proposés par les Opérations (28/10/2026) × heures et coûts horaires en hypothèse (onglet Staffing du modèle). Scénario « Cible du Produit » : part du restaurateur visée par le Produit et salle pleine ; le staffing reste celui des Opérations.</p>
+  <p class="note">Trésorerie : apport de départ de 7 000 € (H, statut « Envisagé ») et investissements de l'année déduits le premier mois de l'année ; année 1 avec la TVA (taux par poste en hypothèse, reversement le mois suivant, crédit de TVA reporté sans demande de remboursement) ; vue 3 ans hors TVA, CFE comprise dans les frais généraux ; sans délais de paiement, sans prêt ni levée. Coût de l'équipe de chaque soirée : scénario S3 des Opérations (28/10/2026), équipe complète pour les deux pilotes, × heures et coûts horaires en hypothèse (onglet Staffing du modèle). Scénario « Cible du Produit » : part du restaurateur visée par le Produit et salle pleine ; le staffing reste celui des Opérations.</p>
 </section>
 
 <!-- ================= INVESTISSEURS ================= -->
@@ -215,7 +215,7 @@ th{color:var(--text-secondary);font-weight:600}
 </div>
 
 <script>
-const DATA = {"central":{"plan":{"rh":[0,32486.15,168206.15],"ev":[16,48,84],"ca":[121955.36,368071.43,648535.71],"cd":[149903.18,438760.86,752864.14],"inv":[3000,5000,10000],"mat":[12672,24300,57800]},"offers":[{"ttc":290,"lieu":1500,"marge":-2920.07,"fillEq":1.5083,"forfait":0,"fill":0.8,"name":"Premier soir (offre A)","cap":24,"serv":2936,"conv":19,"chef":950,"mat":1615,"cd":7839.71,"ca":4919.64,"plancher":464.93},{"ttc":420,"lieu":1500,"marge":-2719.25,"fillEq":1.2672,"forfait":0,"fill":0.8,"name":"Le Voyage (offre A)","cap":24,"serv":2936,"conv":19,"chef":2000,"mat":2128,"cd":9844.25,"ca":7125,"plancher":591.62},{"ttc":690,"lieu":2500,"marge":-3623.29,"fillEq":1.2785,"forfait":0,"fill":0.8,"name":"La Grande Nuit (offre A)","cap":20,"serv":2621,"conv":16,"chef":3700,"mat":2656,"cd":13480.43,"ca":9857.14,"plancher":976.91},{"ttc":300,"lieu":2000,"marge":142.14,"fillEq":0.9118,"forfait":6000,"fill":1,"name":"Privatisation, chef confirmé (offre B)","cap":10,"serv":2040,"conv":10,"chef":1800,"mat":800,"cd":7893.57,"ca":8035.71,"plancher":282.31}],"monthly":{"rh":[0,0,0,0,0,0,0,0,0,0,0,0],"ev":[0,0,1,1,1,2,2,2,1,0,3,3],"ca":[0,0,4919.64,9857.14,7125,12955.36,17892.86,15160.71,4919.64,0,25928.57,23196.43],"cd":[0,0,8539.71,13935.43,9844.25,15733.29,21374,17737.82,7839.71,0,29267.57,25631.39],"mat":[2362,1810,1810,1810,610,610,610,610,610,610,610,610]}},"cible":{"plan":{"rh":[0,32486.15,168206.15],"ev":[16,48,84],"ca":[138857.14,413142.86,716142.86],"cd":[141932.14,411979.43,700260],"inv":[3000,5000,10000],"mat":[12672,24300,57800]},"offers":[{"ttc":290,"lieu":746,"marge":-1317.14,"fillEq":1.3232,"forfait":0,"fill":1,"name":"Premier soir (offre A)","cap":24,"serv":2936,"conv":24,"chef":950,"mat":2040,"cd":7531.43,"ca":6214.29,"plancher":352.47},{"ttc":420,"lieu":1080,"marge":-1108,"fillEq":1.1938,"forfait":0,"fill":1,"name":"Le Voyage (offre A)","cap":24,"serv":2936,"conv":24,"chef":2000,"mat":2688,"cd":10108,"ca":9000,"plancher":475.36},{"ttc":690,"lieu":1355,"marge":-963.86,"fillEq":1.1273,"forfait":0,"fill":1,"name":"La Grande Nuit (offre A)","cap":20,"serv":2621,"conv":20,"chef":3700,"mat":3320,"cd":13285.29,"ca":12321.43,"plancher":751.06},{"ttc":300,"lieu":964,"marge":1178.14,"fillEq":0.2686,"forfait":6000,"fill":1,"name":"Privatisation, chef confirmé (offre B)","cap":10,"serv":2040,"conv":10,"chef":1800,"mat":800,"cd":6857.57,"ca":8035.71,"plancher":153.39}],"monthly":{"rh":[0,0,0,0,0,0,0,0,0,0,0,0],"ev":[0,0,1,1,1,2,2,2,1,0,3,3],"ca":[0,0,6214.29,12321.43,9000,14250,20357.14,17035.71,6214.29,0,28392.86,25071.43],"cd":[0,0,8231.43,13740.29,10108,14389,20142.86,16965.57,7531.43,0,27000.43,23823.14],"mat":[2362,1810,1810,1810,610,610,610,610,610,610,610,610]}}};
+const DATA = {"central":{"plan":{"rh":[0,32486.15,168206.15],"ev":[16,48,84],"ca":[121955.36,368071.43,648535.71],"cd":[149903.18,438760.86,752864.14],"inv":[3000,5000,10000],"mat":[12672,24600,58400]},"offers":[{"ttc":290,"lieu":1500,"marge":-2920.07,"fillEq":1.5083,"forfait":0,"fill":0.8,"name":"Premier soir (offre A)","cap":24,"serv":2936,"conv":19,"chef":950,"mat":1615,"cd":7839.71,"ca":4919.64,"plancher":464.93},{"ttc":420,"lieu":1500,"marge":-2719.25,"fillEq":1.2672,"forfait":0,"fill":0.8,"name":"Le Voyage (offre A)","cap":24,"serv":2936,"conv":19,"chef":2000,"mat":2128,"cd":9844.25,"ca":7125,"plancher":591.62},{"ttc":690,"lieu":2500,"marge":-3623.29,"fillEq":1.2785,"forfait":0,"fill":0.8,"name":"La Grande Nuit (offre A)","cap":20,"serv":2621,"conv":16,"chef":3700,"mat":2656,"cd":13480.43,"ca":9857.14,"plancher":976.91},{"ttc":300,"lieu":2000,"marge":142.14,"fillEq":0.9118,"forfait":6000,"fill":1,"name":"Privatisation, chef confirmé (offre B)","cap":10,"serv":2040,"conv":10,"chef":1800,"mat":800,"cd":7893.57,"ca":8035.71,"plancher":282.31}],"monthly":{"rh":[0,0,0,0,0,0,0,0,0,0,0,0],"mat":[2362,1810,1810,1810,610,610,610,610,610,610,610,610],"ca":[0,0,4919.64,9857.14,7125,12955.36,17892.86,15160.71,4919.64,0,25928.57,23196.43],"cd":[0,0,8539.71,13935.43,9844.25,15733.29,21374,17737.82,7839.71,0,29267.57,25631.39],"ev":[0,0,1,1,1,2,2,2,1,0,3,3],"tva":[-1001,-341,-1071.32,-911.69,-569.2,-843.25,-732.61,-721.13,-691.32,-101,-884.54,-873.06]}},"cible":{"plan":{"rh":[0,32486.15,168206.15],"ev":[16,48,84],"ca":[138857.14,413142.86,716142.86],"cd":[141932.14,411979.43,700260],"inv":[3000,5000,10000],"mat":[12672,24600,58400]},"offers":[{"ttc":290,"lieu":746,"marge":-1317.14,"fillEq":1.3232,"forfait":0,"fill":1,"name":"Premier soir (offre A)","cap":24,"serv":2936,"conv":24,"chef":950,"mat":2040,"cd":7531.43,"ca":6214.29,"plancher":352.47},{"ttc":420,"lieu":1080,"marge":-1108,"fillEq":1.1938,"forfait":0,"fill":1,"name":"Le Voyage (offre A)","cap":24,"serv":2936,"conv":24,"chef":2000,"mat":2688,"cd":10108,"ca":9000,"plancher":475.36},{"ttc":690,"lieu":1355,"marge":-963.86,"fillEq":1.1273,"forfait":0,"fill":1,"name":"La Grande Nuit (offre A)","cap":20,"serv":2621,"conv":20,"chef":3700,"mat":3320,"cd":13285.29,"ca":12321.43,"plancher":751.06},{"ttc":300,"lieu":964,"marge":1178.14,"fillEq":0.2686,"forfait":6000,"fill":1,"name":"Privatisation, chef confirmé (offre B)","cap":10,"serv":2040,"conv":10,"chef":1800,"mat":800,"cd":6857.57,"ca":8035.71,"plancher":153.39}],"monthly":{"rh":[0,0,0,0,0,0,0,0,0,0,0,0],"mat":[2362,1810,1810,1810,610,610,610,610,610,610,610,610],"ca":[0,0,6214.29,12321.43,9000,14250,20357.14,17035.71,6214.29,0,28392.86,25071.43],"cd":[0,0,8231.43,13740.29,10108,14389,20142.86,16965.57,7531.43,0,27000.43,23823.14],"ev":[0,0,1,1,1,2,2,2,1,0,3,3],"tva":[-1001,-341,-810.29,-511.06,-340.2,-375.01,-124.79,-284.93,-430.29,-101,-69.51,-229.66]}}};
 const MONTHS = ['nov. 26','déc. 26','janv. 27','févr. 27','mars 27','avr. 27','mai 27','juin 27','juil. 27','août 27','sept. 27','oct. 27'];
 const YEARS = ['Année 1','Année 2','Année 3'];
 const APPORT = 7000;
@@ -234,8 +234,8 @@ function series(){
   if(state.hor==='m'){
     const m=d.monthly, inv=d.plan.inv[0];
     const ca=m.ca, cost=m.ca.map((_,i)=>m.cd[i]+m.rh[i]+m.mat[i]);
-    const flux=m.ca.map((v,i)=>v-cost[i]-(i===0?inv:0));
-    return {labels:MONTHS, ca, cost, flux, ev:m.ev, inv};
+    const flux=m.ca.map((v,i)=>v-cost[i]-(i===0?inv:0)+m.tva[i]);
+    return {labels:MONTHS, ca, cost, flux, ev:m.ev, inv, tva:m.tva};
   }
   const p=d.plan;
   const ca=p.ca, cost=p.ca.map((_,i)=>p.cd[i]+p.rh[i]+p.mat[i]);
@@ -246,7 +246,7 @@ const cumsum = a => a.reduce((o,v,i)=>(o.push((i?o[i-1]:0)+v),o),[]);
 function year1(){
   const d=DATA[state.scen], m=d.monthly;
   const ca=sum(m.ca), cd=sum(m.cd), fg=sum(m.rh)+sum(m.mat), ev=sum(m.ev), inv=d.plan.inv[0];
-  const flux=m.ca.map((v,i)=>v-m.cd[i]-m.rh[i]-m.mat[i]-(i===0?inv:0));
+  const flux=m.ca.map((v,i)=>v-m.cd[i]-m.rh[i]-m.mat[i]-(i===0?inv:0)+m.tva[i]);
   const tres=cumsum(flux).map(v=>v+APPORT);
   const neg=flux.filter(v=>v<0);
   const burn= neg.length? -sum(neg)/neg.length : 0;
@@ -404,9 +404,9 @@ function renderPilot(){
   lineChart(document.getElementById('chCA'),{labels:S.labels,series:[
     {name:'CA cumulé',values:caC,color:css('--series-1')},
     {name:'Coûts cumulés',values:costC,color:css('--series-2')}]});
-  document.getElementById('capCF').textContent = (y1?'Flux net du mois':'Flux net de l\'année')+' = CA − coûts directs − frais généraux − investissements (€)';
+  document.getElementById('capCF').textContent = (y1?'Flux net du mois':'Flux net de l\'année')+(y1?' = CA − coûts directs − frais généraux − investissements ± TVA (€)':' = CA − coûts directs − frais généraux − investissements, hors TVA (€)');
   barChart(document.getElementById('chCF'),{labels:S.labels,values:S.flux,labelAll:!y1,tipRows:i=>[
-    ['Chiffre d\'affaires',fE(S.ca[i])],['Coûts et investissements',fE(S.ca[i]-S.flux[i])],['Flux net',fE(S.flux[i])],['Soirées',String(S.ev[i])]]});
+    ['Chiffre d\'affaires',fE(S.ca[i])],['Coûts et investissements',fE(S.ca[i]-S.flux[i]+(S.tva?S.tva[i]:0))],...(S.tva?[['Effet de la TVA',fE(S.tva[i])]]:[]),['Flux net',fE(S.flux[i])],['Soirées',String(S.ev[i])]]});
   const tres=cumsum(S.flux).map(v=>v+APPORT);
   document.getElementById('capTR').textContent = (y1?'Solde de fin de mois':'Solde de fin d\'année')+', départ '+fE(APPORT)+' d\'apport (€)';
   lineChart(document.getElementById('chTR'),{labels:S.labels,zero:true,series:[{name:'Trésorerie',values:tres,color:css('--series-1'),area:true}]});
@@ -417,8 +417,8 @@ function renderPilot(){
   let t='<tr><th>Offre</th><th>Prix TTC / convive</th><th>Convives</th><th>CA HT</th><th>Lieu</th><th>Chef</th><th>Matières et boissons</th><th>Équipe (staffing S3)</th><th>Marge</th><th>Taux</th><th>Prix plancher TTC</th><th>Remplissage d\'équilibre</th></tr>';
   o.forEach(x=>{ t+=`<tr><td>${x.name}</td><td>${fE(x.ttc)}${x.forfait?` + ${fE(x.forfait)}`:''}</td><td>${x.conv} / ${x.cap}</td><td>${fE(x.ca)}</td><td>${fE(x.lieu)}</td><td>${fE(x.chef)}</td><td>${fE(x.mat)}</td><td>${fE(x.serv)}</td><td class="${x.marge<0?'neg':''}">${fE(x.marge)}</td><td class="${x.marge<0?'neg':''}">${pct1.format(x.ca?x.marge/x.ca:0)}</td><td>${fE(x.plancher)}</td><td class="${x.fillEq>1?'neg':''}">${pct1.format(x.fillEq)}</td></tr>`; });
   document.getElementById('tbUE').innerHTML=t;
-  let d='<tr><th>Période</th><th>Soirées</th><th>CA</th><th>Coûts</th><th>Flux net</th><th>CA cumulé</th><th>Trésorerie</th></tr>';
-  S.labels.forEach((l,i)=>{ d+=`<tr><td>${l}</td><td>${S.ev[i]}</td><td>${fE(S.ca[i])}</td><td>${fE(S.cost[i])}</td><td class="${S.flux[i]<0?'neg':''}">${fE(S.flux[i])}</td><td>${fE(caC[i])}</td><td class="${tres[i]<0?'neg':''}">${fE(tres[i])}</td></tr>`; });
+  let d='<tr><th>Période</th><th>Soirées</th><th>CA</th><th>Coûts</th><th>TVA</th><th>Flux net</th><th>CA cumulé</th><th>Trésorerie</th></tr>';
+  S.labels.forEach((l,i)=>{ d+=`<tr><td>${l}</td><td>${S.ev[i]}</td><td>${fE(S.ca[i])}</td><td>${fE(S.cost[i])}</td><td>${S.tva?fE(S.tva[i]):'—'}</td><td class="${S.flux[i]<0?'neg':''}">${fE(S.flux[i])}</td><td>${fE(caC[i])}</td><td class="${tres[i]<0?'neg':''}">${fE(tres[i])}</td></tr>`; });
   document.getElementById('tbData').innerHTML=d;
 }
 
