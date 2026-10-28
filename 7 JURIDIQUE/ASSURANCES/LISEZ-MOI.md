@@ -1,9 +1,11 @@
 # Assurances
 
-Le dossier d'assurance de la société, confié au Juridique par le cadre de référence (D-01, § 4 : « assurances et responsabilités ») et par l'action 21 du plan de travail.
+Les assurances de Pop Tables, confiées au Juridique par le cadre de référence (« assurances et responsabilités ») et par le plan de travail (action 21).
 
-- Une note par sujet, nommée `AAAA MMJJ Titre.md` : questionnaire aux courtiers, comparaison des devis, puis une note par contrat souscrit.
+- Document de référence : [[2026 1028 Récapitulatif des assurances de Pop Tables]].
+- Une note par sujet, nommée `AAAA MMJJ Titre.md` ; puis une note par contrat souscrit.
 - Un devis n'est pas un contrat : seul un contrat signé et une attestation prouvent qu'on est couvert.
 - Lire chaque devis en entier : garanties, plafonds, **franchises**, **exclusions**, durée, résiliation.
-- Le Juridique prépare et compare ; le choix de l'assureur et la signature reviennent à l'équipe (décision au [[REGISTRE DES DECISIONS]]). Le coût est transmis à la Finance.
+- Le Juridique prépare et analyse ; le choix de l'assureur et la signature reviennent à l'équipe (décision au [[REGISTRE DES DECISIONS]]). Le coût est transmis à la Finance.
+- Les documents dépassés sont rangés dans `OLD/`.
 - Désigner les interlocuteurs par leur rôle (`[courtier]`, `[chargé de clientèle]`), jamais de données personnelles (voir [[RULES]]).
