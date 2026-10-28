@@ -77,6 +77,16 @@ Les faits sur les prestataires ont été relevés le 28/10/2026 avec un moteur d
 | **Question qui change le staffing (I)** | **Le loueur reprend-il la vaisselle sale ?** Si oui, la plonge se réduit à la vaisselle du lieu et aux ustensiles de cuisine, et l'on peut prévoir un plongeur de moins. |
 | **Questions à poser** | Reprise de la vaisselle sale ? Livraison et reprise le dimanche ou le lundi, et avant la réouverture du lieu ? Prix de la gamme excellence par couvert ? Casse facturée à quel tarif ? Délai de réservation ? |
 
+### 2.6 Vins : AdVini (ajout du 28/10/2026)
+
+| | |
+|---|---|
+| **Orientation (P)** | Le responsable Opérations retient **AdVini** comme partenaire vin. L'équipe y a des contacts. Le chef choisit dans le catalogue, et le sommelier d'AdVini fournit des fiches que l'équipe de salle apprend avant la soirée. |
+| **Ce que l'on sait (F)** | AdVini est un groupe viticole français coté : 297,8 M€ de chiffre d'affaires en 2022. Il détient notamment les marques Antoine Moueix, Laroche, Jeanjean et Cazes, exerce une activité de négoce et a repris les marques Cordier et Café de Paris. Ces informations viennent des communiqués financiers publiés à l'AMF et de la presse économique, par exemple [Le Journal des entreprises](https://www.lejournaldesentreprises.com/article/les-recettes-dadvini-pour-faire-fructifier-cordier-2140817). Elles ont été relevées par moteur de recherche le 28/10/2026 et sont à confirmer. |
+| **Règle de prix (P)** | Coefficient d'au moins 4 sur les vins : pour le « Premier soir », **une bouteille achetée 36 € HT au plus** si les 4 accords sont des vins (voir [[2026 1028 Simulation du Pilote 1 et orientations Opérations]]). |
+| **Point bloquant (I)** | Acheter le vin et l'inclure dans le prix revient à **vendre de l'alcool**. Le Juridique doit trancher le montage (licence du restaurant ou licence propre) avant la sélection des vins (Points juridiques, § 2). |
+| **Questions à poser** | Tarifs professionnels, ou tarifs de partenariat avec mise en avant ? Livraison à Paris un jour de fermeture ? Reprise des bouteilles non ouvertes ? Fiches de dégustation fournies ? Un accord sans alcool (jus, boissons fermentées) est-il possible dans leur catalogue ? |
+
 ---
 
 ## 3. Grille de sélection (P)

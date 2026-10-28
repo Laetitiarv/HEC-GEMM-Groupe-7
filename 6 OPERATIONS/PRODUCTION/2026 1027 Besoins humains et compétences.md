@@ -71,7 +71,7 @@ Les ratios et les délais sont **non établis par les sources** : il faut les ob
 
 | | Pilote (1 format d'événement) | Montée en charge |
 |---|---|---|
-| Cœur d'équipe | Les membres de l'équipe, sans recrutement | Un coordinateur de production dédié ; un responsable du vivier de chefs |
+| Cœur d'équipe | Les membres de l'équipe, sans recrutement ; les fondateurs sont présents aux pilotes | **Un assistant de production** par soirée (orientation du responsable Opérations du 28/10/2026), qui remplit aussi les grilles de qualification ; un responsable du vivier de chefs |
 | Chefs | 1 ou 2 chefs partenaires | Un vivier de chefs d'exception, avec une charte qualité |
 | Salle et plonge | Extras ou agence, à la mission | Un vivier d'extras fidélisés, avec un planning partagé |
 | Contrats | Contrats simples, relus par un juriste | Contrats-cadres et grille de rémunération |
