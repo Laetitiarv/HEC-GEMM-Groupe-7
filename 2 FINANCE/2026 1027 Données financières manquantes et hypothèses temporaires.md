@@ -1,6 +1,6 @@
 # Données financières manquantes et hypothèses temporaires
 
-Date : 27/10/2026, mis à jour le 28/10/2026 (frais généraux, staffing des Opérations, scénario S3, puis TVA et CFE) · Auteur : assistant IA Finance, à la demande de Vianney (responsable Finance) · Statut : document de travail. Les chiffres sont des hypothèses temporaires, pas des décisions (voir [[REGISTRE DES DECISIONS]]).
+Date : 27/10/2026, mis à jour le 28/10/2026 (frais généraux, staffing des Opérations, scénario S3, TVA et CFE, puis hypothèses modifiées par le responsable Finance) · Auteur : assistant IA Finance, à la demande de Vianney (responsable Finance) · Statut : document de travail. Les chiffres sont des hypothèses temporaires, pas des décisions (voir [[REGISTRE DES DECISIONS]]).
 
 Légende (voir [[RULES]]) : F = fait constaté dans une source citée · I = inférence · P = proposition · H = hypothèse temporaire, à remplacer.
 
@@ -10,6 +10,20 @@ Fichiers mis à jour, dans lesquels chaque valeur porte sa nature et sa source :
 - `TRESORERIE/2026 1027 Modèle - Trésorerie et mois de survie.xlsx`
 
 ## 1. L'essentiel
+
+> **Mise à jour du 28/10/2026 (après-midi).** Le responsable Finance a modifié quatre hypothèses du modèle Prévisions :
+> - jauges de 40, 35 et 30 couverts, et 20 convives en privatisation ;
+> - salle pleine ;
+> - coût de l'équipe fixé à 15 % ou 20 % du chiffre d'affaires ;
+> - pas de photographe.
+>
+> Ce sont désormais les hypothèses centrales des modèles et du tableau de bord. Principaux chiffres :
+> - toutes les soirées sont rentables, avec des marges de +2 288 € (Premier soir), +1 664 € (Le Voyage), +862 € (La Grande Nuit) et +2 186 € (privatisation) ;
+> - résultat de l'année 1 : +15 913 € ;
+> - trésorerie : 18 462 € fin octobre 2027, avec un point bas de −3 893 € en février 2027 ;
+> - besoin de financement à 3 ans : 32 140 €.
+>
+> Ces hypothèses ne sont pas encore validées par les pôles concernés. Le détail et les questions posées aux Opérations, au Produit et au Marketing sont dans [[2026 1028 Note aux Opérations, au Produit et au Marketing - modifications du modèle de prévisions]]. **Les chiffres de la suite de ce § 1 correspondent aux hypothèses précédentes** (jauges du Produit, remplissage de 80 %, staffing S3). Ils restent utiles comme scénario prudent.
 
 - **F** Dans le dépôt, les seuls chiffres propres au projet sont les prix et capacités proposés par le Produit (P, établis « sans donnée de coûts ») : `5 PRODUIT/Fou d'un soir le pricing.md` et le plan des deux soirées pilotes. Aucun coût réel, aucun devis, aucun financement, aucune pièce bancaire n'existe encore.
 - **F** Depuis le 28/10/2026, les Opérations proposent les effectifs d'une soirée (P) : `6 OPERATIONS/PRODUCTION/2026 1028 Calculateur de staffing par événement.xlsx` et la note « Typologie des événements, process et staffing ». Ils ne donnent ni les heures ni les coûts horaires.
