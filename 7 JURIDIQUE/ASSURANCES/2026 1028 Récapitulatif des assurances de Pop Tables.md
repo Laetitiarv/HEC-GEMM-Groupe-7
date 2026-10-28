@@ -29,7 +29,7 @@ Légende (voir [[RULES]]) : **F** = fait constaté sur la source citée · **I**
 
 | N° | Assurance | Obligatoire ? | Pourquoi pour Pop Tables | Quand | Coût repère |
 |---|---|---|---|---|---|
-| **1** | **RC organisateur et RC exploitation**, incluant : **intoxication alimentaire** (« après livraison »), **vente d'alcool**, **biens confiés** | Pas par la loi, mais **exigée par contrat** par les restaurants, les entreprises clientes et les agences | Le risque central de chaque soirée | **Avant de signer le premier contrat avec un restaurant** et avant l'ouverture de la pré-vente | **F** ≈ 176 € par an en moyenne pour une RC organisateur (2025) ; 200 à 300 € par an pour une start-up en amorçage. **I** Plus cher pour nous (restauration, alcool, biens de valeur). **H** Finance : 150 € par soirée + 50 € par mois |
+| **1** | **RC organisateur et RC exploitation**, incluant : **intoxication alimentaire** (« après livraison »), **vente d'alcool**, **biens confiés** | Pas par la loi, mais **exigée par contrat** par les restaurants, les entreprises clientes et les agences | Le risque central de chaque soirée | **Avant de signer le premier contrat avec un restaurant** et avant l'ouverture de la pré-vente | **F** ≈ 176 € par an en moyenne pour une RC organisateur (2025) ; 200 à 300 € par an pour une start-up en amorçage. **I** Plus cher pour nous (restauration, alcool, biens de valeur). **H** Finance (budget sur 36 mois, D-21) : 150 € HT par soirée + 2 % du chiffre d'affaires pour la protection juridique et l'assurance de la société |
 | **2** | **Annulation d'événement** | Non | Protège la pré-vente (D-04) : chef empêché, vol annulé, lieu indisponible | **Recommandée** pour La Grande Nuit, la soirée de lancement et les soirées avec un chef étranger | **F** 0,7 à 3 % du budget assuré |
 | **3** | **Assurances liées au personnel** (D-07) | **Oui, si emploi direct** | En **intérim**, l'agence est l'employeur : exiger son attestation. En **emploi direct** (CDD d'usage, coordinateur en année 2) : mutuelle d'entreprise obligatoire, financée au moins à moitié par l'employeur ; prévoyance conventionnelle de la restauration à vérifier. Les accidents du travail relèvent des cotisations sociales | Dès le premier salarié direct | À chiffrer avec l'expert-comptable |
 | **4** | **Véhicule** (camion frigorifique loué) | **Oui** | Seulement en cas de labo externe | Ponctuel | En général compris dans la location (à vérifier) |
@@ -57,18 +57,21 @@ Sources des coûts : [Coover, événementiel](https://www.coover.fr/responsabili
 
 ---
 
-## 4. Budget de l'année 1 (Paris)
+## 4. Coût retenu : aligné sur le modèle de la Finance
 
-| Poste | Hypothèse | Montant |
-|---|---|---|
-| RC annuelle (n° 1) | **H** 50 € par mois | 600 € |
-| Assurance par soirée (n° 1) | **H** 150 € × environ 16 soirées | 2 400 € |
-| Annulation (n° 2) | **I** Soirée de lancement (≈ 125 à 1 140 € pour 18 000 à 38 000 € HT) et 2 ou 3 soirées à risque (La Grande Nuit : ≈ 130 à 550 €) | ≈ 500 à 1 500 € |
-| **Total prudent** | | **≈ 3 500 à 4 500 € par an** |
+**F** Le coût des assurances suit **les hypothèses déjà retenues par la Finance** dans le modèle sur 36 mois, que la Direction a fait siennes (**D-21**, 28/10/2026 au soir). Source : `2 FINANCE/PREVISIONS/2026 1028 Modèle Pop Tables - Budget sur 36 mois, plan financier, prix et marges.xlsx`.
+
+| Poste | Hypothèse de la Finance (**H**) | Onglet du modèle | Année 1 | Année 2 | Année 3 |
+|---|---|---|---|---|---|
+| Assurance de chaque soirée | **150 € HT par soirée** | « Prix et marges », coûts directs | ≈ 2 400 € (16 soirées) | selon le nombre de soirées | selon le nombre de soirées |
+| Protection juridique et assurance de la société | **2 % du chiffre d'affaires** | « Budget 36 mois », frais généraux | 4 393 € | 41 375 € | 82 750 € |
+
+Ces montants remplacent les estimations précédentes de ce récapitulatif. Les assurances sont exonérées de TVA (onglet « TVA » du modèle).
+
+**I** Lecture pour le Juridique : les 2 % du chiffre d'affaires couvrent largement les besoins identifiés aux § 2 et 3, y compris l'annulation des soirées à risque, la RC des dirigeants à la levée et la couverture à l'étranger à partir de l'année 2. Ce sont des hypothèses de la Finance ; les devis permettront de les confirmer ou de les corriger, et c'est la Finance qui modifie son modèle.
 
 **I** Un **contrat annuel** couvrant toutes les soirées reviendra probablement moins cher que des polices séparées : le coût par événement baisse nettement dès le deuxième ou le troisième événement couvert ([France Épargne](https://www.france-epargne.fr/academy/assurances-professionnelles/assurance-festival-concert-spectacle-guide)).
 
-**Retenu par le responsable Juridique le 28/10/2026 (soir)** : prévoir **1,5 % du chiffre d'affaires HT de chaque soirée** pour les assurances, annulation comprise, à la place des 150 € par soirée ; le socle de 50 € par mois est maintenu. Soit 155 € (Premier soir), 197 € (Le Voyage), 277 € (La Grande Nuit) et 161 € (privatisation). Cette règle remplace la proposition d'une ligne « annulation » à 2 % du coût direct.
 
 ---
 
