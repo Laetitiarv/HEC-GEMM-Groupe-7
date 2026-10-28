@@ -158,13 +158,15 @@ Les effectifs sont des **propositions** tirées des repères ci-dessus, à valid
 | PR-09 Plan B | ✓ | ✓✓ | ✓✓ + plan de communication de crise (Marketing) |
 | PR-10 Bilan | ✓ | ✓ + retour du client | ✓ + revue de presse |
 
-### 5.3 Délais de préparation (P)
+### 5.3 Démarrage recommandé (P)
 
-| Niveau | Délai minimum avant la date | Fondement |
+*Mis à jour le 28/10/2026 avec le rétroplanning type (`2026 1028 Rétroplanning type.xlsx`). Le détail des étapes est dans [[2026 1028 Fiches process PR-01 à PR-10]].*
+
+| Niveau | Démarrage recommandé avant la date | Fondement |
 |---|---|---|
-| **C1** | **6 semaines** | **F** Plan des pilotes du Produit : ventes ouvertes à S-6, menu figé à S-3, seuil de confirmation à J-14 |
-| **C2** | **8 à 10 semaines** | **F** Même plan : lieux et chefs à S-10, contrats à S-8 |
-| **C3** | **10 semaines et plus** | **F** Option de lancement : invitation envoyée « environ trois semaines avant ». **I** Il faut y ajouter le choix du lieu, du chef et des importations |
+| **C1** | **8 semaines** | **F** Plan des pilotes du Produit : ventes ouvertes à S-6, menu figé à S-3, seuil de confirmation à J-14. **I** Le contrat du lieu et celui du chef doivent être signés avant l'ouverture des ventes, ce qui impose de commencer environ deux semaines plus tôt |
+| **C2** | **10 semaines** | **F** Même plan : lieux et chefs à S-10, contrats à S-8 |
+| **C3** | **12 semaines** | **F** Option de lancement du Marketing : invitation envoyée « environ trois semaines avant ». **I** Il faut y ajouter le choix du lieu et du chef, les importations, une dégustation du menu et une répétition |
 
 **I** Pour une privatisation (offre B), le Produit ne fixe pas encore de délai. Il faut en convenir avec les Ventes avant d'ouvrir les réservations : un délai trop court rend le staffing et le chef de secours impossibles à garantir.
 
