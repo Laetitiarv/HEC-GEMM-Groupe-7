@@ -11,7 +11,8 @@ Version courte, remise au chef à la signature. Les valeurs chiffrées (tempéra
 **Pop Tables est responsable de la sécurité des plats servis pendant la soirée.** Vous travaillez dans une cuisine qui n'est pas la vôtre, selon nos procédures. Merci de les appliquer, vous et votre brigade.
 
 1. **Allergènes.** Remettez-nous, au plus tard **3 semaines avant la soirée**, la liste des ingrédients de chaque plat et les allergènes qu'il contient, parmi les 14 allergènes réglementaires. Signalez par écrit tout changement de recette après cette date.
-2. **Produits.** Tous les produits sont commandés par Pop Tables. N'apportez aucun produit sans notre accord. Un produit apporté, surtout importé, doit avoir sa facture ou son étiquette d'origine.
+2. **Produits.** Tous les produits sont commandés par Pop Tables. N'apportez aucun produit sans notre accord. Un produit apporté doit avoir sa facture ou son étiquette d'origine.
+   **N'apportez jamais dans vos bagages de viande, de lait, de produits laitiers ni de produits qui en contiennent, s'ils viennent d'un pays situé hors de l'Union européenne** : c'est en principe interdit. Si votre menu demande un produit importé, dites-le-nous au plus tard **6 semaines avant la soirée** : Pop Tables le fera venir par un importateur ou un fournisseur établi en France.
 3. **Réception et froid.** Les produits sont contrôlés à la réception (température, aspect, date). Les produits frais restent au froid jusqu'à leur utilisation.
 4. **Cuisine prêtée.** Utilisez seulement les équipements listés au contrat. Ne touchez pas aux stocks ni à la cave du restaurant.
 5. **Hygiène personnelle.** Tenue propre, cheveux couverts, mains lavées souvent, pas de bijoux aux mains. Toute personne malade (fièvre, troubles digestifs, plaie infectée) ne travaille pas en cuisine.
@@ -26,7 +27,8 @@ Version courte, remise au chef à la signature. Les valeurs chiffrées (tempéra
 **Pop Tables is responsible for the safety of the food served during the evening.** You are working in a kitchen that is not your own, under our procedures. Please make sure you and your team follow them.
 
 1. **Allergens.** Send us, no later than **3 weeks before the event**, the ingredients of each dish and the allergens it contains, among the 14 regulated allergens in the EU. Tell us in writing about any change after that date.
-2. **Products.** All products are ordered by Pop Tables. Do not bring any product without our agreement. Any product you bring, especially imported, must come with its invoice or original label.
+2. **Products.** All products are ordered by Pop Tables. Do not bring any product without our agreement. Any product you bring must come with its invoice or original label.
+   **Never bring meat, milk, dairy products or products containing them in your luggage from a country outside the European Union**: this is generally prohibited. If your menu requires an imported product, tell us at least **6 weeks before the event**: Pop Tables will source it through an importer or a supplier established in France.
 3. **Receiving and cold storage.** Products are checked on delivery (temperature, appearance, date). Fresh products stay refrigerated until used.
 4. **Borrowed kitchen.** Use only the equipment listed in the contract. Do not use the restaurant's stock or wine cellar.
 5. **Personal hygiene.** Clean uniform, hair covered, frequent hand washing, no jewellery on hands. Anyone who is ill (fever, digestive problems, infected wound) does not work in the kitchen.

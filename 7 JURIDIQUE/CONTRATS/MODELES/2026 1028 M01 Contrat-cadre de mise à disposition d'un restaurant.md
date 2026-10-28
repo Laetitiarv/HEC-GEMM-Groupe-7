@@ -80,6 +80,7 @@ Une **visite technique** a lieu au plus tard [15] jours avant chaque première s
 8.1. Pendant la soirée, **Pop Tables agit comme exploitant du secteur alimentaire** pour les denrées qu'il prépare et sert. Le Restaurateur reste responsable de la conformité de ses locaux et équipements.
 8.2. La répartition des responsabilités figure à l'Annexe C.
 8.3. En cas d'intoxication suspectée, chaque partie informe l'autre sans délai et conserve les éléments de preuve (relevés, factures, plats témoins).
+8.4. Chaque partie informe l'autre, sans délai, de toute **alerte sanitaire ou de tout rappel de produit** dont elle a connaissance et qui pourrait concerner une soirée, même après sa date (produits, équipements, eau, nuisibles).
 
 ## Article 9 — État des lieux et restitution
 9.1. Un **état des lieux et un inventaire photographiés** sont faits à l'entrée et à la sortie, en présence du référent du Restaurateur ou, à défaut, par Pop Tables qui les transmet le soir même.

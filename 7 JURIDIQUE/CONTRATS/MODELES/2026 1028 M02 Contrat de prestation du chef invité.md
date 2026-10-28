@@ -35,7 +35,7 @@ Le Chef s'engage à :
 ## Article 3 — Engagements de Pop Tables
 Pop Tables s'engage à :
 - mettre à disposition le lieu, la cuisine et les équipements décrits dans la Fiche Chef ;
-- **commander et payer les produits** sur la liste du Chef, avec une enveloppe matières de [●] € HT ; tout produit apporté par le Chef suppose l'accord de Pop Tables et sa preuve d'origine ;
+- **commander et payer les produits** sur la liste du Chef, avec une enveloppe matières de [●] € HT ; tout produit apporté par le Chef suppose l'accord de Pop Tables et sa preuve d'origine ; le Chef **n'apporte aucun produit d'origine animale (viande, lait, produits laitiers et produits qui en contiennent) venant d'un pays hors de l'Union européenne** ; il signale au plus tard à S-6 tout produit importé nécessaire à son menu, que Pop Tables fait venir par un importateur ou un fournisseur établi en France ;
 - fournir la brigade d'appoint et l'équipe de salle (D-07) ; [option : engager et rémunérer directement la brigade habituelle du Chef, désignée en Annexe 1] ;
 - désigner une **personne formée à l'hygiène** présente en cuisine.
 
