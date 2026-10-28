@@ -1,6 +1,6 @@
 # Données financières manquantes et hypothèses temporaires
 
-Date : 27/10/2026 · Auteur : assistant IA Finance, à la demande de Vianney (responsable Finance) · Statut : document de travail. Les chiffres sont des hypothèses temporaires, pas des décisions (voir [[REGISTRE DES DECISIONS]]).
+Date : 27/10/2026, mis à jour le 28/10/2026 (frais généraux) · Auteur : assistant IA Finance, à la demande de Vianney (responsable Finance) · Statut : document de travail. Les chiffres sont des hypothèses temporaires, pas des décisions (voir [[REGISTRE DES DECISIONS]]).
 
 Légende (voir [[RULES]]) : F = fait constaté dans une source citée · I = inférence · P = proposition · H = hypothèse temporaire, à remplacer.
 
@@ -45,10 +45,24 @@ Fichiers mis à jour, dans lesquels chaque valeur porte sa nature et sa source :
   | Privatisation | +2 268 € (28 %) |
 - **I** Budget de l'année 1 (novembre 2026 à octobre 2027, H : 16 soirées dont 7 privatisations) :
   - chiffre d'affaires : 121 955 € HT ;
-  - charges fixes : 12 672 € ;
+  - frais généraux : 12 672 €, dont 0 € de ressources humaines (fondateurs non rémunérés) et 12 672 € de frais matériels et de fonctionnement ;
   - résultat : −16 256 €.
 
-  En trésorerie, avec un apport de 7 000 €, le compte passerait sous zéro en février 2027. Le plan à 3 ans fait apparaître un besoin de financement de 236 934 € en hypothèses centrales. Il tombe à environ 20 000 € avec les conditions cibles du Produit.
+  En trésorerie, avec un apport de 7 000 €, le compte passerait sous zéro en février 2027.
+- **I** Plan à 3 ans (mis à jour le 28/10/2026, frais généraux détaillés poste par poste) :
+
+  | Frais généraux | Année 1 | Année 2 | Année 3 |
+  |---|---|---|---|
+  | Ressources humaines | 0 € | 32 486 € | 168 206 € |
+  | Frais matériels et de fonctionnement | 12 672 € | 24 300 € | 57 800 € |
+  | **Total** | **12 672 €** | **56 786 €** | **226 006 €** |
+
+  Les ressources humaines comprennent :
+  - un coordinateur ou une coordinatrice au SMIC dès l'année 2 ;
+  - deux fondateurs rémunérés et un commercial ou une commerciale en année 3 ;
+  - des charges patronales de 45 % (H).
+
+  Le besoin de financement est de 309 726 € en hypothèses centrales. Il tombe à environ 93 000 € avec les conditions cibles du Produit (part du restaurateur visée et salle pleine).
 - **P** Trois chiffres décident du modèle :
   1. ce que le restaurateur accepte pour un soir de fermeture ;
   2. le cachet des chefs ;
@@ -92,12 +106,13 @@ Priorité : 1 = elle change le modèle, à obtenir avant les pilotes · 2 = util
 | 8 | Nombre de soirées par an que le carnet de lieux et de chefs permet, et calendrier | Budget mensuel ; plan à 3 ans | 9 soirées A et 7 privatisations en année 1 ; 24 et 24 en année 2 ; 36 et 48 en année 3 | Produit et Opérations ; décision de la Direction | 2 |
 | 9 | Demande de privatisations et de contrats cadres (maisons de luxe, hôtes d'affaires) | Budget ; plan | Première privatisation en avril 2027, 2 par mois en septembre et octobre | Ventes (pipeline, premiers rendez-vous) | 2 |
 | 10 | Assurance de la soirée et RC professionnelle d'une société d'événementiel | Ligne 28 ; budget | 150 € par soirée ; 50 € par mois | Juridique, par des devis d'assureurs | 2 |
-| 11 | Budget de communication, coût des dîners de concierges, coût du photographe | Budget, ligne 20 ; Prix et marges, ligne 33 | 300 € par mois + 3 dîners à 1 200 € ; 260 € par soirée | Marketing | 2 |
-| 12 | Outils : site, billetterie, fichier clients | Budget, ligne 19 ; investissements | 80 € par mois ; 3 000 € d'investissement | Produit | 2 |
-| 13 | Honoraires de l'expert-comptable et des contrats types | Budget, ligne 22 | 100 € par mois ; 1 500 € en novembre | Juridique ; devis d'expert-comptable | 2 |
+| 11 | Budget de communication, coût des dîners de concierges, coût du photographe | Budget mensuel, ligne 25 ; Prix et marges, ligne 33 | 300 € par mois + 3 dîners à 1 200 € ; 260 € par soirée | Marketing | 2 |
+| 12 | Outils : site, billetterie, fichier clients | Budget mensuel, ligne 24 ; investissements | 80 € par mois ; 3 000 € d'investissement | Produit | 2 |
+| 13 | Honoraires de l'expert-comptable et des contrats types | Budget mensuel, ligne 27 | 100 € par mois ; 1 500 € en novembre | Juridique ; devis d'expert-comptable | 2 |
 | 14 | Revenus de partenariats (maisons de vins et de champagne, co-signature) | Ligne 16 | 0 € | Ventes | 2 |
 | 15 | Règles d'encaissement : paiement à la réservation, acomptes des contrats cadres, délais de paiement des entreprises, remboursements | Trésorerie | Encaissement le mois de la soirée, sans remboursement | Produit (règles de vente) ; Ventes (conditions des entreprises) | 2 |
-| 16 | Rémunération des fondateurs et recrutements des années 2 et 3 | Plan à 3 ans, charges fixes | 0 € en année 1 ; 60 000 € puis 150 000 € de charges fixes | Direction ; Juridique (`7 JURIDIQUE/EQUIPE/`) | 2 |
+| 16 | Rémunération des fondateurs, recrutements des années 2 et 3, taux de charges patronales | Onglet « Frais généraux 3 ans », partie Ressources humaines ; budget mensuel, lignes 17 à 21 | 0 € en année 1 ; un coordinateur ou une coordinatrice au SMIC dès l'année 2 ; deux fondateurs à 2 500 € brut et un commercial ou une commerciale à 2 800 € brut en année 3 ; charges de 45 % | Direction ; Juridique (`7 JURIDIQUE/EQUIPE/`) ; expert-comptable pour le taux de charges | 2 |
+| 16 bis | Frais matériels et de fonctionnement des années 2 et 3 (locaux, outils, marketing, assurance, honoraires, banque, déplacements) | Onglet « Frais généraux 3 ans », partie Frais matériels | 24 300 € en année 2, 57 800 € en année 3, dont un coworking en année 3 | Marketing (budget de communication) ; Produit (outils) ; Juridique (assurance, honoraires) | 2 |
 | 17 | Associés, capital social, répartition des titres, date de création de la société | Financement, table de capitalisation ; trésorerie de départ | 7 associés à 1 000 € chacun, création au 01/11/2026 | Direction ; Juridique (`STATUTS ET PACTE/`) | 3 |
 | 18 | Financements possibles : prêt d'honneur, subventions, concours, levée, associé gastronomique | Financement, suivi | Statut « Envisagé » pour tous : 20 000 € de prêt d'honneur, 5 000 € de subvention, 100 000 € de levée sur 400 000 € de valorisation | Finance (dossiers à identifier) ; Direction (associé gastronomique) | 3 |
 | 19 | Ouverture du compte bancaire et premier relevé | Trésorerie, états | Solde de 7 000 € au 01/11/2026, sans pièce | Finance, après l'immatriculation (Juridique) | 3 |
