@@ -2,8 +2,10 @@
 
 **Date : 28/10/2026** · Fonction : `6 OPERATIONS/PRODUCTION` · Statut : document de travail du pôle Opérations (propositions, rien n'est décidé)
 
+> **Mise à jour du 28/10/2026 (soir).** Jauges de la Direction : 40, 35 et 30 couverts, et 30 en privatisation (D-05, D-22). Budget de l'équipe : enveloppe de la Finance (D-06). Pas de sommelier : AdVini envoie un winemaker (wine maker dinner), et Pop Tables vend les vins sous sa licence (D-09). Pas de photographe (D-08). Cadre D-01 remplacé par le cadre Pop Tables (D-02). Les effectifs de cette note restent ceux des anciennes jauges ; les nouveaux sont dans [[2026 1029 Staffing dans l'enveloppe de la Finance]] et le [[2026 1028 Cahier des charges du chef]].
+
 > **Cadre.** [[REGISTRE DES DECISIONS]], **D-01** (27/10/2026) et [[2026 1027 Descriptif du projet - Cadre de référence]].
-> Cette note s'appuie sur l'offre du pôle Produit (`5 PRODUIT/Fou d'un soir l'offre.md`, `… le pricing.md`, `… plan des deux soirées pilotes.md`, 27/10/2026), sur les options de soirée de lancement du Marketing ([[2026 1028 Premier événement - Trois options]]), sur la liste du Juridique ([[2026 1028 Points juridiques à revoir]]) et sur les données manquantes de la Finance (`2 FINANCE/2026 1027 Données financières manquantes et hypothèses temporaires.md`, donnée n° 5).
+> Cette note s'appuie sur l'offre du pôle Produit (`5 PRODUIT/2026 1028 Pop Tables - Offre.md` et `… Pricing.md` du 28/10/2026, et `5 PRODUIT/Fou d'un soir plan des deux soirées pilotes.md` du 27/10/2026), sur les options de soirée de lancement du Marketing ([[2026 1028 Premier événement - Trois options]]), sur la liste du Juridique ([[2026 1028 Points juridiques à revoir]]) et sur les données manquantes de la Finance (`2 FINANCE/2026 1027 Données financières manquantes et hypothèses temporaires.md`, donnée n° 5).
 > Elle complète [[2026 1027 Schéma opérationnel d'un événement]] (les 9 étapes) et [[2026 1027 Besoins humains et compétences]] (les rôles).
 
 Légende (voir [[RULES]]) : **F** = fait constaté sur une source citée · **I** = inférence · **P** = proposition · **R** = repère de marché (source secondaire, à confirmer par devis).
@@ -24,7 +26,7 @@ Légende (voir [[RULES]]) : **F** = fait constaté sur une source citée · **I*
 | **T4 Grand** | 31 à 60 | Soirée de lancement, option 3 (environ 40) ; soirée d'une maison de luxe élargie | Oui, au cas par cas |
 | **T5 Très grand** | Plus de 60 | Mariages, grands événements d'entreprise | **Non à ce stade** : D-01 dit « éventuellement privés » et la fiche de synthèse de la Direction parle d'une « extension à évaluer ». À trancher par la Direction |
 
-**F** L'offre du Produit fixe la capacité d'une soirée à « 20 à 24 couverts, à ajuster selon le lieu ».
+**F** L'offre du Produit fixe la capacité d'une soirée à « 20 à 24 couverts, à ajuster selon le lieu ». **F** Le 28/10/2026, la Direction fixe 40, 35 et 30 couverts, et 30 en privatisation (D-05, D-22) : le Premier soir et Le Voyage passent en T4.
 
 ### 1.2 Criticité (importance et niveau de risque)
 
@@ -81,13 +83,13 @@ Les effectifs sont des **propositions** tirées des repères ci-dessus, à valid
 | Rôle | T1 (2–8) | T2 (10–16) | T3 (20–30) | T4 (31–60) | Qui fournit |
 |---|---|---|---|---|---|
 | Chef invité | 1 | 1 | 1 | 1 | Le vivier de chefs |
-| Brigade (second, commis) | 1 | 1 à 2 | 2 à 3 | 4 à 6 | Fou d'un soir : extras, ou équipe habituelle du chef engagée et payée par nous |
-| Maître d'hôtel / responsable de salle | — (le sommelier assure ce rôle) | 1 | 1 | 1 à 2 | Fou d'un soir (extras du pool) |
-| Serveurs / chefs de rang | 1 | 2 à 3 | 3 à 5 | 5 à 9 | Fou d'un soir (extras du pool) |
-| Sommelier invité | 1 | 1 | 1 | 1 | Le réseau des sommeliers |
+| Brigade (second, commis) | 1 | 1 à 2 | 2 à 3 | 4 à 6 | Pop Tables : extras, ou équipe habituelle du chef engagée et payée par nous |
+| Maître d'hôtel / responsable de salle | — (le sommelier assure ce rôle) | 1 | 1 | 1 à 2 | Pop Tables (extras du pool) |
+| Serveurs / chefs de rang | 1 | 2 à 3 | 3 à 5 | 5 à 9 | Pop Tables (extras du pool) |
+| Sommelier invité | 1 | 1 | 1 | 1 | Le réseau des sommeliers. **P 28/10/2026 : 0**, remplacé par le winemaker envoyé par AdVini, non rémunéré |
 | Aide sommelier (accords vins et jus en parallèle) | — | — | 1 | 1 à 2 | Extras |
 | Plongeurs | 1 | 1 | 2 | 2 à 3 | Extras |
-| Responsable de production sur place (nous) | 1 | 1 | 1 | 2 | Équipe Fou d'un soir |
+| Responsable de production sur place (nous) | 1 | 1 | 1 | 2 | Équipe Pop Tables |
 | **Total, base C1** | **6** | **8 à 10** | **12 à 15** | **17 à 26** | |
 
 ### 3.3 Ce que la criticité ajoute (P)
@@ -96,17 +98,17 @@ Les effectifs sont des **propositions** tirées des repères ci-dessus, à valid
 |---|---|
 | **C1** | Aucune : l'équipe de base suffit |
 | **C2** | **+1 serveur de réserve** (en cas d'absence) ; **+1 interlocuteur client** joignable le jour J (rôle des Ventes) ; un chef de secours identifié, mais pas présent (comme le prévoit le plan des pilotes) |
-| **C3** | Ce qui est prévu en C2, plus : **une hôtesse ou un hôte d'accueil et de vestiaire** ; **un responsable des relations presse et des invités** (Marketing) ; un **photographe et un vidéaste** (F : prévus dans les trois options de lancement) ; **un serveur par salon** si le lieu compte plusieurs salons (option 2, Lapérouse) ; un poste **logistique d'accès** si le lieu l'exige (option 3 : bateaux de nuit) |
+| **C3** | Ce qui est prévu en C2, plus : **une hôtesse ou un hôte d'accueil et de vestiaire** ; **un responsable des relations presse et des invités** (Marketing) ; un **vidéaste** (F : prévu dans les trois options de lancement ; pas de photographe depuis D-08) ; **un serveur par salon** si le lieu compte plusieurs salons (option 2, Lapérouse) ; un poste **logistique d'accès** si le lieu l'exige (option 3 : bateaux de nuit) |
 
 **I** Exemples calculés avec le calculateur :
-- **Pilote 1, « Premier soir »** (24 couverts, T3 / C2) : **16 personnes**, chef compris.
-- **Pilote 2, « La Grande Nuit »** (20 couverts, T3 / C2) : **14 personnes**.
-- **Soirée de lancement, option 2** (30 invités, T3 / C3, en supposant 3 salons) : 15 personnes en base et 8 de plus (réserve, interlocuteur client, accueil, presse, photographe, vidéaste, 2 serveurs pour les salons), **soit 23 personnes**, chef compris.
+- **Pilote 1, « Premier soir »** (24 couverts, T3 / C2) : **16 personnes**, chef compris. *Aux jauges du 28/10/2026 (40 couverts, sans sommelier) : 13 personnes, dont 10 payées, pour 2 761 €.*
+- **Pilote 2, « La Grande Nuit »** (20 couverts, T3 / C2) : **14 personnes**. *Aux jauges du 28/10/2026 (30 couverts) : 12 personnes, dont 9 payées, pour 2 446 €.*
+- **Soirée de lancement, option 2** (30 invités, T3 / C3, en supposant 3 salons) : 15 personnes en base et 8 de plus (réserve, interlocuteur client, accueil, presse, vidéaste, 2 serveurs pour les salons), **soit 22 personnes** depuis la suppression du photographe (D-08), chef compris.
 
 ### 3.4 Qui fournit le personnel
 
 **F** Le Produit posait la question sans la trancher : « Qui assure le service : l'équipe du restaurant ou la nôtre ? » (offre, point 2 ; pricing, point 3). La Finance en avait fait sa donnée n° 5 (priorité 1).
-**P** Réponse du pôle Opérations, orientation du responsable Opérations du 28/10/2026 : **Fou d'un soir fournit toujours le personnel de la soirée** : salle, sommellerie, brigade et plonge. Le restaurant prête son lieu et sa cuisine, pas son équipe. Si des membres de son personnel travaillent ce soir-là, c'est comme extras engagés et payés par nous.
+**P** Réponse du pôle Opérations, orientation du responsable Opérations du 28/10/2026 : **Pop Tables fournit toujours le personnel de la soirée** : salle, sommellerie, brigade et plonge. Le restaurant prête son lieu et sa cuisine, pas son équipe. Si des membres de son personnel travaillent ce soir-là, c'est comme extras engagés et payés par nous.
 **I** Conséquences : la part du restaurateur ne couvre que la mise à disposition du lieu, et toute l'équipe du § 3.2 est à notre charge. Les leviers d'économie se limitent donc à nos propres choix ([[2026 1028 Scénarios de staffing - leviers de coût]]).
 Cette orientation modifie une question que le Produit et la Direction avaient laissée ouverte : **elle est à porter au [[REGISTRE DES DECISIONS]] par la Direction.**
 
@@ -116,10 +118,10 @@ Cette orientation modifie une question que le Produit et la Direction avaient la
 
 | Besoin | T1–T2 | T3 | T4 | En plus en C3 |
 |---|---|---|---|---|
-| **Lieu** | Une salle ou un salon, une cuisine en état de marche | Salle de 20 à 30 places assises, cuisine complète, froid suffisant | Plusieurs espaces ou une grande salle ; vérifier l'effectif autorisé (ERP, Juridique 1.6) | Visite technique obligatoire ; plan d'accès des invités |
+| **Lieu** | Une salle ou un salon, une cuisine en état de marche | Salle de 30 à 40 places assises (D-05), cuisine complète, froid suffisant | Plusieurs espaces ou une grande salle ; vérifier l'effectif autorisé (ERP, Juridique 1.6) | Visite technique obligatoire ; plan d'accès des invités |
 | **Vaisselle et verrerie** | Celle du lieu, si le contrat l'autorise | Calcul couverts × services, plus une marge pour la casse ; location si le lieu ne suffit pas | Location probable | Vaisselle ou objets signature (menu numéroté, souvenir) |
 | **Froid et stockage** | Celui du lieu | Celui du lieu ; à vérifier si des produits sont importés | Froid d'appoint possible | Produits importés : traçabilité et douane (Juridique) |
-| **Boissons** | Montage de la licence à fixer (Juridique, § 2) | Idem ; accords vins et accords jus en parallèle | Idem | Cave hors carte (vins mexicains, géorgiens…) : délai d'importation |
+| **Boissons** | Licence propre de Pop Tables (D-09) ; vins achetés à AdVini ; vin et champagne uniquement | Idem ; accords vins et accords jus en parallèle | Idem | Vins hors de l'Union européenne : par un importateur établi en France (M04) |
 | **Logistique du chef** | Train ou avion, hôtel si le chef vient d'ailleurs | Idem, plus la brigade | Idem | Produits importés par le chef |
 | **Documents** | Fiche technique de l'événement, liste des allergènes | Ajouter : plan de table et déroulé minute par minute | Idem | Ajouter : liste des invités, accords de droit à l'image, règles de confidentialité |
 
@@ -131,7 +133,7 @@ Cette orientation modifie une question que le Produit et la Direction avaient la
 
 | N° | Process | Contenu | Étape du schéma |
 |---|---|---|---|
-| PR-01 | Qualification du lieu | Grille d'audit : cuisine, froid, capacité, effectif autorisé, licence, bail (Juridique 1.1 et 1.6) | 0 |
+| PR-01 | Qualification du lieu | Grille d'audit : cuisine, froid, capacité, effectif autorisé, bail, dernier contrôle sanitaire publié (Juridique 1.1 et 1.6 ; M01) | 0 |
 | PR-02 | Engagement du chef | Brief, besoins de la brigade, déplacement, chef de secours, accord de la maison d'origine | 0 |
 | PR-03 | Fiche technique de l'événement | Couverts, menu, services, accords, allergènes, horaires, catégorie T/C | 2 |
 | PR-04 | Staffing | Calcul selon le § 3, réservation des extras, convocations, briefing | 3 |
@@ -178,7 +180,7 @@ Cette orientation modifie une question que le Produit et la Direction avaient la
 | N° | Action | Pôle | Dépend de |
 |---|---|---|---|
 | 1 | Faire valider les classes T1 à T4 et les niveaux C1 à C3 par l'équipe | Opérations → Direction | — |
-| 2 | Inscrire au registre l'orientation « Fou d'un soir fournit toujours le personnel » (§ 3.4) | Direction | — |
+| 2 | ~~Inscrire au registre l'orientation « nous fournissons toujours le personnel » (§ 3.4)~~ Fait : décision D-07 du 28/10/2026 | Direction | — |
 | 3 | Trancher : les mariages et les grands événements (T5) font-ils partie du projet ? | Direction | — |
 | 4 | Confirmer les effectifs du § 3.2 avec un chef et une agence d'extras, et obtenir le coût horaire de chaque poste | Opérations | — |
 | 5 | Transmettre à la Finance les effectifs et les heures de travail par catégorie (donnée n° 5) | Opérations → Finance | 4 |
