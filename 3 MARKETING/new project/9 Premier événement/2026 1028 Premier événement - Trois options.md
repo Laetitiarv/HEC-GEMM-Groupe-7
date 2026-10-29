@@ -1,6 +1,6 @@
 # Premier événement : trois options de soirée de lancement
 
-Date : 28/10/2026 · Cahier des charges défini par Serge Muller (responsable Marketing), propositions rédigées par un assistant IA et validées par Serge · Mise à jour du 28/10/2026 au soir : choix de l'option laissé à la Finance (D-14), vigneron invité, photo et vidéo réservées à ce seul événement · Statut : proposition, à valider par l'équipe
+Date : 28/10/2026 · Cahier des charges défini par Serge Muller (responsable Marketing), propositions rédigées par un assistant IA et validées par Serge · Mise à jour du 28/10/2026 au soir : option 2 retenue sur le budget de la Finance (28 000 € HT, mars 2027), vigneron invité, photo et vidéo réservées à ce seul événement · Statut : proposition, à valider par l'équipe
 
 Légende (voir [[RULES]]) : F = fait constaté sur la source citée · I = inférence · P = proposition · H = hypothèse chiffrée. Les budgets sont des estimations à confirmer par devis : aucune source publique ne donne le prix d'un tel lieu ou d'un tel chef.
 
@@ -32,7 +32,7 @@ La cave. P Remplacer les grands bourgognes de la maison par un vigneron mexicain
 
 Répartition du budget (H) : lieu, 2 500 à 4 000 € ; chef, deux membres de son équipe, train et hôtel, 4 000 à 9 000 € ; matières et personnel, 3 000 à 5 000 € ; vins et vigneron invité, 1 500 à 3 000 € ; photo et vidéo, 1 000 à 2 500 € ; invitations et souvenirs, 500 à 1 500 €.
 
-## 4. Option 2 : Lapérouse et Tekuna Gachechiladze (environ la moitié du budget)
+## 4. Option 2 : Lapérouse et Tekuna Gachechiladze (environ la moitié du budget), option retenue
 
 Budget : H 18 000 à 38 000 € HT · environ 30 invités · un dimanche soir.
 
@@ -56,7 +56,7 @@ Répartition du budget (H) : lieu, bateaux et scénographie, 8 000 à 15 000 €
 
 ## 6. Choix de l'option
 
-La soirée de lancement est intégrée au plan Finance (D-14). Le Marketing transmet les trois options et leurs budgets ; l'option retenue est celle que fixera la Finance en fonction de l'équilibre financier et de la levée. Pour éclairer ce choix (I) : l'option 1 est la plus sûre pour tester le format à moindre coût ; l'option 2 offre le meilleur rapport entre le récit et le budget, avec un lieu chargé d'histoires de séduction et de secret, une cuisine que presque personne n'a goûtée à Paris et une cave qui raconte l'origine du vin ; l'option 3 est la plus spectaculaire et pourrait se justifier si une maison de champagne ou de luxe partenaire prenait en charge une partie du budget.
+Option retenue : l'option 2, Lapérouse et Tekuna Gachechiladze, un dimanche soir de mars 2027. F La Finance a inscrit la soirée de lancement à 28 000 € HT en mars 2027 (budget sur 36 mois, D-14, D-21) : ce montant entre dans la fourchette de l'option 2 (18 000 à 38 000 €), dépasse celle de l'option 1 (25 000 € au plus) et reste sous celle de l'option 3 (35 000 € au moins). Elle a lieu après les deux soirées pilotes de janvier et février 2027 et précède le premier drop public. Les options 1 et 3 sont gardées pour mémoire.
 
 ## 7. Points à vérifier pour chaque option
 

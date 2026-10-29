@@ -10,7 +10,7 @@ C'est à cette clientèle que nous nous adressons, et notre conviction est simpl
 
 ## Le premier inaccessible : le chef
 
-Le premier élément de rareté est un chef que nos clients ne peuvent pas rencontrer dans leur ville. Il peut être français ou étranger, déjà reconnu ou encore montant : ce qui compte, c'est que sa cuisine soit introuvable là où nous l'accueillons. Il cuisine à l'étranger. Il n'a pas de restaurant dans la ville. Ou il maîtrise une cuisine d'excellence presque absente de Paris : la gastronomie thaïlandaise, qu'on ne confond pas avec les adresses thaïes du quotidien ; la grande cuisine japonaise, que quelques chefs seulement représentent ici ; une cuisine régionale italienne précise, loin de l'Italie générique des cartes parisiennes.
+Le premier élément de rareté est un chef que nos clients ne peuvent pas rencontrer dans leur ville. Il peut être français ou étranger, déjà reconnu ou encore montant : ce qui compte, c'est que sa cuisine soit introuvable là où nous l'accueillons. Il cuisine à l'étranger, ou n'a pas de restaurant dans la ville, ou maîtrise une cuisine d'excellence qui y est presque absente, comme à Paris : la gastronomie thaïlandaise, qu'on ne confond pas avec les adresses thaïes du quotidien ; la grande cuisine japonaise, que quelques chefs seulement représentent ici ; une cuisine régionale italienne précise, loin de l'Italie générique des cartes parisiennes.
 
 Notre critère n'est pas la célébrité pour elle-même, c'est la conjonction de l'excellence et de l'absence. Un grand chef que l'on peut réserver demain soir ne nous intéresse pas. Un grand chef qu'il faudrait prendre l'avion pour goûter, ou dont la cuisine n'a pas d'équivalent à Paris, voilà ce que nous faisons venir.
 

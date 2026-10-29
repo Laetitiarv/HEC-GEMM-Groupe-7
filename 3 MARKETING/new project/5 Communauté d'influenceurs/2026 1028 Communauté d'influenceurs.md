@@ -38,6 +38,8 @@ Pour le persona de la bande des capitales, les prescripteurs des cercles privés
 
 ## 4. Mode de collaboration (rappel de la stratégie de communication)
 
+Les créateurs ne sont jamais rémunérés et aucun contenu n'est payé. F La campagne de lancement de 10 000 € prévue au budget de la Finance en février et mars 2027 paie les visuels et la préparation des contenus de lancement, pas les créateurs.
+
 Les créateurs sont invités comme convives à une soirée plutôt que rémunérés pour des publications, ce qui préserve la crédibilité. Dans la mécanique du drop (D-12), ils relaient l'annonce de la soirée, puis racontent ce qu'ils ont vécu, avec les photos prises sur leur téléphone ; toute publication rémunérée ou issue d'une invitation doit être signalée comme telle, conformément au droit français.
 
 ## Sources

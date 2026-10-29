@@ -1,6 +1,6 @@
 # Nom de la société : comparaison des options
 
-Date : 28/10/2026 · Noms proposés par Serge Muller (responsable Marketing), analyse par un assistant IA · Statut : nom décidé par la Direction : Pop Tables (D-03, confirmé par le BMC V5, D-20). Ce document garde la comparaison qui a conduit à ce choix.
+Date : 28/10/2026 · Noms proposés par Serge Muller (responsable Marketing), analyse par un assistant IA · Statut : nom décidé par la Direction : Pop Tables (D-03, confirmé par le BMC V6, D-24). Ce document garde la comparaison qui a conduit à ce choix.
 
 Recherches d'antériorité effectuées le 27 et le 28/10/2026 dans la base marques de l'INPI, qui couvre les marques françaises et les marques de l'Union européenne valables en France. Recherche sur les noms à l'identique : elle ne remplace pas l'avis d'un conseil en propriété industrielle, qui devra apprécier les risques de confusion avant tout dépôt, en classes 41 (organisation d'événements) et 43 (restauration). Voir aussi [[2026 1027 Philosophie du projet]] ; la note du 27/10 sur « Fou d'un soir », nom de travail abandonné, est rangée dans `OLD/`.
 
@@ -32,11 +32,11 @@ Pop Tables (ajouté le 28/10/2026) est le nom le plus équilibré des noms inter
 
 ## 3. Décision et suites
 
-Décision de la Direction du 28/10/2026 au soir : la société s'appelle Pop Tables (D-03). « Fou d'un soir » n'était qu'un nom de travail et est abandonné partout. Le BMC V5 prévoit le dépôt de la marque en classes 41 (organisation d'événements) et 43 (restauration), en France et à l'international.
+Décision de la Direction du 28/10/2026 au soir : la société s'appelle Pop Tables (D-03). « Fou d'un soir » n'était qu'un nom de travail et est abandonné partout. Le BMC V6 prévoit le dépôt de la marque en classes 41 (organisation d'événements) et 43 (restauration), en France et à l'international.
 
 Vérifications à mener avec le Juridique avant le dépôt : recherche d'antériorités par un conseil en propriété industrielle, sur la base de l'INPI (marques françaises et de l'Union européenne) et sur TMview pour les autres pays ; disponibilité des noms de domaine (.com, .fr et pays des villes ouvertes) et des comptes Instagram ; risque de confusion avec les marques en « pop food » signalées au § 1.
 
-Test de perception demandé par le BMC V5 (Marketing et Juridique) : présenter le nom à une dizaine de particuliers et d'acheteurs d'entreprise, moitié en France, moitié à l'étranger, pour vérifier qu'il se prononce sans difficulté et qu'il évoque bien le luxe et l'éphémère ; en tirer, le cas échéant, une signature en anglais pour les villes étrangères.
+Test de perception demandé par le BMC V6 (Marketing et Juridique) : présenter le nom à une dizaine de particuliers et d'acheteurs d'entreprise, moitié en France, moitié à l'étranger, pour vérifier qu'il se prononce sans difficulté et qu'il évoque bien le luxe et l'éphémère ; en tirer, le cas échéant, une signature en anglais pour les villes étrangères.
 
 ## 4. Autres noms examinés et écartés
 

@@ -31,6 +31,14 @@ P Année 3. En France, la Côte d'Azur (Nice, Cannes, Antibes) : la plus forte c
 
 I Bruxelles reste une solution de repli, proche et francophone, mais sa clientèle très fortunée est moins documentée.
 
+## 4 bis. Hypothèses de la Finance et demande du Marketing
+
+F Le budget sur 36 mois de la Finance (D-21) retient : des villes actives dès novembre 2027 (villes 2 et 3) et dès novembre 2028 (villes 4 à 6) ; 15 000 € par ouverture, dépensés dans les trois mois qui précèdent ; dans chaque ville, une soirée à la place par mois et 40 privatisations par an ; des prix, des coûts et une TVA identiques à Paris, sans effet de change. I Londres et Genève auront probablement des coûts plus élevés (lieux, chefs, personnel) et une autre devise (livre sterling, franc suisse) ; le modèle devra en tenir compte.
+
+P Côte d'Azur : le Marketing demande à la Finance un rythme saisonnier, sans réduire le nombre de soirées ni de privatisations sur l'année, mais en les concentrant sur la saison de la Côte d'Azur (voir [[2026 1029 Note du Marketing à la Finance et au Produit]]).
+
+P Pour chaque ville proposée, l'objectif de 40 privatisations par an est à vérifier avec les Ventes, en particulier à Lyon, où il n'y a pas de palace pour prescrire.
+
 ## 5. Points à vérifier avec les Ventes, les Opérations et le Juridique
 
 La disponibilité réelle de restaurants d'exception le soir de leur fermeture dans chaque ville ; le coût d'ouverture d'une ville (repérage, déplacements, prestataires et extras locaux) ; la licence et la structure juridique à l'étranger, en particulier au Royaume-Uni et en Suisse, hors Union européenne ; le nombre de millionnaires à Lyon, sur la Côte d'Azur et à Bruxelles, que les sources consultées ne donnent pas.

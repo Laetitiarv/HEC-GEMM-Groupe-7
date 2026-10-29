@@ -1,5 +1,7 @@
 # Pop-up de chefs renommés dans des restaurants d'exception les soirs de fermeture — description du projet et données pour dimensionner le marché
 
+> Archive : note antérieure au cadre Pop Tables. Ses données de marché restent citées comme source, notamment par la Finance pour le coût des lieux ; ne pas utiliser ses conclusions sans vérification.
+
 Date : 27/10/2026 · Production d'assistant IA, à la demande de Serge Muller · Statut : document de travail, nouvelle orientation proposée, non validée par l'équipe
 
 Légende (voir [[RULES]]) : F = fait constaté sur la source citée · I = inférence · P = proposition · H = hypothèse chiffrée à valider. Les chiffres publiés par une entreprise sur elle-même sont des argumentaires.

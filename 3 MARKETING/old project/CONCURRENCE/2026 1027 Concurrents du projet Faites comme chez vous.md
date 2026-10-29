@@ -1,5 +1,7 @@
 # Concurrents du projet « Faites comme chez vous »
 
+> Archive du projet « Faites comme chez vous », abandonné le 27/10/2026. Ne pas utiliser, sauf comme source citée. La concurrence de Pop Tables est dans `3 MARKETING/new project/3 Concurrence/`.
+
 Date : 27/10/2026 · Production d'assistant IA, à la demande de Serge Muller · Statut : document de travail, non validé par l'équipe
 
 Objet : recenser les offres avec lesquelles notre plateforme sera comparée, par un usager qui cherche un lieu pour se réunir en ville dense, ou par un propriétaire qui hésite à confier ses créneaux ou sa vacance. Complète la fiche [[2026 1026 Recherches préliminaires - Modèles et clients potentiels]] (1 DIRECTION/STRATEGIE), qui détaille déjà les modèles étrangers et les références de la vacance entre deux baux ; ces derniers ne sont repris ici que sous forme de renvoi.
