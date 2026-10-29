@@ -12,7 +12,7 @@ Cadre : cadre de référence Pop Tables (chefs rares : chefs étrangers, seconds
 | Garder la propriété de ses recettes et de son savoir-faire | 7 | Le droit d'annoncer la soirée avec son nom, son image et son parcours | 6 |
 | Être crédité et que son image soit respectée | 6 | La confidentialité jusqu'au drop (chef parfois révélé à table) | 8 |
 | Voyage, hébergement et formalités pris en charge | 5 | Le respect de nos procédures d'hygiène et des allergènes | 3 |
-| Une équipe et une cuisine prêtes | 3 | Un remplacement ou une indemnisation si le chef se désiste | 9 |
+| Une équipe et une cuisine prêtes | 3 | Un remplacement, ou une pénalité et un remboursement si le chef n'est pas disponible | 9 (dont 9.4, clause pénale) |
 | Être indemnisé si la soirée est annulée tard | 9 | Ne pas être contourné auprès du restaurant et des clients | 10 |
 | Rester libre de ses autres activités | 11 | Éviter la requalification en contrat de travail | 11 |
 
@@ -69,9 +69,20 @@ Le Chef et sa brigade appliquent le plan de maîtrise sanitaire de Pop Tables et
 Le Chef garde confidentiels, jusqu'à leur révélation par Pop Tables : la date, le lieu, l'existence de la soirée et ses conditions financières. Pour les soirées où le Chef est révélé à table, il s'abstient de toute communication préalable.
 
 ## Article 9 — Désistement, annulation, remplacement
-9.1. **Par le Chef** : en cas d'empêchement, le Chef prévient Pop Tables sans délai et propose, si possible, un chef de niveau équivalent, soumis à l'accord de Pop Tables. Un désistement non justifié à moins de [30] jours entraîne le remboursement des sommes versées et des frais engagés par Pop Tables (billets, remboursements aux convives), dans la limite de [●] €.
+9.1. **Par le Chef** : en cas d'empêchement, le Chef prévient Pop Tables sans délai et propose, si possible, un chef de niveau équivalent, soumis à l'accord de Pop Tables. Un désistement non justifié entraîne la restitution des sommes déjà versées par Pop Tables (acompte, billets et hébergement payés pour le Chef) et l'application de la clause pénale de l'article 9.4.
 9.2. **Par Pop Tables** (notamment si le seuil de ventes n'est pas atteint) : plus de [21] jours avant : sans indemnité, sauf frais de voyage non remboursables ; entre [21] et [7] jours : [50] % du cachet ; moins de [7] jours : [100] % du cachet.
 9.3. **Force majeure** (y compris maladie grave justifiée, refus de visa non imputable au Chef, annulation de vol) : aucune indemnité ; frais engagés partagés selon [●].
+
+9.4. **Clause pénale.** En cas de **non-disponibilité du Chef** non justifiée par un cas de force majeure (art. 9.3) — désistement, absence ou retard de plus de [2] heures le jour de la soirée, abandon de la prestation en cours de soirée —, le Chef verse à Pop Tables, à titre de **clause pénale**, une indemnité forfaitaire égale à :
+- **[25] %** du cachet prévu si la non-disponibilité est notifiée par écrit plus de [60] jours avant la soirée ;
+- **[50] %** du cachet si elle est notifiée entre [60] et [30] jours avant la soirée ;
+- **[100] %** du cachet si elle est notifiée moins de [30] jours avant la soirée, ou si elle survient le jour même.
+
+Aucune pénalité n'est due si un chef de remplacement proposé par le Chef est **accepté par écrit** par Pop Tables et assure la soirée.
+
+La pénalité s'ajoute à la restitution prévue à l'article 9.1. Elle couvre forfaitairement le préjudice de Pop Tables, sauf pour les **frais engagés et justifiés** au titre de la soirée (remboursement des convives, frais de restaurant et de fournisseurs non annulables), que le Chef rembourse en outre dans la limite de [●] €. Pop Tables peut compenser ces sommes avec celles qu'elle doit au Chef. Elles sont payables dans les [30] jours suivant la demande écrite de Pop Tables.
+
+> **Note.** Le juge peut réduire ou augmenter une clause pénale manifestement excessive ou dérisoire (code civil, art. 1231-5). Des montants proportionnés au cachet, et symétriques de l'indemnité due au Chef en cas d'annulation par Pop Tables (art. 9.2), rendent la clause plus solide et plus facile à faire accepter. Pour un chef venu de l'étranger, prévoir le recouvrement par compensation sur le solde du cachet.
 
 ## Article 10 — Non-contournement
 Pendant [12] mois après la soirée, le Chef s'interdit d'organiser directement, avec le restaurant ou les clients rencontrés par l'intermédiaire de Pop Tables, une soirée de même nature, sauf accord écrit de Pop Tables.
