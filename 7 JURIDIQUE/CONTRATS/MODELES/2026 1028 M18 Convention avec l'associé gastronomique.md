@@ -24,7 +24,7 @@
 
 ## 2. Clauses de la convention
 
-1. **Part cible.** [●] % du capital à terme, acquis selon les jalons du § 3.
+1. **Part cible.** [5] % du capital (proposition de la Finance, modèle Financement, sous forme d'apport en industrie), acquis selon les jalons du § 3.
 2. **Apport attendu.** Sélection et présentation de chefs ; accès à des restaurants d'exception ; présence à [●] soirées par an ; caution de la sélection dans la communication.
 3. **Jalons** (exemples, à fixer) :
 

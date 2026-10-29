@@ -30,7 +30,7 @@ Règles : un modèle n'est pas un contrat ; un contrat signé est une pièce, ra
 | **M21** | **Projet de statuts complets de la SAS Pop Tables** (rédigé à partir de M16 ; 11 choix à faire par les associés) | Fondateurs | Idem M16 | **P0** avant l'immatriculation |
 | M18 | Convention avec l'associé gastronomique | Associé gastronomique (D-17) | Part du capital juste, protection de sa réputation, liberté de ses activités | P1 avant la levée |
 | M19 | Mentions légales, politique de confidentialité, consentements | Visiteurs du site, liste privée | Transparence, contrôle de leurs données (allergies), désinscription facile | **P1** avant la mise en ligne |
-| M20 | BSA AIR : points clés | Investisseurs (D-23) | Décote ou plafond, conversion, information | P1 avant février 2027 |
+| ~~M20~~ | BSA AIR : points clés — **rangé dans `OLD/` le 29/10/2026** (financement initial sans BSA AIR, choix du responsable Finance) | — | — | — |
 
 **P0** : avant la création de la société et les premiers échanges. **P1** : avant le premier pilote ou l'événement concerné. **P2** : plus tard.
 

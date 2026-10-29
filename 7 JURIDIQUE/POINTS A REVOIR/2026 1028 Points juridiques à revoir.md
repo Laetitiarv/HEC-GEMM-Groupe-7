@@ -1,6 +1,6 @@
 # Points juridiques à revoir
 
-**Version réorganisée du 28/10/2026 (nuit), complétée le 29/10/2026** · Fonction : `7 JURIDIQUE/POINTS A REVOIR` · Production d'assistant IA à la demande du responsable Juridique · Statut : liste de travail. **Aucune analyse ici ne vaut avis juridique.**
+**Version réorganisée du 28/10/2026 (nuit), complétée le 29/10/2026 (dont capital de 70 000 €)** · Fonction : `7 JURIDIQUE/POINTS A REVOIR` · Production d'assistant IA à la demande du responsable Juridique · Statut : liste de travail. **Aucune analyse ici ne vaut avis juridique.**
 
 Cadre : [[2026 1028 Pop Tables - Cadre de référence]], décisions D-02 à D-24 ([[REGISTRE DES DECISIONS]]), BMC V6. La première version de cette note, construite sur l'ancien cadre (D-01), est rangée dans `OLD/` ; ses numéros sont repris au § 4.
 
@@ -32,6 +32,7 @@ Légende : **Haute** = bloquant pour le lancement (pilote de janvier 2027 et pr�
 ## 1. Gravité haute
 
 ### H1 — Création de la société
+- **Mise à jour du 29/10/2026.** Le capital prévu est de **70 000 €**, apporté à parts égales par les 7 fondateurs (10 000 € chacun, dont 2 fondateurs exécutifs), versé en totalité à la création (D-26 et choix du responsable Finance) ; **pas de BSA AIR**. Le projet de statuts (M21), la trame (M16) et le pacte (M17) sont alignés. Reste à faire inscrire la forme de D-26 au registre par la Direction, et à décider la source du complément de 45 000 € de la tranche 1 (prêt bancaire ou apport complémentaire des fondateurs).
 - **Constat.** La société n'est pas créée. Tout le reste dépend du Kbis : contrat d'assurance ferme, licence, déclaration d'activité à la DDPP, compte bancaire, carte d'acheteur à Rungis, signature des contrats.
 - **Ce qui est prêt.** Projet de statuts complets [[2026 1028 M21 Projet de statuts de la SAS Pop Tables]] ; trame [[2026 1028 M16 Statuts de la SAS Pop Tables - trame des clauses clés]] ; trame du pacte d'associés et des engagements des fondateurs [[2026 1028 M17 Pacte d'associés et engagements des fondateurs - trame]].
 - **Ce qui reste.** Les **11 choix des associés** listés en tête de M21 (président, siège, libération du capital, apports en industrie, inaliénabilité, agrément, exclusion, actes soumis à l'accord des associés, majorités…). Le **mode de décision** de l'équipe, jamais précisé au registre (D-01 à D-24). Le pacte et les engagements des fondateurs, à signer le même jour que les statuts. La liste des actes signés au nom de la société en formation. La relecture par un avocat ou un service de formalités.
@@ -70,7 +71,7 @@ Légende : **Haute** = bloquant pour le lancement (pilote de janvier 2027 et pr�
 
 | N° | Point | Ce qui reste | Documents |
 |---|---|---|---|
-| M1 | **Associé gastronomique** (D-17) | Choisir la voie d'entrée au capital (apport en industrie, bons de souscription à jalons, souscription au nominal) et fixer sa part. Sans elles, la dilution des investisseurs en BSA AIR (D-23) ne peut pas être calculée | M18, M20, M21 (art. 7) |
+| M1 | **Associé gastronomique** (D-17) | La Finance propose un **apport en industrie** donnant **5 %** du capital. Reste à confirmer la voie (apport en industrie, bons de souscription à jalons, souscription au nominal), les jalons et la part, puis à l'inscrire au registre. Pas de BSA AIR dans le financement initial (Finance, 29/10/2026) | M18, M21 (art. 7) |
 | M2 | **Marque Pop Tables** (D-03) | Recherche d'antériorités par un conseil (risque avec les marques « pop food ») ; dépôt en classes 41 et 43, puis à l'international ; propriété et usage de la marque **Mad Lords**, qui appartient à un fondateur | M17 (partie 2) |
 | M3 | **Personnel de la soirée** (D-07) | Choisir entre l'intérim (recommandé pour le pilote) et l'embauche directe en CDD d'usage ; dans ce second cas, convention collective, mutuelle et déclarations. Ne jamais refacturer les salariés d'un restaurant avec une marge (prêt de main-d'œuvre illicite) | M05, M06, M01 (art. 2) |
 | M4 | **Prescripteurs** | Commission de 5 % (D-21). Ne jamais rémunérer un salarié (concierge) à l'insu de son employeur : risque de **corruption privée** ; signer avec l'hôtel ou la conciergerie | M12 |

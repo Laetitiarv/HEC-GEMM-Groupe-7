@@ -1,6 +1,6 @@
 # M17 — Pacte d'associés et engagements des fondateurs : trame
 
-**Modèle du 28/10/2026** · **Trame, non relue par un avocat : ne pas signer en l'état.** Le pacte complète les statuts (M16) ; il reste confidentiel. Il sera à revoir à l'entrée des investisseurs (conversion des BSA AIR, D-23) et de l'associé gastronomique (D-17).
+**Modèle du 28/10/2026** · **Trame, non relue par un avocat : ne pas signer en l'état.** Le pacte complète les statuts (M16) ; il reste confidentiel. Capital de 70 000 € réparti à parts égales entre les 7 fondateurs, **dont 2 fondateurs exécutifs** ; pas de BSA AIR (Finance, 29/10/2026). Le pacte sera à revoir à l'entrée de l'associé gastronomique (D-17, 5 % proposés) et en cas de levée en fonds propres (tranche 2 conditionnelle, D-23).
 
 ## Besoins de chaque partie
 
@@ -16,7 +16,7 @@
 
 1. **Parties.** Les 7 associés fondateurs ; adhésion obligatoire de tout nouvel associé.
 2. **Gouvernance.** [Comité stratégique] composé de [●] ; se réunit [mensuellement]. Décisions importantes (liste de M16, § 1, et : choix d'une ville, prix de la grille, signature d'un contrat de plus de [●] €) prises à la majorité de [●] des associés. Les décisions sont inscrites au **registre des décisions** avec le mode de décision.
-3. **Rôles.** Chaque fondateur est responsable d'un pôle (README du dépôt). Temps consacré attendu : [●] heures par semaine jusqu'au [●].
+3. **Rôles.** Chaque fondateur est responsable d'un pôle (README du dépôt). **Deux fondateurs exécutifs** [noms] consacrent leur temps plein à la société [à partir du ●] et seront rémunérés selon le plan de la Finance ; les cinq autres sont **non exécutifs**, avec un temps consacré attendu de [●] heures par semaine. Le pacte précise ce qui distingue les deux catégories (rémunération, vesting, départ, non-concurrence).
 4. **Vesting.** Les actions de chaque fondateur sont « acquises » progressivement sur [36] mois, avec une première acquisition à [12] mois.
 5. **Départ d'un fondateur.**
    - *Good leaver* (départ pour cause de maladie, accord des associés, [●]) : rachat des actions acquises à la valeur de marché, des autres au nominal.

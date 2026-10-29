@@ -7,14 +7,14 @@ Mode d'emploi :
 - Les encadrés « Note » expliquent un choix ou signalent un point à vérifier. **Ils sont à supprimer** avant signature.
 - Les associés sont désignés « Associé 1 » à « Associé 7 » : leur identité complète (nom, date et lieu de naissance, adresse) n'est inscrite que dans la version signée, qui ne doit pas être versée dans ce dépôt tant qu'il est public.
 
-Données du dépôt reprises : nom « Pop Tables » (D-03) ; activité définie par le cadre de référence et le BMC V6 (D-24) ; vente de vin et de champagne sous licence propre (D-09) ; ouverture de villes en France et à l'étranger (D-15) ; 7 associés à 1 000 € et création visée au 01/11/2026 (Finance, donnée n° 17, hypothèse) ; associé gastronomique entrant contre un apport non monétaire (D-17) ; levée en BSA AIR (D-23) ; exercice du 1er novembre au 31 octobre (modèle Finance).
+Données du dépôt reprises : nom « Pop Tables » (D-03) ; activité définie par le cadre de référence et le BMC V6 (D-24) ; vente de vin et de champagne sous licence propre (D-09) ; ouverture de villes en France et à l'étranger (D-15) ; **capital de 70 000 €, apporté à parts égales par les 7 fondateurs (10 000 € chacun), dont 2 fondateurs exécutifs, versé en totalité en novembre 2026** (D-26 ; choix du responsable Finance du 29/10/2026, précisant D-26 ; modèle Financement) ; création visée en novembre 2026 ; associé gastronomique entrant contre un apport en industrie, 5 % proposés par la Finance (D-17) ; **pas de BSA AIR** dans le financement initial (Finance, 29/10/2026) ; tranche 1 d'environ 70 000 € proposée par la Finance : prêt d'honneur, subvention et complément de 45 000 € à décider (note de levée) ; exercice du 1er novembre au 31 octobre (modèle Finance).
 
 ## Choix à faire par les associés avant signature
 
 | N° | Article | Choix | Proposition (P) |
 |---|---|---|---|
 | 1 | 4 | Adresse du siège | Domiciliation commerciale ou adresse d'un associé |
-| 2 | 6, 10 | Libération du capital à la constitution | Totale (7 000 €), plus simple pour la banque et les partenaires |
+| 2 | 6, 10 | Libération du capital à la constitution | **Totale (70 000 €)**, comme le prévoit le modèle de la Finance (versement en novembre 2026) |
 | 3 | 7 | Autoriser les apports en industrie | Oui, pour garder ouverte une voie d'entrée de l'associé gastronomique (M18) |
 | 4 | 14 | Durée d'inaliénabilité des actions | [2] ans, ou aucune (à traiter alors dans le pacte) |
 | 5 | 15 | Majorité de l'agrément d'un nouvel associé | Deux tiers des voix |
@@ -30,7 +30,7 @@ Données du dépôt reprises : nom « Pop Tables » (D-03) ; activité définie 
 # STATUTS
 
 **Pop Tables**
-Société par actions simplifiée au capital de 7 000 euros
+Société par actions simplifiée au capital de 70 000 euros
 Siège social : [●]
 [RCS de Paris, en cours d'immatriculation]
 
@@ -88,20 +88,20 @@ La durée de la Société est fixée à **99 ans** à compter de son immatricula
 ## TITRE II — APPORTS, CAPITAL, ACTIONS
 
 ### Article 6 — Apports
-**6.1. Apports en numéraire.** Lors de la constitution, les associés ont apporté une somme totale de **7 000 euros**, répartie comme suit :
+**6.1. Apports en numéraire.** Lors de la constitution, les associés ont apporté une somme totale de **70 000 euros**, répartie comme suit :
 
 | Associé | Apport | Actions |
 |---|---|---|
-| Associé 1 | 1 000 € | 1 000 |
-| Associé 2 | 1 000 € | 1 000 |
-| Associé 3 | 1 000 € | 1 000 |
-| Associé 4 | 1 000 € | 1 000 |
-| Associé 5 | 1 000 € | 1 000 |
-| Associé 6 | 1 000 € | 1 000 |
-| Associé 7 | 1 000 € | 1 000 |
-| **Total** | **7 000 €** | **7 000** |
+| Associé 1 | 10 000 € | 10 000 |
+| Associé 2 | 10 000 € | 10 000 |
+| Associé 3 | 10 000 € | 10 000 |
+| Associé 4 | 10 000 € | 10 000 |
+| Associé 5 | 10 000 € | 10 000 |
+| Associé 6 | 10 000 € | 10 000 |
+| Associé 7 | 10 000 € | 10 000 |
+| **Total** | **70 000 €** | **70 000** |
 
-Ces sommes, correspondant à la souscription de 7 000 actions de 1 euro de valeur nominale, [libérées en totalité / libérées de moitié], ont été déposées sur un compte ouvert au nom de la Société en formation auprès de [banque, agence], ainsi qu'il résulte du certificat du dépositaire établi le [●].
+Ces sommes, correspondant à la souscription de 70 000 actions de 1 euro de valeur nominale, libérées en totalité, ont été déposées sur un compte ouvert au nom de la Société en formation auprès de [banque, agence], ainsi qu'il résulte du certificat du dépositaire établi le [●].
 
 **6.2. Apports en nature.** Néant.
 
@@ -116,10 +116,10 @@ Les associés peuvent, par décision collective extraordinaire, admettre des app
 
 La décision collective fixe la nature de l'apport, sa durée, les jalons éventuels et l'évaluation retenue.
 
-> **Note.** Voie possible pour l'associé gastronomique (D-17), à comparer aux BSA à jalons (M18). Modalités d'évaluation et de souscription à faire valider par un avocat.
+> **Note.** Voie retenue à titre de proposition par la Finance pour l'associé gastronomique (D-17 ; apport en industrie, 5 % proposés dans le modèle Financement), à comparer aux BSA à jalons (M18). Modalités d'évaluation et de souscription à faire valider par un avocat.
 
 ### Article 8 — Capital social
-Le capital social est fixé à **7 000 euros**. Il est divisé en **7 000 actions** de **1 euro** de valeur nominale chacune, toutes de même catégorie.
+Le capital social est fixé à **70 000 euros**. Il est divisé en **70 000 actions** de **1 euro** de valeur nominale chacune, toutes de même catégorie.
 
 ### Article 9 — Modification du capital
 9.1. Le capital peut être augmenté, réduit ou amorti par décision collective extraordinaire des associés, qui peut déléguer au Président les pouvoirs nécessaires à sa réalisation.
@@ -140,7 +140,7 @@ Les actions sont obligatoirement **nominatives**. Elles sont inscrites en compte
 ### Article 13 — Valeurs mobilières donnant accès au capital
 La Société peut émettre, par décision collective extraordinaire, toutes valeurs mobilières donnant accès au capital, notamment des **bons de souscription d'actions** (y compris des BSA « AIR »), des bons de souscription de parts de créateur d'entreprise et des actions gratuites, dans les conditions prévues par la loi. La décision peut déléguer au Président le pouvoir d'en fixer les modalités.
 
-> **Note.** Article nécessaire pour la levée de la tranche 1 en BSA AIR (D-23, M20).
+> **Note.** Le financement initial ne prévoit **pas de BSA AIR** (Finance, 29/10/2026). L'article est conservé pour permettre, sans modifier les statuts, une levée ultérieure (tranche 2 conditionnelle, D-23) ou des bons attribués à l'associé gastronomique.
 
 ### Article 14 — Transmission des actions
 14.1. **Définition.** Est une « cession » toute opération, à titre onéreux ou gratuit, entraînant le transfert de la propriété, de la nue-propriété ou de l'usufruit d'actions ou de valeurs mobilières donnant accès au capital, y compris par voie d'apport, de fusion, de donation ou d'adjudication.
@@ -290,7 +290,7 @@ Reprise du tableau de l'article 6.1, avec l'identité complète de chaque associ
 
 | N° | Date | Acte | Cocontractant | Engagement pour la Société | Signataire |
 |---|---|---|---|---|---|
-| 1 | [●] | Ouverture du compte de dépôt du capital | [banque] | 7 000 € déposés | [●] |
+| 1 | [●] | Ouverture du compte de dépôt du capital | [banque] | 70 000 € déposés | [●] |
 | 2 | [●] | Contrat de domiciliation | [●] | [●] € par mois | [●] |
 | 3 | [●] | [Accord de confidentialité, réservation d'un nom de domaine, devis accepté, etc.] | [●] | [●] | [●] |
 
