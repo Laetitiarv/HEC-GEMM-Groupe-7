@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pop Tables finances</title>
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f6f5f2; --surface-1:#fcfcfb; --surface-2:#f0efec; --border:#e2e0da;
+  --text-primary:#0b0b0b; --text-secondary:#52514e; --text-muted:#76746f;
+  --grid:#e7e5df; --axis:#b9b7b0;
+  --series-1:#2a78d6; --series-2:#eb6834; --series-3:#1baf7a;
+  --pos:#2a78d6; --neg:#e34948;
+  --good:#0ca30c; --critical:#d03b3b;
+  --accent:#1c5cab; --banner:#fff4e0; --banner-text:#6b4400;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#121211; --surface-1:#1a1a19; --surface-2:#242422; --border:#33332f;
+    --text-primary:#f0efec; --text-secondary:#c3c2b7; --text-muted:#9a988f;
+    --grid:#2c2c29; --axis:#55544f;
+    --series-1:#3987e5; --series-2:#d95926; --series-3:#199e70;
+    --pos:#3987e5; --neg:#e66767; --good:#3fbf3f; --critical:#e66767;
+    --accent:#86b6ef; --banner:#3a2e14; --banner-text:#f3d9a4;
+    --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#121211; --surface-1:#1a1a19; --surface-2:#242422; --border:#33332f;
+  --text-primary:#f0efec; --text-secondary:#c3c2b7; --text-muted:#9a988f;
+  --grid:#2c2c29; --axis:#55544f;
+  --series-1:#3987e5; --series-2:#d95926; --series-3:#199e70;
+  --pos:#3987e5; --neg:#e66767; --good:#3fbf3f; --critical:#e66767;
+  --accent:#86b6ef; --banner:#3a2e14; --banner-text:#f3d9a4;
+  --shadow:none;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--text-primary);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:1200px;margin:0 auto;padding:20px 16px 48px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:flex-end;justify-content:space-between;margin-bottom:14px}
+h1{font-size:22px;margin:0;letter-spacing:-.01em}
+h2.sec{font-size:16px;margin:26px 0 10px}
+.sub{color:var(--text-secondary);font-size:13px;margin-top:2px}
+.banner{background:var(--banner);color:var(--banner-text);border-radius:8px;padding:9px 12px;font-size:13px;margin-bottom:16px}
+.theme-btn{appearance:none;border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);font:inherit;font-size:13px;border-radius:8px;padding:5px 10px;cursor:pointer}
+.kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.kpi{background:var(--surface-1);border:1px solid var(--border);border-radius:10px;padding:12px 14px;box-shadow:var(--shadow)}
+.kpi .k{font-size:13px;color:var(--text-secondary);font-weight:600}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}
+.pair .yl{display:block;font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:.04em}
+.pair .v{display:block;font-size:20px;font-weight:650;font-variant-numeric:tabular-nums;letter-spacing:-.01em;white-space:nowrap}
+.pair .s{display:block;font-size:12px;color:var(--text-secondary);font-variant-numeric:tabular-nums}
+.kpi .d{font-size:12px;color:var(--text-muted);margin-top:6px}
+.st{font-weight:600}
+.st.bad{color:var(--critical)} .st.ok{color:var(--good)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--surface-1);border:1px solid var(--border);border-radius:10px;padding:14px 14px 10px;box-shadow:var(--shadow);min-width:0}
+.card h3{font-size:15px;margin:0}
+.card .cap{font-size:12px;color:var(--text-secondary);margin:2px 0 8px}
+.full{grid-column:1/-1}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--text-secondary);margin-bottom:4px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:5px}
+.legend i.ln{width:14px;height:3px;vertical-align:middle}
+.legend i.dot{width:9px;height:9px;border-radius:50%}
+.chart{position:relative;width:100%}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.tick{font-size:11px;fill:var(--text-muted);font-variant-numeric:tabular-nums}
+.dlabel{font-size:11px;fill:var(--text-secondary);font-variant-numeric:tabular-nums}
+.tip{position:absolute;top:0;left:0;pointer-events:none;background:var(--surface-1);border:1px solid var(--border);border-radius:8px;padding:7px 9px;font-size:12px;box-shadow:0 4px 14px rgba(0,0,0,.12);white-space:nowrap;opacity:0;transition:opacity .08s;z-index:5;color:var(--text-primary)}
+.tip b{display:block;margin-bottom:3px}
+.tip .row{display:flex;gap:12px;justify-content:space-between;font-variant-numeric:tabular-nums}
+.tip .sw{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:5px}
+.valo{display:grid;grid-template-columns:minmax(240px,300px) minmax(0,1fr);gap:18px}
+@media (max-width:860px){.valo{grid-template-columns:minmax(0,1fr)}}
+.field{margin-bottom:14px}
+.field label{display:flex;justify-content:space-between;font-size:13px;color:var(--text-secondary);margin-bottom:4px}
+.field label output{color:var(--text-primary);font-weight:650;font-variant-numeric:tabular-nums}
+.field input[type=range]{width:100%;accent-color:var(--accent)}
+.field .hint{font-size:11px;color:var(--text-muted);margin-top:2px}
+table{border-collapse:collapse;width:100%;font-size:12px;font-variant-numeric:tabular-nums}
+th,td{padding:5px 6px;border-bottom:1px solid var(--border);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{color:var(--text-secondary);font-weight:600}
+.tscroll{overflow-x:auto}
+details{margin-top:6px}
+summary{cursor:pointer;font-size:12px;color:var(--text-secondary)}
+.note{font-size:12px;color:var(--text-muted);margin-top:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <h1>Pop Tables · Tableau de bord financier</h1>
+    <div class="sub">Plan sur 3 ans, de novembre 2026 à octobre 2029 · modèle Prévisions du 29/10/2026 · document interne au dépôt de l'équipe</div>
+  </div>
+  <button class="theme-btn" id="themeBtn" type="button">Thème : auto</button>
+</header>
+<div class="banner"><strong>Prévisions, pas des résultats.</strong> Les prix sont des propositions du Produit ; les volumes, les coûts, les salaires et les financements sont des hypothèses (H), en attendant les devis et les premières soirées. Les jauges des places à l'unité, l'enveloppe d'équipe et la suppression du photographe sont des décisions de la Direction (D-05, D-06, D-08). Détail et sources : <code>2 FINANCE/2026 1028 Pop Tables - Données financières manquantes et hypothèses.md</code>.</div>
+
+<h2 class="sec">Indicateurs : année 1 et année 3</h2>
+<div class="kpis" id="kpis"></div>
+
+<h2 class="sec">Activité et résultats sur 3 ans</h2>
+<div class="grid">
+  <div class="card">
+    <h3>Chiffre d'affaires, coûts et résultat</h3>
+    <div class="cap">Par année, € HT. Le résultat d'exploitation est indiqué sous chaque année (avant impôt).</div>
+    <div class="legend"><span><i style="background:var(--series-1)"></i>Chiffre d'affaires</span><span><i style="background:var(--series-2)"></i>Coûts directs des soirées</span><span><i style="background:var(--series-3)"></i>Frais généraux</span></div>
+    <div class="chart" id="chPL"></div>
+  </div>
+  <div class="card">
+    <h3>Soirées par mois</h3>
+    <div class="cap">Places à l'unité (1 par mois et par ville, D-15) et privatisations de salle (H)</div>
+    <div class="legend"><span><i style="background:var(--series-1)"></i>Places à l'unité</span><span><i style="background:var(--series-2)"></i>Privatisations</span></div>
+    <div class="chart" id="chEV"></div>
+  </div>
+  <div class="card">
+    <h3>Trésorerie en fin de mois</h3>
+    <div class="cap" id="capTR"></div>
+    <div class="chart" id="chTR"></div>
+  </div>
+  <div class="card">
+    <h3>Flux de trésorerie du mois</h3>
+    <div class="cap">Résultat − investissements ± TVA ± pré-vente + apport (€)</div>
+    <div class="legend"><span><i style="background:var(--pos)"></i>Flux positif</span><span><i style="background:var(--neg)"></i>Flux négatif</span></div>
+    <div class="chart" id="chCF"></div>
+  </div>
+</div>
+
+<h2 class="sec">Valorisation de l'entreprise dans le temps</h2>
+<div class="card">
+  <div class="valo">
+    <div>
+      <div class="cap" style="margin-top:0">Valorisation estimée en fin d'année = multiple × indicateur de l'année. Les multiples sont des hypothèses (H) : aucun comparable n'est sourcé dans le dépôt.</div>
+      <div class="field"><label for="inMCA">Multiple du chiffre d'affaires <output id="oMCA"></output></label><input type="range" id="inMCA" min="0.3" max="3" step="0.1" value="1"></div>
+      <div class="field"><label for="inMR">Multiple du résultat d'exploitation <output id="oMR"></output></label><input type="range" id="inMR" min="3" max="15" step="0.5" value="8"><div class="hint">Sans objet quand le résultat est négatif (année 1)</div></div>
+      <div class="field"><label for="inTax">Impôt sur les sociétés déduit du résultat <output id="oTax"></output></label><input type="range" id="inTax" min="0" max="0.25" step="0.05" value="0"><div class="hint">Le modèle ne compte pas l'impôt ; 25 % = taux normal (à confirmer par l'expert-comptable)</div></div>
+      <div class="tscroll"><table id="tbVal"></table></div>
+    </div>
+    <div>
+      <div class="legend"><span><i class="ln" style="background:var(--series-1)"></i>Multiple du chiffre d'affaires</span><span><i class="ln" style="background:var(--series-3)"></i>Multiple du résultat</span><span><i class="dot" style="background:var(--text-muted)"></i>Valorisation de départ (modèle Financement, H)</span></div>
+      <div class="chart" id="chVal"></div>
+    </div>
+  </div>
+</div>
+
+<h2 class="sec">Données</h2>
+<div class="card">
+  <details><summary>Afficher le tableau annuel</summary><div class="tscroll"><table id="tbYears"></table></div></details>
+  <details><summary>Afficher les 36 mois</summary><div class="tscroll"><table id="tbMonths"></table></div></details>
+</div>
+
+<p class="note" id="foot"></p>
+</div>
+
+<script>
+const DATA = {"monthly":{"villes":[1,1,1,1,1,1,1,1,1,1,1,1,3,3,3,3,3,3,3,3,3,3,3,3,6,6,6,6,6,6,6,6,6,6,6,6],"places":[0,0,1,1,1,1,1,1,1,0,1,1,3,3,3,3,3,3,3,3,3,0,3,3,6,6,6,6,6,6,6,6,6,0,6,6],"priv":[0,0,0,0,0,1,1,1,0,0,2,2,10,10,10,10,10,10,10,10,10,10,10,10,20,20,20,20,20,20,20,20,20,20,20,20],"ev":[0,0,1,1,1,2,2,2,1,0,3,3,13,13,13,13,13,13,13,13,13,10,13,13,26,26,26,26,26,26,26,26,26,20,26,26],"eff":[0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,15,15,15,15,15,15,15,15,15,15,15,15],"caPl":[0,0,10357.14,18482.14,13125,10357.14,18482.14,13125,10357.14,0,18482.14,13125,41964.29,41964.29,41964.29,41964.29,41964.29,41964.29,41964.29,41964.29,41964.29,0,41964.29,41964.29,83928.57,83928.57,83928.57,83928.57,83928.57,83928.57,83928.57,83928.57,83928.57,0,83928.57,83928.57],"caPv":[0,0,0,0,0,13392.86,13392.86,13392.86,0,0,26785.71,26785.71,133928.57,133928.57,133928.57,133928.57,133928.57,133928.57,133928.57,133928.57,133928.57,133928.57,133928.57,133928.57,267857.14,267857.14,267857.14,267857.14,267857.14,267857.14,267857.14,267857.14,267857.14,267857.14,267857.14,267857.14],"ca":[0,0,10357.14,18482.14,13125,23750,31875,26517.86,10357.14,0,45267.86,39910.71,175892.86,175892.86,175892.86,175892.86,175892.86,175892.86,175892.86,175892.86,175892.86,133928.57,175892.86,175892.86,351785.71,351785.71,351785.71,351785.71,351785.71,351785.71,351785.71,351785.71,351785.71,267857.14,351785.71,351785.71],"cd":[0,0,8269.29,14871.25,10911.25,16497.86,23344.82,19839.82,7569.29,0,32273.39,28768.39,123182.5,123182.5,123182.5,123182.5,123182.5,123182.5,123182.5,123182.5,123182.5,89285.71,123182.5,123182.5,247065,247065,247065,247065,247065,247065,247065,247065,247065,178571.43,247065,247065],"marge":[0,0,2087.86,3610.89,2213.75,7252.14,8530.18,6678.04,2787.86,0,12994.46,11142.32,52710.36,52710.36,52710.36,52710.36,52710.36,52710.36,52710.36,52710.36,52710.36,44642.86,52710.36,52710.36,104720.71,104720.71,104720.71,104720.71,104720.71,104720.71,104720.71,104720.71,104720.71,89285.71,104720.71,104720.71],"rh":[0,0,0,0,0,0,0,0,0,0,0,0,8121.54,8121.54,8121.54,8121.54,8121.54,8121.54,8121.54,8121.54,8121.54,8121.54,8121.54,8121.54,53653.07,53653.07,53653.07,53653.07,53653.07,53653.07,53653.07,53653.07,53653.07,53653.07,53653.07,53653.07],"fonc":[2712,4660,2452.14,7614.64,34307.5,2520,1682.5,1575.36,1252.14,10960,11950.36,11843.21,7919.52,8219.52,7919.52,7919.52,7919.52,7919.52,7919.52,7919.52,7919.52,21825.24,22919.52,22919.52,18342.38,18942.38,18342.38,18342.38,18342.38,18342.38,18342.38,18342.38,18342.38,16153.81,18342.38,18342.38],"fg":[2712,4660,2452.14,7614.64,34307.5,2520,1682.5,1575.36,1252.14,10960,11950.36,11843.21,16041.06,16341.06,16041.06,16041.06,16041.06,16041.06,16041.06,16041.06,16041.06,29946.78,31041.06,31041.06,71995.45,72595.45,71995.45,71995.45,71995.45,71995.45,71995.45,71995.45,71995.45,69806.88,71995.45,71995.45],"res":[-2712,-4660,-364.29,-4003.75,-32093.75,4732.14,6847.68,5102.68,1535.71,-10960,1044.11,-700.89,36669.3,36369.3,36669.3,36669.3,36669.3,36669.3,36669.3,36669.3,36669.3,14696.08,21669.3,21669.3,32725.26,32125.26,32725.26,32725.26,32725.26,32725.26,32725.26,32725.26,32725.26,19478.83,32725.26,32725.26],"inv":[18000,0,0,0,0,0,0,0,0,0,0,0,5000,0,0,0,0,0,0,0,0,0,0,0,10000,0,0,0,0,0,0,0,0,0,0,0],"tva":[-4051,-691,-238.36,-975.25,-3739.5,457.57,871.68,576.43,141.64,-1151,387.61,92.36,4327.51,5327.51,3991.31,0,0,0,0,0,0,-2410.89,910.89,0,4250.18,2000,0,0,0,0,0,0,0,-1751.79,1751.79,0],"pv":[0,11600,9100,-6000,-3100,9100,-6000,-3100,-11600,20700,-6000,32300,0,0,0,0,0,0,0,0,-47000,47000,0,47000,0,0,0,0,0,0,0,0,-94000,94000,0,0],"apport":[70000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"flux":[45237,6249,8497.36,-10979,-38933.25,14289.71,1719.36,2579.11,-9922.64,8589,-4568.29,31691.46,35996.81,41696.81,40660.61,36669.3,36669.3,36669.3,36669.3,36669.3,-10330.7,59285.19,22580.19,68669.3,26975.44,34125.26,32725.26,32725.26,32725.26,32725.26,32725.26,32725.26,-61274.74,111727.05,34477.05,32725.26],"treso":[45237,51486,59983.36,49004.36,10071.11,24360.82,26080.18,28659.29,18736.64,27325.64,22757.36,54448.82,90445.63,132142.44,172803.04,209472.34,246141.64,282810.93,319480.23,356149.53,345818.82,405104.01,427684.2,496353.5,523328.93,557454.19,590179.45,622904.71,655629.97,688355.23,721080.49,753805.75,692531.01,804258.05,838735.1,871460.36]},"years":{"villes":[1,3,6],"places":[9,33,66],"priv":[7,120,240],"ev":[16,153,306],"eff":[0,3,15],"caPl":[125892.86,461607.14,923214.29],"caPv":[93750,1607142.86,3214285.71],"ca":[219642.86,2068750,4137500],"cd":[162345.36,1444293.21,2896286.43],"marge":[57297.5,624456.79,1241213.57],"rh":[0,97458.44,643836.89],"fonc":[93529.86,139240,218520],"fg":[93529.86,236698.44,862356.89],"res":[-36232.36,387758.34,378856.68],"inv":[18000,5000,10000],"tva":[-8318.82,12146.33,6250.18],"pv":[47000,47000,0],"apport":[70000,0,0],"flux":[54448.82,441904.68,375106.86],"treso":[54448.82,496353.5,871460.36],"seuil":[26.1,58,212.6],"taux":[0.2609,0.3019,0.3]},"kpi":{"min36":10071,"minM":"mars 2027"},"preMoney":400000};
+const M = DATA.monthly, Y = DATA.years, N = M.ca.length;
+const eur0 = new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:0});
+const num0 = new Intl.NumberFormat('fr-FR',{maximumFractionDigits:0});
+const num1 = new Intl.NumberFormat('fr-FR',{maximumFractionDigits:1});
+const pct1 = new Intl.NumberFormat('fr-FR',{style:'percent',maximumFractionDigits:1});
+const fE = v => eur0.format(Math.round(v));
+function fK(v){ const a=Math.abs(v); if(a>=1e6) return num1.format(v/1e6)+' M€'; if(a>=1e4) return num0.format(v/1e3)+' k€'; if(a>=1e3) return num1.format(v/1e3)+' k€'; return Math.round(v)+' €'; }
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const MONTHS = Array.from({length:N},(_,i)=>{ const d=new Date(2026,10+i,1); return d.toLocaleDateString('fr-FR',{month:'short'})+' '+String(d.getFullYear()).slice(2); });
+const MLONG = Array.from({length:N},(_,i)=>new Date(2026,10+i,1).toLocaleDateString('fr-FR',{month:'long',year:'numeric'}));
+const YEARS = ['Année 1','Année 2','Année 3'];
+const YEND = ['fin oct. 2027','fin oct. 2028','fin oct. 2029'];
+
+/* ---------- valorisation ---------- */
+const st = { mCA:1, mR:8, tax:0 };
+function valo(){
+  const ca = Y.ca.map(v=>v*st.mCA);
+  const re = Y.res.map(v=> v>0 ? v*(1-st.tax)*st.mR : null);
+  return {ca, re};
+}
+
+/* ---------- indicateurs ---------- */
+function tile(k, a1, a3, d, s1, s3){
+  return `<div class="kpi"><div class="k">${k}</div><div class="pair">
+    <div><span class="yl">Année 1</span><span class="v">${a1}</span>${s1?`<span class="s">${s1}</span>`:''}</div>
+    <div><span class="yl">Année 3</span><span class="v">${a3}</span>${s3?`<span class="s">${s3}</span>`:''}</div></div>
+    ${d?`<div class="d">${d}</div>`:''}</div>`;
+}
+const sign = v => v<0 ? '<span class="st bad">▼ Perte</span>' : '<span class="st ok">▲ Bénéfice</span>';
+function renderKpis(){
+  const v = valo(), r = Y.ca[2]/Y.ca[0];
+  const minTxt = DATA.kpi.min36<0 ? `<span class="st bad">▼ Négative</span>` : `<span class="st ok">▲ Jamais négative</span>`;
+  document.getElementById('kpis').innerHTML = [
+    tile("Chiffre d'affaires", fE(Y.ca[0]), fE(Y.ca[2]), `Multiplié par ${num1.format(r)} entre l'année 1 et l'année 3 · année 2 : ${fE(Y.ca[1])}`),
+    tile('Marge sur coûts directs', fE(Y.marge[0]), fE(Y.marge[2]), 'Chiffre d\'affaires − coûts directs des soirées', 'Taux : '+pct1.format(Y.taux[0]), 'Taux : '+pct1.format(Y.taux[2])),
+    tile('Frais généraux', fE(Y.fg[0]), fE(Y.fg[2]), `Dont ressources humaines : ${fE(Y.rh[0])} puis ${fE(Y.rh[2])}`, (Y.eff[0]===0?'Aucun poste payé':num0.format(Y.eff[0])+' poste'+(Y.eff[0]>1?'s':'')+' payé'+(Y.eff[0]>1?'s':'')), num0.format(Y.eff[2])+' postes payés'),
+    tile("Résultat d'exploitation", fE(Y.res[0]), fE(Y.res[2]), `Avant impôt sur les sociétés · année 2 : ${fE(Y.res[1])}`, sign(Y.res[0]), sign(Y.res[2])),
+    tile('Trésorerie en fin d\'année', fE(Y.treso[0]), fE(Y.treso[2]), `Avant levée · point bas sur 3 ans : ${fE(DATA.kpi.min36)} (${DATA.kpi.minM}) · ${minTxt}`, 'Apport compris : '+fE(Y.apport[0]), ''),
+    tile('Soirées dans l\'année', num0.format(Y.ev[0]), num0.format(Y.ev[2]), `Villes actives : ${Y.villes[0]} puis ${Y.villes[2]}`, `${num0.format(Y.places[0])} places à l'unité + ${num0.format(Y.priv[0])} privatisations`, `${num0.format(Y.places[2])} + ${num0.format(Y.priv[2])}`),
+    tile('Point mort', num1.format(Y.seuil[0])+' soirées', num1.format(Y.seuil[2])+' soirées', 'Soirées nécessaires pour couvrir les frais généraux de l\'année', `Prévues : ${num0.format(Y.ev[0])}`, `Prévues : ${num0.format(Y.ev[2])}`),
+    tile('Valorisation estimée', fE(v.ca[0]), fE(v.ca[2]), `Multiple du chiffre d'affaires (×${num1.format(st.mCA)}, H) · départ : ${fE(DATA.preMoney)} (H)`, v.re[0]==null?'Multiple du résultat : sans objet':'Multiple du résultat : '+fK(v.re[0]), v.re[2]==null?'Multiple du résultat : sans objet':'Multiple du résultat : '+fK(v.re[2]))
+  ].join('');
+}
+
+/* ---------- outils graphiques ---------- */
+function ticks(min,max,n){
+  if(min===max){ max=min+1; }
+  const step0=(max-min)/n, mag=Math.pow(10,Math.floor(Math.log10(step0))), e=step0/mag;
+  const step=(e>=7.5?10:e>=3.5?5:e>=1.5?2:1)*mag;
+  const lo=Math.floor(min/step)*step, hi=Math.ceil(max/step)*step, t=[];
+  for(let v=lo; v<=hi+step/2; v+=step) t.push(Math.round(v/step)*step);
+  return {lo,hi,t};
+}
+function frame(el, min, max, fmt){
+  fmt = fmt || fK;
+  const W = Math.max(280, el.clientWidth), H = W<520 ? 230 : 260;
+  const m = {l: W<520?46:58, r:12, t:12, b:30};
+  const tk = ticks(Math.min(0,min), Math.max(0,max), 5);
+  const y = v => m.t + (H-m.t-m.b) * (1-(v-tk.lo)/(tk.hi-tk.lo));
+  let g = '';
+  tk.t.forEach(v=>{ const yy=y(v); g += `<line x1="${m.l}" x2="${W-m.r}" y1="${yy}" y2="${yy}" stroke="${v===0?css('--axis'):css('--grid')}" stroke-width="1"/><text class="tick" x="${m.l-6}" y="${yy+3.5}" text-anchor="end">${fmt(v)}</text>`; });
+  return {W,H,m,y,g,iw:W-m.l-m.r};
+}
+function svgOpen(f,label){ return `<svg viewBox="0 0 ${f.W} ${f.H}" role="img" aria-label="${label}">`; }
+function bar(x,y0,y1,w,fill,round){ // arrondi de 3 px du côté opposé à la ligne de base
+  const top=Math.min(y0,y1), h=Math.abs(y1-y0); if(h<0.5) return '';
+  const r=Math.min(3,w/2,h); const up = y1<y0;
+  if(!round) return `<rect x="${x}" y="${top}" width="${w}" height="${h}" fill="${fill}"/>`;
+  return up
+    ? `<path d="M${x},${y0}V${top+r}Q${x},${top} ${x+r},${top}H${x+w-r}Q${x+w},${top} ${x+w},${top+r}V${y0}Z" fill="${fill}"/>`
+    : `<path d="M${x},${y0}V${top+h-r}Q${x},${top+h} ${x+r},${top+h}H${x+w-r}Q${x+w},${top+h} ${x+w},${top+h-r}V${y0}Z" fill="${fill}"/>`;
+}
+function monthAxis(f, step){
+  let s='';
+  for(let i=0;i<N;i+=step){ const x=f.m.l+(i+0.5)*f.iw/N; s+=`<text class="tick" x="${x}" y="${f.H-10}" text-anchor="middle">${MONTHS[i]}</text>`; }
+  [12,24].forEach(i=>{ const x=f.m.l+i*f.iw/N; s+=`<line x1="${x}" x2="${x}" y1="${f.m.t}" y2="${f.H-f.m.b}" stroke="${css('--grid')}" stroke-dasharray="3 3"/>`; });
+  [0,12,24].forEach((i,k)=>{ const x=f.m.l+(i+6)*f.iw/N; s+=`<text class="dlabel" x="${x}" y="${f.m.t+2}" text-anchor="middle" dominant-baseline="hanging">${YEARS[k]}</text>`; });
+  return s;
+}
+function attachTip(el, f, count, html, opts){
+  const tip=document.createElement('div'); tip.className='tip'; el.appendChild(tip);
+  const svg=el.querySelector('svg'); const hl=el.querySelector('.hl');
+  function move(ev){
+    const r=svg.getBoundingClientRect(), sx=f.W/r.width;
+    const px=(ev.clientX-r.left)*sx; const i=Math.floor((px-f.m.l)/(f.iw/count));
+    if(i<0||i>=count){ hide(); return; }
+    tip.innerHTML=html(i); tip.style.opacity=1;
+    if(hl){ hl.setAttribute('x', f.m.l+i*f.iw/count); hl.setAttribute('width', f.iw/count); hl.style.opacity=1; }
+    if(opts&&opts.cross){ opts.cross(i); }
+    const cx=(f.m.l+(i+0.5)*f.iw/count)/sx, tw=tip.offsetWidth;
+    let left=cx+14; if(left+tw>r.width) left=cx-14-tw; if(left<0) left=0;
+    tip.style.left=left+'px'; tip.style.top=Math.max(0,(ev.clientY-r.top)-tip.offsetHeight-10)+'px';
+  }
+  function hide(){ tip.style.opacity=0; if(hl) hl.style.opacity=0; if(opts&&opts.cross) opts.cross(-1); }
+  svg.addEventListener('pointermove',move); svg.addEventListener('pointerleave',hide);
+}
+const row = (sw,k,v) => `<div class="row"><span>${sw?`<span class="sw" style="background:${sw}"></span>`:''}${k}</span><span>${v}</span></div>`;
+const HL = f => `<rect class="hl" x="0" y="${f.m.t}" width="0" height="${f.H-f.m.t-f.m.b}" fill="${css('--text-primary')}" opacity="0" style="opacity:0;fill-opacity:.05"/>`;
+
+/* ---------- 1. chiffre d'affaires, coûts, résultat (par année) ---------- */
+function chartPL(){
+  const el=document.getElementById('chPL'); el.innerHTML='';
+  const S=[{k:"Chiffre d'affaires",c:css('--series-1'),v:Y.ca},{k:'Coûts directs',c:css('--series-2'),v:Y.cd},{k:'Frais généraux',c:css('--series-3'),v:Y.fg}];
+  const f=frame(el,0,Math.max(...Y.ca));
+  // marge basse plus grande pour l'étiquette du résultat
+  const W=f.W,H=f.H+16, m={l:f.m.l,r:12,t:12,b:46}, tk=ticks(0,Math.max(...Y.ca),5);
+  const y=v=>m.t+(H-m.t-m.b)*(1-(v-tk.lo)/(tk.hi-tk.lo)), iw=W-m.l-m.r; const F={W,H,m,y,iw};
+  let s=svgOpen(F,"Chiffre d'affaires, coûts directs et frais généraux par année")+HL(F);
+  tk.t.forEach(v=>{ const yy=y(v); s+=`<line x1="${m.l}" x2="${W-m.r}" y1="${yy}" y2="${yy}" stroke="${v===0?css('--axis'):css('--grid')}"/><text class="tick" x="${m.l-6}" y="${yy+3.5}" text-anchor="end">${fK(v)}</text>`; });
+  const gw=iw/3, bw=Math.min(46,(gw*0.72)/3);
+  for(let i=0;i<3;i++){
+    const gx=m.l+i*gw+(gw-3*bw-4)/2;
+    S.forEach((se,j)=>{ s+=bar(gx+j*(bw+2),y(0),y(se.v[i]),bw,se.c,true); });
+    s+=`<text class="dlabel" x="${gx+1.5*bw+2}" y="${y(Y.ca[i])-5}" text-anchor="middle">${fK(Y.ca[i])}</text>`;
+    s+=`<text class="tick" x="${m.l+(i+0.5)*gw}" y="${H-28}" text-anchor="middle" style="font-weight:600;fill:${css('--text-secondary')}">${YEARS[i]}</text>`;
+    s+=`<text class="dlabel" x="${m.l+(i+0.5)*gw}" y="${H-12}" text-anchor="middle">Résultat : ${fK(Y.res[i])}</text>`;
+  }
+  el.innerHTML=s+'</svg>';
+  attachTip(el,F,3,i=>`<b>${YEARS[i]}</b>`+S.map(se=>row(se.c,se.k,fE(se.v[i]))).join('')+row('',"Résultat d'exploitation",fE(Y.res[i])));
+}
+
+/* ---------- 2. soirées par mois (empilé) ---------- */
+function chartEV(){
+  const el=document.getElementById('chEV'); el.innerHTML='';
+  const tot=M.places.map((v,i)=>v+M.priv[i]);
+  const f=frame(el,0,Math.max(...tot),x=>num0.format(x)); const bw=f.iw/N;
+  let s=svgOpen(f,'Soirées par mois sur 36 mois')+HL(f)+f.g;
+  for(let i=0;i<N;i++){
+    const x=f.m.l+i*bw+1, w=Math.max(1,bw-2);
+    const yp=f.y(M.places[i]);
+    s+=bar(x,f.y(0),yp,w,css('--series-1'),M.priv[i]===0);
+    if(M.priv[i]>0) s+=bar(x,yp-(M.places[i]>0?2:0),f.y(tot[i]),w,css('--series-2'),true);
+  }
+  s+=monthAxis(f, f.W<520?6:3);
+  el.innerHTML=s+'</svg>';
+  attachTip(el,f,N,i=>`<b>${MLONG[i]}</b>`+row(css('--series-1'),"Places à l'unité",num1.format(M.places[i]))+row(css('--series-2'),'Privatisations',num1.format(M.priv[i]))+row('','Villes actives',M.villes[i]));
+}
+
+/* ---------- 3. trésorerie ---------- */
+function chartTR(){
+  const el=document.getElementById('chTR'); el.innerHTML='';
+  const v=M.treso, f=frame(el,Math.min(...v),Math.max(...v)), bw=f.iw/N, X=i=>f.m.l+(i+0.5)*bw;
+  let s=svgOpen(f,'Trésorerie en fin de mois sur 36 mois')+f.g;
+  const pts=v.map((t,i)=>`${X(i)},${f.y(t)}`).join(' ');
+  s+=`<polygon points="${X(0)},${f.y(0)} ${pts} ${X(N-1)},${f.y(0)}" fill="${css('--series-1')}" fill-opacity=".12"/>`;
+  s+=`<polyline points="${pts}" fill="none" stroke="${css('--series-1')}" stroke-width="2" stroke-linejoin="round"/>`;
+  let mi=0; v.forEach((t,i)=>{ if(t<v[mi]) mi=i; });
+  s+=`<circle cx="${X(mi)}" cy="${f.y(v[mi])}" r="4.5" fill="${css('--series-1')}" stroke="${css('--surface-1')}" stroke-width="2"/>`;
+  const lowY = f.y(v[mi]) > f.H-f.m.b-24 ? f.y(v[mi])-12 : f.y(v[mi])+16;
+  s+=`<text class="dlabel" x="${X(mi)+6}" y="${lowY}">Point bas : ${fK(v[mi])}</text>`;
+  [11,23,35].forEach(i=>{ s+=`<circle cx="${X(i)}" cy="${f.y(v[i])}" r="4" fill="${css('--series-1')}" stroke="${css('--surface-1')}" stroke-width="2"/>`; });
+  s+=`<text class="dlabel" x="${X(35)-6}" y="${f.y(v[35])+18}" text-anchor="end">${fK(v[35])}</text>`;
+  s+=monthAxis(f, f.W<520?6:3);
+  s+=`<line class="cross" x1="0" x2="0" y1="${f.m.t}" y2="${f.H-f.m.b}" stroke="${css('--text-muted')}" stroke-width="1" opacity="0"/><circle class="cdot" r="4" fill="${css('--series-1')}" stroke="${css('--surface-1')}" stroke-width="2" opacity="0"/>`;
+  el.innerHTML=s+'</svg>';
+  const cl=el.querySelector('.cross'), cd=el.querySelector('.cdot');
+  attachTip(el,f,N,i=>`<b>${MLONG[i]}</b>`+row(css('--series-1'),'Trésorerie',fE(v[i]))+row('','Flux du mois',fE(M.flux[i])),
+    {cross:i=>{ if(i<0){cl.setAttribute('opacity',0);cd.setAttribute('opacity',0);return;} cl.setAttribute('x1',X(i));cl.setAttribute('x2',X(i));cl.setAttribute('opacity',1);cd.setAttribute('cx',X(i));cd.setAttribute('cy',f.y(v[i]));cd.setAttribute('opacity',1); }});
+  document.getElementById('capTR').textContent=`Avant levée de fonds, apport de ${fE(Y.apport[0])} compris (€). Point bas : ${fE(DATA.kpi.min36)} en ${DATA.kpi.minM}.`;
+}
+
+/* ---------- 4. flux du mois ---------- */
+function chartCF(){
+  const el=document.getElementById('chCF'); el.innerHTML='';
+  const v=M.flux, f=frame(el,Math.min(...v),Math.max(...v)), bw=f.iw/N;
+  let s=svgOpen(f,'Flux de trésorerie du mois sur 36 mois')+HL(f)+f.g;
+  v.forEach((t,i)=>{ s+=bar(f.m.l+i*bw+1,f.y(0),f.y(t),Math.max(1,bw-2),t>=0?css('--pos'):css('--neg'),true); });
+  s+=monthAxis(f, f.W<520?6:3);
+  el.innerHTML=s+'</svg>';
+  attachTip(el,f,N,i=>`<b>${MLONG[i]}</b>`+row(v[i]>=0?css('--pos'):css('--neg'),'Flux du mois',fE(v[i]))+row('','Résultat',fE(M.res[i]))+(M.inv[i]?row('','Investissements',fE(-M.inv[i])):'')+row('','TVA et pré-vente',fE(M.tva[i]+M.pv[i]))+(M.apport[i]?row('','Apport',fE(M.apport[i])):''));
+}
+
+/* ---------- 5. valorisation dans le temps ---------- */
+function chartVal(){
+  const el=document.getElementById('chVal'); el.innerHTML='';
+  const v=valo(), all=[DATA.preMoney,...v.ca,...v.re.filter(x=>x!=null)];
+  const f=frame(el,0,Math.max(...all)); const L=['Départ (nov. 2026)',...YEND];
+  const X=i=>f.m.l+(i+0.5)*f.iw/4;
+  let s=svgOpen(f,"Valorisation estimée de l'entreprise de 2026 à 2029")+HL(f)+f.g;
+  const line=(arr,c,from)=>{ let p=''; arr.forEach((val,k)=>{ if(val!=null) p+=`${X(k+from)},${f.y(val)} `; }); return `<polyline points="${p}" fill="none" stroke="${c}" stroke-width="2" stroke-linejoin="round"/>`+arr.map((val,k)=>val==null?'':`<circle cx="${X(k+from)}" cy="${f.y(val)}" r="4.5" fill="${c}" stroke="${css('--surface-1')}" stroke-width="2"/>`).join(''); };
+  s+=`<line x1="${X(0)}" x2="${X(1)}" y1="${f.y(DATA.preMoney)}" y2="${f.y(v.ca[0])}" stroke="${css('--text-muted')}" stroke-width="1.5" stroke-dasharray="4 4"/>`;
+  s+=line(v.ca,css('--series-1'),1)+line(v.re,css('--series-3'),1);
+  s+=`<circle cx="${X(0)}" cy="${f.y(DATA.preMoney)}" r="5" fill="${css('--text-muted')}" stroke="${css('--surface-1')}" stroke-width="2"/>`;
+  s+=`<text class="dlabel" x="${X(0)}" y="${f.y(DATA.preMoney)-10}" text-anchor="middle">${fK(DATA.preMoney)}</text>`;
+  s+=`<text class="dlabel" x="${X(3)}" y="${f.y(v.ca[2])-10}" text-anchor="middle">${fK(v.ca[2])}</text>`;
+  if(v.re[2]!=null) s+=`<text class="dlabel" x="${X(3)}" y="${f.y(v.re[2])+(v.re[2]>v.ca[2]?-10:18)}" text-anchor="middle">${fK(v.re[2])}</text>`;
+  L.forEach((t,i)=>{ s+=`<text class="tick" x="${X(i)}" y="${f.H-10}" text-anchor="middle">${f.W<520?t.replace('fin oct. ','').replace('Départ (nov. 2026)','Départ'):t}</text>`; });
+  el.innerHTML=s+'</svg>';
+  attachTip(el,f,4,i=> i===0 ? `<b>Départ, novembre 2026</b>`+row(css('--text-muted'),'Valorisation de départ (H)',fE(DATA.preMoney))+row('','Hypothèse non justifiée','modèle Financement')
+    : `<b>${YEARS[i-1]}, ${YEND[i-1]}</b>`+row(css('--series-1'),`Multiple du CA (×${num1.format(st.mCA)})`,fE(v.ca[i-1]))+row(css('--series-3'),`Multiple du résultat (×${num1.format(st.mR)})`,v.re[i-1]==null?'sans objet':fE(v.re[i-1]))+row('',"Chiffre d'affaires",fE(Y.ca[i-1]))+row('','Résultat d\'exploitation',fE(Y.res[i-1])));
+  let t=`<thead><tr><th></th><th>Départ</th>${YEARS.map(x=>`<th>${x}</th>`).join('')}</tr></thead><tbody>`;
+  t+=`<tr><td>Multiple du CA</td><td>${fK(DATA.preMoney)}</td>${v.ca.map(x=>`<td>${fK(x)}</td>`).join('')}</tr>`;
+  t+=`<tr><td>Multiple du résultat</td><td>${fK(DATA.preMoney)}</td>${v.re.map(x=>`<td>${x==null?'—':fK(x)}</td>`).join('')}</tr></tbody>`;
+  document.getElementById('tbVal').innerHTML=t;
+}
+
+/* ---------- tableaux ---------- */
+function tables(){
+  const R=[["Villes actives",Y.villes,num0],['Soirées',Y.ev,num0],['dont privatisations',Y.priv,num0],["Chiffre d'affaires",Y.ca,fE],['Coûts directs',Y.cd,fE],['Marge sur coûts directs',Y.marge,fE],['Ressources humaines',Y.rh,fE],['Frais généraux',Y.fg,fE],["Résultat d'exploitation",Y.res,fE],['Investissements',Y.inv,fE],["Trésorerie en fin d'année",Y.treso,fE]];
+  document.getElementById('tbYears').innerHTML=`<thead><tr><th>Poste</th>${YEARS.map(x=>`<th>${x}</th>`).join('')}</tr></thead><tbody>`+R.map(r=>`<tr><td>${r[0]}</td>${r[1].map(x=>`<td>${r[2].format?r[2].format(x):r[2](x)}</td>`).join('')}</tr>`).join('')+'</tbody>';
+  const C=[['Soirées',M.ev,x=>num1.format(x)],["Chiffre d'affaires",M.ca,fE],['Coûts directs',M.cd,fE],['Frais généraux',M.fg,fE],['Résultat',M.res,fE],['Flux',M.flux,fE],['Trésorerie',M.treso,fE]];
+  document.getElementById('tbMonths').innerHTML=`<thead><tr><th>Mois</th>${C.map(c=>`<th>${c[0]}</th>`).join('')}</tr></thead><tbody>`+MONTHS.map((mm,i)=>`<tr><td>${mm}</td>${C.map(c=>`<td>${c[2](c[1][i])}</td>`).join('')}</tr>`).join('')+'</tbody>';
+  document.getElementById('foot').textContent=`Sources : 2 FINANCE/PREVISIONS/2026 1028 Modèle Pop Tables - Budget sur 36 mois, plan financier, prix et marges.xlsx (onglets « Budget 36 mois » et « Plan financier 3 ans ») ; valorisation de départ : modèle Financement, onglet « Après levée » (400 000 €, hypothèse non justifiée). Montants HT ; trésorerie avec TVA et pré-vente (D-04), sans prêt, subvention ni levée ; impôt sur les sociétés non compté. La valorisation affichée est une simulation, ni une évaluation ni une offre de titres.`;
+}
+
+/* ---------- contrôles, thème, rendu ---------- */
+function bind(id,out,key,fmt){ const i=document.getElementById(id), o=document.getElementById(out); const set=()=>{ st[key]=+i.value; o.textContent=fmt(+i.value); }; set(); i.addEventListener('input',()=>{ set(); renderKpis(); chartVal(); }); }
+bind('inMCA','oMCA','mCA',x=>'×'+num1.format(x));
+bind('inMR','oMR','mR',x=>'×'+num1.format(x));
+bind('inTax','oTax','tax',x=>pct1.format(x));
+function renderAll(){ renderKpis(); chartPL(); chartEV(); chartTR(); chartCF(); chartVal(); }
+const themes=['auto','light','dark'], tl={auto:'auto',light:'clair',dark:'sombre'};
+let theme='auto'; try{ theme=localStorage.getItem('pt-theme')||'auto'; }catch(e){}
+function applyTheme(){ if(theme==='auto') document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme',theme); document.getElementById('themeBtn').textContent='Thème : '+tl[theme]; renderAll(); }
+document.getElementById('themeBtn').addEventListener('click',()=>{ theme=themes[(themes.indexOf(theme)+1)%3]; try{ localStorage.setItem('pt-theme',theme); }catch(e){} applyTheme(); });
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>{ if(theme==='auto') renderAll(); });
+let rt; addEventListener('resize',()=>{ clearTimeout(rt); rt=setTimeout(renderAll,120); });
+tables(); applyTheme();
+</script>
+</body>
+</html>

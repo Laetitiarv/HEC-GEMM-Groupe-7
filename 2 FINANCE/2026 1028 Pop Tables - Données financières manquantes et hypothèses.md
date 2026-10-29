@@ -26,7 +26,7 @@ Fichiers :
 | Prévisions (référence) | `PREVISIONS/2026 1028 Modèle Pop Tables - Budget sur 36 mois, plan financier, prix et marges.xlsx` |
 | Trésorerie | `TRESORERIE/2026 1028 Modèle Pop Tables - Trésorerie et mois de survie sur 36 mois.xlsx` |
 | Financement | `FINANCEMENT/2026 1028 Modèle Pop Tables - Financement et table de capitalisation.xlsx` |
-| Tableau de bord | `PREVISIONS/2026 1028 Pop Tables - Tableau de bord financier.html` |
+| Tableau de bord | `PREVISIONS/2026 1029 Pop Tables - Tableau de bord financier.html` |
 
 ### Ce que contient le modèle Prévisions
 
