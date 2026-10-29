@@ -2,7 +2,7 @@
 
 Un fait par ligne, du plus ancien au plus récent, chacun avec sa source. Voir [[RULES]].
 
-Rangement : `STRATEGIE/` (vision, objectifs, options — documents en vigueur), `OLD/` (documents dépassés, conservés pour l'historique), `GOUVERNANCE/` (conseil, associés, investisseurs), `REUNIONS/` (comptes rendus d'équipe), et le [[REGISTRE DES DECISIONS]].
+Rangement : `STRATEGIE/` (vision, objectifs, options — documents en vigueur), `OLD/` (documents dépassés, conservés pour l'historique), `GOUVERNANCE/` (conseil, associés, investisseurs), `REUNIONS/` (comptes rendus d'équipe), `PRESENTATION PITCH/` (masque, charte graphique et plan du pitch), et le [[REGISTRE DES DECISIONS]].
 
 > **Référence au 28/10/2026 (soir)** : [[2026 1028 Pop Tables - Cadre de référence]], [[2026 1028 Relevé de décisions du 28 octobre (soir)]] et `STRATEGIE/2026 1028 Business Model Canvas V6 - Pop Tables.xlsx` (fait foi, D-24), avec le budget Finance sur 36 mois (D-21 à D-23). Les documents du 26/10, du 27/10 et du 28/10 à 17 h 24 sont dans `OLD/`.
 
@@ -22,3 +22,4 @@ Rangement : `STRATEGIE/` (vision, objectifs, options — documents en vigueur), 
 | 28/10/2026 (soir) | Décisions D-21 à D-23 : le budget Finance sur 36 mois (20 h 42) devient la référence ; privatisation à 500 € TTC et 30 couverts (remplace la jauge de 20 de D-05) ; levée de 135 000 € en tranche 1, tranche 2 conditionnelle en mai 2028 | Fait (décisions de la Direction) | [[REGISTRE DES DECISIONS]] D-21 à D-23 |
 | 28/10/2026 (soir) | Business Model Canvas V6 : il fait foi (D-24, remplace D-20). La V5 passe dans `OLD/` | Fait (décision D-24) | `STRATEGIE/2026 1028 Business Model Canvas V6 - Pop Tables.xlsx` |
 | 29/10/2026 (matin) | Décisions D-25 et D-26 : 2 villes en France fin 2027, 3 villes à l'étranger fin 2028 (remplace la répartition de D-15) ; mise de fonds initiale de 70 000 € en love money (remplace l'apport de 7 000 €). Point ouvert : privatisation à moins de 30 convives (minimum facturé de 30 couverts ou retour d'un forfait) | Fait (décisions de la Direction) ; point ouvert | [[STRATEGIE/2026 1029 Relevé de décisions du 29 octobre (matin)]] ; [[REGISTRE DES DECISIONS]] D-25, D-26 |
+| 29/10/2026 | Nouveau dossier `PRESENTATION PITCH/` : masque PowerPoint de 17 dispositions, charte graphique inspirée de Farah Atassi (Almine Rech), polices, et plan de la présentation en 9 parties (0 à 8) avec la répartition des intervenants donnée par Laetitia | Fait (répartition donnée par la Direction) ; masque et charte : proposition (assistant IA) | [[PRESENTATION PITCH/LISEZ-MOI]] ; [[PRESENTATION PITCH/2026 1029 Plan de la présentation pitch]] |
