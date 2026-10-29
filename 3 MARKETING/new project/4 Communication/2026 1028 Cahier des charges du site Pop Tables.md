@@ -26,7 +26,7 @@ La vente de vin après la soirée. Une page réservée aux convives, qui leur pe
 
 ## 3. Exigences générales
 
-Le site est rapide sur téléphone, d'où viendra l'essentiel des visites, et accessible. Il respecte le RGPD (consentement aux traceurs, fichier de la liste privée, droit d'accès), affiche les mentions légales et les conditions générales de vente. Un outil d'administration permet à l'équipe, sans développeur, de créer une soirée, de programmer un drop, de gérer la liste privée et les quotas des concierges, et de suivre les ventes. Il fournit les indicateurs du BMC V5 : part des places vendues dans les 72 heures, part de la liste privée, part des concierges.
+Le site sera probablement developpé sous Shopify. Il propose un chat connecté a un bot IA en dehors des heures d'ouverture. Le reste du temps nos equipes repondent directement . Le contact telephonique est egalement affiché sur le site sur un bandeau en haut de la HP accessible de toutes les pages. Il respecte le RGPD (consentement aux traceurs, fichier de la liste privée, droit d'accès), affiche les mentions légales et les conditions générales de vente. Un outil d'administration permet à l'équipe, sans développeur, de créer une soirée, de programmer un drop, de gérer la liste privée et les quotas des concierges, et de suivre les ventes. Il fournit les indicateurs du BMC V5 : part des places vendues dans les 72 heures, part de la liste privée, part des concierges.
 
 ## 4. Démarche proposée
 
