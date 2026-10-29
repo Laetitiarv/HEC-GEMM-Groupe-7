@@ -9,7 +9,7 @@ Légende (voir [[RULES]]) : **F** = fait constaté dans un fichier du dépôt ou
 ## 1. L'essentiel
 
 > - **F** Le budget est **détaillé mois par mois sur 36 mois**, de novembre 2026 à octobre 2029. C'est la référence décidée par la Direction (D-21), avec la privatisation à 500 € TTC par convive et 30 couverts (D-22).
-> - **F** Le 29/10, la Direction a décidé 2 villes en France en novembre 2027 et 3 villes à l'étranger en novembre 2028 (D-25), ainsi qu'une mise de fonds initiale de 70 000 € en love money (D-26). Les deux sont intégrées au modèle.
+> - **F** Le 29/10, la Direction a décidé 2 villes en France en novembre 2027 et 3 villes à l'étranger en novembre 2028 (D-25), ainsi qu'une mise de fonds initiale de 70 000 € (D-26). Le responsable Finance en a précisé la forme : capital initial de la SAS, apporté à parts égales par les 7 fondateurs, dont 2 exécutifs ; pas de BSA AIR. Les deux sont intégrées au modèle.
 > - **F** Résultat d'exploitation, avant impôt : **−36 232 €** en année 1, **392 158 €** en année 2, **378 857 €** en année 3.
 > - **F** Trésorerie avant levée : point bas de **+10 071 € en mars 2027** ; elle ne devient jamais négative. Point bas de +8 271 € si les coûts des soirées augmentent de 5 %.
 > - **P** Levée recalculée : environ 70 000 € avant février 2027, au lieu de 135 000 € (D-23 à modifier), et une tranche 2 conditionnelle ([[2026 1028 Note pour décision - levée de fonds Pop Tables]]).
@@ -34,7 +34,7 @@ Fichiers :
 | Onglet | Contenu |
 |---|---|
 | Prix et marges | L'économie d'une soirée par offre ; privatisation à 500 € TTC par convive (D-22) |
-| Budget 36 mois | Villes et soirées (lignes 7 à 19), effectifs nécessaires (lignes 20 à 22), chiffre d'affaires et coûts directs (24 à 31), ressources humaines (33 à 37), 17 postes de fonctionnement, marketing et ventes (39 à 55), investissements (62 à 64), TVA (66 à 75), pré-vente, love money et trésorerie avant levée (77 à 80), un mois par colonne ; paramètres (lignes 84 à 93) et calendrier des villes (96 à 101) |
+| Budget 36 mois | Villes et soirées (lignes 7 à 19), effectifs nécessaires (lignes 20 à 22), chiffre d'affaires et coûts directs (24 à 31), ressources humaines (33 à 37), 17 postes de fonctionnement, marketing et ventes (39 à 55), investissements (62 à 64), TVA (66 à 75), pré-vente, capital initial et trésorerie avant levée (77 à 80), un mois par colonne ; paramètres (lignes 84 à 93) et calendrier des villes (96 à 101) |
 | Ressources humaines | Règles d'effectif (1 coordinateur par événement hebdomadaire, 1 commercial par ville active), postes, salaires et premier mois payé |
 | TVA | Taux et règles. Le calcul mois par mois est dans « Budget 36 mois » |
 | Plan financier 3 ans | Totaux annuels, point mort, besoin de financement, point bas de trésorerie |
@@ -48,10 +48,10 @@ Fichiers :
 | D-05 jauges des places à l'unité, D-06 enveloppe d'équipe, D-08 photographe | Prix et marges, lignes 7, 26 et 33 | F |
 | D-21 budget revu par le responsable Finance | Tout l'onglet : 40 privatisations par ville et par an dès l'année 2, équipe calculée à partir de l'activité, lieu à 1 000 €, commission de 5 %, campagne de 10 000 €, protection juridique et assurance à 2 % du CA, budget des ventes | F pour la décision ; montants en hypothèse (H) |
 | D-22 privatisation | Prix et marges, colonne F : 500 € TTC par convive, 30 couverts, sans forfait | F |
-| D-23 levée | Modèle Financement et note de levée : tranche 1 recalculée à environ 70 000 € avec la love money ; tranche 2 conditionnelle | F pour le principe ; montant de la tranche 1 à confirmer |
+| D-23 levée | Modèle Financement et note de levée : tranche 1 recalculée à environ 70 000 € avec le capital initial, sans BSA AIR ; tranche 2 conditionnelle | F pour le principe ; montant de la tranche 1 à confirmer |
 | D-24 Business Model Canvas V6 | Fait foi pour l'ensemble du projet. Il mentionne encore la tranche 1 de 135 000 € : une V7 est prévue par la Direction | F |
 | D-25 villes | Lignes 7, 14 à 17 et 52 ; calendrier lignes 96 à 101 : villes 2 et 3 en France dès novembre 2027, villes 4 à 6 à l'étranger dès novembre 2028. Les lignes 14 à 17 se calculent à partir du pays et de la date de chaque ville | F |
-| D-26 love money | Ligne 78 : 70 000 € en novembre 2026 ; modèle Financement, ligne 6 | F pour le montant ; H pour le mois ; forme non décidée |
+| D-26 mise de fonds initiale | Ligne 78 : 70 000 € en novembre 2026 ; modèle Financement : capital de la SAS, 7 fondateurs à 10 000 € chacun | F pour le montant ; H pour le mois ; forme précisée par le responsable Finance (29/10), à inscrire au registre |
 | D-14 soirée de lancement | Ligne 43 : 28 000 € en mars 2027 (option 2 du Marketing) | H pour le montant |
 | D-16 privatisations | Ligne 12 et paramètre B90 | Volume à confirmer par les Ventes |
 | D-19 site internet | Ligne 62 : 15 000 € en novembre 2026 | F pour le montant |
@@ -69,7 +69,7 @@ Fichiers :
 | 4 | Cachet des chefs par niveau, déplacement, accord de la maison d'origine | Ligne 20 | 950 €, 2 000 €, 3 500 € et 1 800 €, entièrement fixes | Produit, sélection des chefs (D-18) | 1 |
 | 5 | Coût de l'équipe dans l'enveloppe de D-06 | Ligne 26 | 15 % ou 20 % du CA (D-06). Les Opérations proposent 2 516, 2 516, 2 201 et 1 935 € (branche `ops/jauges-finance-equipe-fixe`, non fusionnée) | Opérations (@jonathanstarke-hec) ; arbitrage de la Direction | 1 |
 | 6 | Grille de prix fixes par offre et par créneau (D-10) | Lignes 10 et 11 | 290 €, 420 € et 690 € TTC ; privatisation à 500 € TTC par convive (D-22) | Produit | 1 |
-| 7 | Forme de la love money (D-26) : capital, compte courant d'associés ou BSA AIR, et clauses avec les proches | Modèle Financement ; table de capitalisation | Non comptée dans la table de capitalisation tant que la forme n'est pas décidée | Juridique (@alexanderzhelev-dev) ; Direction | 1 |
+| 7 | Source du complément de 45 000 € de la tranche 1 (prêt bancaire ou apport complémentaire des fondateurs) ; pacte d'associés et libération du capital | Modèle Financement, ligne 9 ; table de capitalisation | 45 000 € « à décider » ; capital de 70 000 € supposé versé en totalité en novembre 2026 | Direction ; Juridique (@alexanderzhelev-dev) | 1 |
 | 8 | Taux de remplissage réel | Ligne 8 | Salle pleine (100 %), alors que l'équilibre demande 59 %, 73,5 %, 68,1 % et 54,1 % | Marketing (liste privée, drops) ; mesure aux pilotes | 1 |
 | 9 | Coût des matières par menu ; prix des vins d'AdVini ; accord mets-jus | Lignes 23 et 24 | Matières et boissons : 85 €, 112 €, 150 € et 100 € par convive | Opérations, avec le chef ; accord écrit avec AdVini | 1 |
 | 10 | Salaires et dates d'embauche : coordinateurs, commerciaux, manager, fondateurs | Onglet Ressources humaines | SMIC pour les coordinateurs, 2 800 € brut pour les commerciaux, 4 000 € pour le manager, 2 500 € pour chaque fondateur ; charges à 45 % | Direction | 2 |
@@ -85,12 +85,12 @@ Fichiers :
 | 20 | Part et forme de l'entrée de l'associé gastronomique (D-17) | Modèle Financement, « Après levée » | Apport en industrie, 5 % avant la levée | Direction ; Juridique | 2 |
 | 21 | Rythme saisonnier des villes de bord de mer (Côte d'Azur) | Lignes 8 à 12 de la ville concernée | Activité répartie également sur l'année | Marketing ; Direction (choix des villes) | 3 |
 | 22 | Marketing courant des années 2 et 3, communication des villes | Ligne 41 | 15 000 € puis 30 000 € | Marketing | 3 |
-| 23 | Valorisation de la société, plafond des BSA AIR | Modèle Financement | 400 000 € avant levée, sans aucune évaluation | Finance, après les pilotes | 3 |
+| 23 | Valorisation de la société (seulement en cas d'augmentation de capital, tranche 2) | Modèle Financement | 400 000 € avant levée, sans aucune évaluation | Finance, après les pilotes | 3 |
 | 24 | Revenus de partenariats (AdVini, maisons de champagne) | Prix et marges, ligne 16 | 0 € | Ventes ; Opérations | 3 |
 
 ## 4. Points signalés (I)
 
-1. **Tout repose sur les privatisations.** Avec les coûts à +5 %, à 20 privatisations par ville et par an, l'année 3 perd 136 371 €. À 8 (le rythme du plan du 27/10), la trésorerie descend à −284 703 € en octobre 2029, malgré la love money.
+1. **Tout repose sur les privatisations.** Avec les coûts à +5 %, à 20 privatisations par ville et par an, l'année 3 perd 136 371 €. À 8 (le rythme du plan du 27/10), la trésorerie descend à −284 703 € en octobre 2029, malgré le capital initial de 70 000 €.
 2. **Pas de commercial en année 2**, alors que les privatisations passent de 7 à 120.
 3. **Trésorerie mince en année 1.** Elle reste entre 10 000 € et 60 000 € de novembre 2026 à octobre 2027 : un retard de pilote ou un dépassement de la soirée de lancement suffit à la faire passer sous zéro. D'où la tranche 1 proposée.
 4. **Équipe.** L'enveloppe de D-06, calculée en % du CA, sous-budgète le Premier soir de 962 € et sur-budgète La Grande Nuit de 1 495 €, d'après les Opérations.
@@ -102,7 +102,7 @@ Fichiers :
 ## 5. Prochaines étapes proposées (P)
 
 1. La Direction fixe le montant de la tranche 1 (environ 70 000 € proposés) et tranche la privatisation à moins de 30 convives (n° 2).
-2. Le Juridique propose la forme de la love money (n° 7).
+2. La Direction choisit la source du complément de 45 000 € ; le Juridique prépare les statuts et le pacte d'associés (n° 7).
 3. Les Ventes confirment le nombre de privatisations dans les 2 villes françaises de l'année 2 et disent qui les vend (n° 1), puis fournissent l'indemnité des restaurants (n° 3).
 4. Le Produit fournit les cachets des chefs et la grille de prix par créneau (n° 4 et 6).
 5. La Direction arbitre entre l'enveloppe de D-06 et le staffing par effectif des Opérations (n° 5), et valide les salaires (n° 10).
