@@ -22,14 +22,16 @@ Ce que le client achète : une soirée conçue pour ne se tenir qu'une fois, dan
 - **Prix fixes**, par offre et par créneau ; pas de devis (D-10).
 - **Aucun prix public** : le prix est communiqué au moment de la réservation, au particulier comme à l'entreprise (D-11).
 
-## 3. Rythme et villes (D-15, D-16)
+## 3. Rythme et villes (D-15, D-16, D-25)
 
 - **Places à l'unité : 1 soirée par mois et par ville.** La rareté se joue ville par ville.
 - **Le volume vient des ouvertures de villes** et des privatisations.
 
 | Année 1 | Année 2 | Année 3 |
 |---|---|---|
-| Paris | + 1 ville en France, + 1 ville à l'étranger (3 villes) | + 1 ville en France, + 2 villes à l'étranger (6 villes) |
+| Paris | + 2 villes en France, fin 2027 (3 villes) | + 3 villes à l'étranger, fin 2028 (6 villes) |
+
+- Répartition mise à jour le 29/10/2026 selon D-25, qui remplace celle de D-15 (+1 France et +1 étranger en année 2 ; +1 France et +2 étranger en année 3).
 
 - Le nombre de privatisations (B2C et B2B) est fixé par la Finance avec les Ventes (D-16).
 
@@ -76,5 +78,6 @@ Les coûts du lieu et du chef restent des hypothèses, à confirmer par le déma
 | Villes des années 2 et 3 | Marketing, Ventes | Direction |
 | Nombre de privatisations par an | Finance, Ventes | Direction |
 | Option et budget de la soirée de lancement | Marketing, Finance | Direction |
-| Montant de la levée et part de l'associé gastronomique | Finance, Juridique | Direction |
+| Montant de la levée (avec la love money de 70 000 €, D-26) et part de l'associé gastronomique | Finance, Juridique | Direction |
+| Privatisation à moins de 30 convives : minimum facturé de 30 couverts ou retour d'un forfait | Marketing, Produit, Finance | Direction |
 | Passage du dépôt en privé | Direction | Direction |
