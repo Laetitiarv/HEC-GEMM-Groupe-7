@@ -6,7 +6,7 @@ Légende (voir [[RULES]]) : F = fait constaté · I = inférence · P = proposit
 
 ## 1. Objet et budget
 
-F Budget validé par la Direction : 15 000 € (D-19). Le site sert à trois choses : faire désirer les soirées, vendre les places en drop et recevoir les demandes de privatisation. Il n'affiche aucun prix en public (D-11) ; le prix apparaît au moment de la réservation.
+F Budget validé par la Direction : 15 000 € (D-19). Le site sert à trois choses : faire désirer les soirées, vendre les places en drop et recevoir les demandes de privatisation.
 
 ## 2. Ce que le site doit permettre
 
@@ -16,7 +16,7 @@ La liste privée. Un formulaire d'inscription simple (nom, ville, centres d'int�
 
 Le drop (D-12). Une page par soirée avec le chef, le vigneron s'il y en a un, la date, et le lieu gardé secret ; un compte à rebours jusqu'à l'ouverture des ventes ; l'accès réservé à la liste privée pendant 48 heures, puis l'ouverture à tous à la date et à l'heure annoncées ; un compteur de places restantes ; la fermeture automatique de la vente quand la salle est pleine, puis une liste d'attente. Le site doit tenir un afflux de visiteurs concentré sur quelques minutes à l'ouverture d'un drop.
 
-La réservation et le paiement. Le prix s'affiche au moment de la réservation ; le paiement est encaissé immédiatement (pré-vente, D-04), par carte ; la confirmation, le rappel et, le jour même, l'adresse du lieu sont envoyés par courriel. Les règles d'annulation, de remboursement si la soirée n'a pas lieu et de cession de place sont celles des conditions générales de vente que prépare le Juridique.
+La réservation et le paiement.le paiement est encaissé immédiatement (pré-vente, D-04), par carte ; la confirmation, le rappel et, le jour même, l'adresse du lieu sont envoyés par courriel. Les règles d'annulation, de remboursement si la soirée n'a pas lieu et de cession de place sont celles des conditions générales de vente que prépare le Juridique.
 
 La carte cadeau. Achat en ligne d'une place à offrir, avec un code utilisable lors d'un drop.
 
