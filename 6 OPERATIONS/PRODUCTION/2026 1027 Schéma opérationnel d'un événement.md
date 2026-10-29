@@ -52,13 +52,13 @@ Les durées sont **à mesurer** lors de la simulation : elles ne sont pas établ
 
 | Sujet | Opérations | Ventes | Marketing | Juridique | Finance |
 |---|---|---|---|---|---|
-| Lieu | Grille d'audit, y compris la vérification du bail, de la licence et de l'effectif autorisé | Premiers partenaires | — | Contrat type de mise à disposition, assurance | Partage de valeur avec le lieu |
+| Lieu | Grille d'audit, y compris la vérification du bail, de l'effectif autorisé et du dernier contrôle sanitaire publié (la licence du restaurant n'est plus nécessaire depuis D-09) | Premiers partenaires | — | Contrat type de mise à disposition, assurance | Partage de valeur avec le lieu |
 | Chef | Brief, planning, logistique (déplacement d'un chef étranger) | Premiers partenaires | Mise en avant | Contrat type de prestation | Rémunération, partage de valeur |
 | Personnel du jour J | Planning, encadrement | — | — | Statuts, contrats | Coût par événement |
 | Matières premières | Commandes, réception | — | — | Contrats fournisseurs | Coût matière |
 | Client | Exécution | Devis (corporate, privé) | Vente des places (foodies) | Contrat client | Encaissement |
 | Incident | Gestion sur place | — | — | Assurance ; la société répond face au client, puis exerce un recours contre le chef ou le fournisseur | Provision |
-| Alcool | Applique le montage retenu | — | — | Tranche le montage de licence **avant toute vente** | TVA sur les boissons |
+| Alcool | Applique le montage du Juridique : licence propre de Pop Tables (D-09), vins achetés à AdVini, aucune commande avant la déclaration de la licence | — | — | Déclare la licence **avant toute vente** ; contrat M04 avec AdVini | TVA sur les boissons |
 | Données des convives (allergies) | Transmet les allergies au seul chef, puis les supprime | — | Gère le fichier de la communauté | Politique de confidentialité, consentement pour les données de santé | — |
 
 ---

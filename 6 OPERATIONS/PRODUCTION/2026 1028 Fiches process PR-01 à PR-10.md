@@ -20,7 +20,7 @@ Légende (voir [[RULES]]) : **I** = inférence · **P** = proposition. Toutes le
 
 **Étapes**
 1. Recueillir les informations de base : jours et horaires de fermeture, capacité assise, nombre de salles et de salons. **Depuis le 28/10/2026 (P) : 40 couverts assis en une salle pour l'offre A**, et une cuisine capable d'envoyer 240 à 270 assiettes.
-2. Vérifier les points juridiques avec le restaurateur : son bail autorise-t-il le prêt ? Quelle licence de débit de boissons ? Quel effectif maximal autorisé à recevoir du public ? (Juridique 1.1, 1.5, 1.6).
+2. Vérifier les points juridiques avec le restaurateur : son bail autorise-t-il le prêt ? Quel effectif maximal autorisé à recevoir du public ? (Juridique 1.1, 1.6). La licence du restaurant n'est plus nécessaire : Pop Tables vend le vin sous sa propre licence (D-09), sauf solution de transition retenue par la Direction (M01, annexe D).
 3. Visiter la cuisine : feux, fours, froid positif et négatif, plonge (lave-vaisselle ?), espace de dressage.
 4. Visiter la salle : accès des invités, vestiaire, toilettes, éclairage, son.
 5. Faire l'inventaire de ce que le lieu prête (vaisselle, verrerie, linge) et de ce qui est exclu (stocks, cave, équipements sensibles).
@@ -60,8 +60,9 @@ Légende (voir [[RULES]]) : **I** = inférence · **P** = proposition. Toutes le
 - **Responsable** : Opérations.
 
 **Contenu**
-- Catégorie (taille / criticité), date, horaires, lieu, chef, vigneron d'AdVini (sommelier invité jusqu'au 28/10/2026).
+- Catégorie (taille / criticité), date, horaires, lieu, chef, winemaker envoyé par AdVini (wine maker dinner ; pas de sommelier depuis le 29/10/2026).
 - Couverts, menu, services, accords vins et accords jus.
+- Allergènes des vins et du champagne : **sulfites** (note du Juridique du 29/10/2026).
 - Allergies et régimes : on n'y indique que les numéros de table, sans nom ; les données de santé ne vont qu'au chef (Juridique 1.9).
 - Équipe : sortie du calculateur de staffing.
 - Matériel loué, fournisseurs, horaires de livraison.
@@ -85,14 +86,14 @@ Légende (voir [[RULES]]) : **I** = inférence · **P** = proposition. Toutes le
 
 **Étapes**
 1. Calculer l'équipe avec le calculateur de staffing (couverts, services, criticité, salons, qui fournit la salle).
-2. Demander des devis aux plateformes d'extras (voir [[2026 1028 Partenariats stratégiques - cartographie et plan d'approche]], § 2.2).
+2. Demander des devis aux plateformes d'extras, ou recruter en direct (contrat d'usage M06) ; avec une agence, utiliser les conditions particulières M05. L'équipe tient dans l'enveloppe de la Finance (D-06, voir [[2026 1029 Staffing dans l'enveloppe de la Finance]]) (voir [[2026 1028 Partenariats stratégiques - cartographie et plan d'approche]], § 2.2).
 3. Réserver l'équipe à J-21 (J-28 en C3), en demandant nommément les extras du pool quand c'est possible.
 4. Envoyer les convocations : heure d'arrivée, tenue, adresse révélée le jour même si la soirée est secrète.
 5. Confirmer avec chaque intervenant à J-2.
-6. Briefer l'équipe sur place, 30 minutes avant l'arrivée des invités (I) : menu, accords, allergies par table, déroulé, consignes sur l'alcool (Juridique 2.1 et 2.2).
+6. Briefer l'équipe sur place, 30 minutes avant l'arrivée des invités (I) : menu, accords, allergies par table, déroulé, consignes sur l'alcool (Juridique 2.1 et 2.2) : pas de service aux mineurs ni aux personnes manifestement ivres ; **vin et champagne uniquement, aucun alcool fort**.
 
 **Livrable** : le planning de l'équipe, signé par chaque intervenant.
-**C2** : 1 personne de réserve. **C3** : on ajoute l'accueil, les relations presse, le photographe et le vidéaste.
+**C2** : 1 personne de réserve. **C3** : on ajoute l'accueil, les relations presse et le vidéaste. Pas de photographe (D-08).
 
 ---
 
@@ -100,13 +101,13 @@ Légende (voir [[RULES]]) : **I** = inférence · **P** = proposition. Toutes le
 
 - **Objectif** : avoir les produits, les boissons et le matériel à temps, au bon coût, avec leur traçabilité.
 - **Déclencheur** : le menu, en version provisoire.
-- **Responsable** : Opérations, avec le chef et le vigneron d'AdVini.
+- **Responsable** : Opérations, avec le chef et le winemaker d'AdVini.
 
 **Étapes**
 1. Le chef fournit la liste des produits et les quantités.
 2. Choisir le circuit pour chaque famille de produits : grossiste de Rungis, réseau du chef, importateur.
 3. C2 et C3 : commander les produits rares ou importés à J-35 (J-42 en C3).
-4. Le vigneron d'AdVini fournit la liste des vins ; la personne chargée de l'accord mets-jus (à désigner, Produit) fournit les boissons sans alcool. Le montage pour l'alcool doit être tranché par le Juridique (§ 2) **avant toute commande**.
+4. Le winemaker d'AdVini conçoit les accords et remet la liste des vins à S-3 ; il propose les boissons de l'accord mets-jus, ou Pop Tables les compose (M04, art. 2.2). **Pop Tables achète les vins à AdVini (M04, art. 3) et les vend sous sa propre licence** (D-09). **Aucune commande de vin à vendre avant la déclaration de la licence.** Commandes fournisseurs avec les conditions M07.
 5. Réserver la location de matériel et le transport frigorifique si besoin ; confirmer à J-7.
 6. Confirmer les commandes de produits frais à J-7, pour une livraison à J-1 ou le jour J.
 7. Contrôler la réception : quantités, températures, dates limites. Conserver les bons de livraison (traçabilité).
@@ -120,7 +121,8 @@ Légende (voir [[RULES]]) : **I** = inférence · **P** = proposition. Toutes le
 ## PR-06 Hygiène et allergènes
 
 - **Objectif** : servir sans risque sanitaire et pouvoir le prouver.
-- **Responsable** : Opérations, sous réserve de qui est l'**exploitant alimentaire** (à trancher par le Juridique, P2).
+- **Responsable** : Opérations. Pop Tables est l'**exploitant alimentaire** de chaque soirée (orientation du Juridique, [[2026 1029 Note aux Opérations - points juridiques]], § 1).
+- **Prérequis : un plan de maîtrise sanitaire (PMS)** rédigé par les Opérations et relu par le Juridique, **avant l'ouverture de la pré-vente du premier pilote**. Il reste à concevoir (voir [[2026 1029 Staffing dans l'enveloppe de la Finance]], § 5.2). Les étapes ci-dessous seront alignées sur lui.
 
 **Étapes**
 1. Au moins une personne formée à l'hygiène alimentaire est présente en cuisine.
@@ -145,7 +147,7 @@ Légende (voir [[RULES]]) : **I** = inférence · **P** = proposition. Toutes le
 |---|---|
 | H-6 | Arrivée du chef et de la brigade ; réception des produits ; état des lieux d'entrée photographié |
 | H-4 | Livraison du matériel loué ; mise en place de la salle |
-| H-2 | Arrivée de l'équipe de salle et du vigneron d'AdVini ; dressage des tables |
+| H-2 | Arrivée de l'équipe de salle et du winemaker d'AdVini ; dressage des tables ; récépissé de la licence disponible sur place |
 | H-1 | Briefing de toute l'équipe (PR-04, étape 6) ; contrôle final |
 | H-0:30 | Accueil prêt ; vestiaire ouvert |
 | H | Arrivée des invités ; apéritif |

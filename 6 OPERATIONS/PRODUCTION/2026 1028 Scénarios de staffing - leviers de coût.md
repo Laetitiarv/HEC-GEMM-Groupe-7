@@ -5,7 +5,7 @@
 > **Pourquoi cette note.** Le 28/10/2026, la Finance a intégré les effectifs du calculateur de staffing dans son modèle (`2 FINANCE/PREVISIONS/2026 1027 Modèle - Budget, plan financier, prix et marges.xlsx`, onglet « Staffing »). Elle conclut que « les effectifs des Opérations […] et la répartition cible du Produit (équipe de service = 11 à 14 % du prix) ne sont pas compatibles aux prix affichés » et que « les deux pôles doivent en parler avant les pilotes » (`2 FINANCE/2026 1027 Données financières manquantes et hypothèses temporaires.md`, § 4).
 > Cette note chiffre les leviers dont disposent les Opérations pour préparer cet échange, dans le cadre retenu le 28/10/2026 : **nous fournissons toujours le personnel** (§ 3). Elle s'appuie sur [[2026 1028 Typologie des événements, process et staffing]] et [[2026 1028 Partenariats stratégiques - cartographie et plan d'approche]].
 
-> **Mise à jour du 28/10/2026 (soir).** La Finance a porté les jauges à 40, 35, 30 et 20 couverts, avec des salles pleines. Le responsable Opérations garde l'effectif de S3 et supprime le sommelier invité (vigneron d'AdVini). Pour les soirées récurrentes, S3 est remplacé par l'équipe fixe de [[2026 1028 Staffing aux jauges de la Finance - équipe fixe sans sommelier]]. Les chiffres ci-dessous restent ceux de 24 et 20 couverts.
+> **Mise à jour du 28/10/2026 (soir).** La Direction a fixé les jauges (40, 35 et 30 couverts ; 30 en privatisation, D-05 et D-22) et le budget de l'équipe : l'enveloppe de la Finance (D-06). Les Opérations s'organisent pour la tenir, sans sommelier (wine maker dinner AdVini). La référence est désormais [[2026 1029 Staffing dans l'enveloppe de la Finance]]. Les chiffres ci-dessous restent ceux de 24 et 20 couverts, pour mémoire.
 
 Légende (voir [[RULES]]) : **F** = fait constaté dans le dépôt · **I** = inférence · **P** = proposition · **H** = hypothèse de la Finance, à remplacer par des devis.
 
@@ -41,7 +41,7 @@ Source : modèle Prévisions de la Finance, onglets « Prix et marges » (lignes
 
 ## 3. Le cadre : nous fournissons toujours le personnel
 
-**P** Orientation du responsable Opérations du 28/10/2026 : **Fou d'un soir fournit toujours le personnel de la soirée** (salle, sommellerie, brigade et plonge). Voir [[2026 1028 Typologie des événements, process et staffing]], § 3.4. Elle est à porter au [[REGISTRE DES DECISIONS]] par la Direction.
+**P** Orientation du responsable Opérations du 28/10/2026 : **Pop Tables fournit toujours le personnel de la soirée** (salle, sommellerie, brigade et plonge). Voir [[2026 1028 Typologie des événements, process et staffing]], § 3.4. Elle est à porter au [[REGISTRE DES DECISIONS]] par la Direction.
 
 **I** Deux pistes sont donc écartées :
 - confier la salle à l'équipe du restaurant ;
@@ -112,7 +112,7 @@ Calculé avec la formule de la Finance (onglet « Prix et marges », ligne 42), 
 |---|---|
 | Produit (Fred) | Avec une équipe à notre charge, quel levier préférez-vous : un prix plus élevé, plus de couverts par soirée (l'équipe varie peu de 20 à 30 couverts), ou un format plus court ? |
 | Finance (Vianney) | Avec l'équipe S3, quelle part du chiffre d'affaires est acceptable pour l'équipe, une fois le lieu, le chef et les matières payés ? À quel prix ou à quel remplissage le Premier soir s'équilibre-t-il ? |
-| Direction (Laetitia) | Inscrire au registre l'orientation « Fou d'un soir fournit toujours le personnel » |
+| Direction (Laetitia) | Inscrire au registre l'orientation « nous fournissons toujours le personnel » (fait : D-07) |
 
 ---
 

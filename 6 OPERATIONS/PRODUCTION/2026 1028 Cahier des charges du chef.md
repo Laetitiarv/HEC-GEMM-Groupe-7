@@ -5,7 +5,7 @@
 Légende (voir [[RULES]]) : **F** = fait constaté dans le dépôt · **I** = inférence · **P** = proposition · **H** = hypothèse de la Finance.
 
 > **Pourquoi ce document.**
-> - Le 28/10/2026, le responsable Opérations a retenu les jauges de la Finance (40, 35, 30 et 20 couverts) sans augmenter l'équipe (voir [[2026 1028 Staffing aux jauges de la Finance - équipe fixe sans sommelier]]).
+> - La Direction a fixé les jauges (40, 35 et 30 couverts ; 30 en privatisation, D-05 et D-22) et l'enveloppe d'équipe de la Finance (D-06). L'équipe reste serrée (voir [[2026 1029 Staffing dans l'enveloppe de la Finance]]).
 > - Cela n'est tenable que si **le menu est conçu pour être envoyé vite** : un maximum de mise en place, un dressage simple.
 > - Le chef s'y engage. Ce cahier des charges est remis au brief (PR-02, étape 1) et annexé à son contrat de prestation (Juridique).
 > - Il fixe deux choses : **les ratios** que le menu doit respecter, et **la qualité** que nous attendons.
@@ -18,7 +18,8 @@ Légende (voir [[RULES]]) : **F** = fait constaté dans le dépôt · **I** = in
 - **La brigade**, engagée et payée par nous : **1 cuisinier pour 15 couverts, hors chef**. Cela fait 3 cuisiniers pour 40 et 35 couverts, et 2 pour 30 couverts. La brigade habituelle du chef peut venir avec lui ; c'est nous qui l'engageons, dans cet effectif.
 - La plonge, la salle et la vaisselle louée.
 - Le budget matières (H, modèle de la Finance) : **55 € HT par convive** pour le Premier soir, **70 €** pour Le Voyage et **100 €** pour La Grande Nuit. Les boissons d'accord sont budgétées à part.
-- Le vigneron d'AdVini pour les vins (accord non signé à ce jour).
+- Le winemaker envoyé par AdVini (wine maker dinner), qui conçoit les accords avec le chef. Pop Tables achète et vend les vins sous sa licence (D-09, contrat M04 ; accord non signé à ce jour).
+- La fiche d'hygiène du Juridique, que le chef signe (contrat M02). Pop Tables est l'exploitant alimentaire, et un plan de maîtrise sanitaire est prévu avant le premier pilote.
 
 ## 2. Les ratios que le menu doit respecter (P, à valider avec les chefs)
 
@@ -38,15 +39,15 @@ Légende (voir [[RULES]]) : **F** = fait constaté dans le dépôt · **I** = in
 
 ## 3. La qualité du menu
 
-Ces exigences protègent ce que nous vendons : « un chef rare, un lieu exclusif et une cave hors carte » (**F** `5 PRODUIT/Fou d'un soir l'offre.md`). Simplifier l'envoi ne doit pas appauvrir l'assiette.
+Ces exigences protègent ce que nous vendons : « un chef rare, un lieu exclusif et une cave hors carte » (**F** `5 PRODUIT/2026 1028 Pop Tables - Offre.md`). Simplifier l'envoi ne doit pas appauvrir l'assiette.
 
 | N° | Exigence | Comment on le vérifie |
 |---|---|---|
-| Q1 | **Un menu signature, unique** : il porte la cuisine du chef et n'est pas rejoué tel quel dans une autre soirée Fou d'un soir | Menu proposé à J-30 |
+| Q1 | **Un menu signature, unique** : il porte la cuisine du chef et n'est pas rejoué tel quel dans une autre soirée Pop Tables | Menu proposé à J-30 |
 | Q2 | **Produits frais et de saison.** Pas de plat industriel ni de préparation achetée toute faite, sauf produits d'exception assumés (charcuterie, fromage affiné, pâtisserie d'un artisan nommé) | Liste des fournisseurs du chef jointe au menu |
 | Q3 | **Traçabilité** : l'origine des produits principaux est connue et peut être annoncée en salle | Fiche du menu |
 | Q4 | **La simplicité ne se voit pas** : la mise en place sert la précision, pas des plats tièdes ou figés. Une assiette prête à l'avance doit être pensée pour l'être | Dégustation (C2 et C3) |
-| Q5 | **Accords** : le menu est transmis au vigneron d'AdVini à J-30 pour construire l'accord mets-vins, et à la personne qui conçoit l'accord mets-jus (point ouvert) | Accords figés à J-21 avec le menu (PR-03) |
+| Q5 | **Accords** : le menu est transmis au winemaker d'AdVini à J-30. Il construit l'accord mets-vins et propose l'accord mets-jus, ou Pop Tables le compose (M04, art. 2.2). Les sulfites figurent dans la fiche allergènes | Accords figés à J-21 avec le menu (PR-03) |
 | Q6 | **Allergènes** : les 14 allergènes réglementaires sont indiqués pour chaque plat. Les données de santé des convives ne vont qu'au chef (Juridique 1.9) | Fiche allergènes à J-21 (PR-06) |
 | Q7 | **Budget matières respecté** (§ 1). Tout dépassement est signalé avant l'achat | Bilan (PR-10) |
 | Q8 | **Présence du chef en salle**, quand le format le prévoit : le chef vient en salle au Premier soir (offre du Produit). Son passage est placé dans le déroulé, à un moment où l'envoi le permet | Déroulé du jour J (PR-07) |
@@ -65,5 +66,5 @@ Ces exigences protègent ce que nous vendons : « un chef rare, un lieu exclusif
 ## 5. Ce qui reste à faire
 
 - **Faire relire ce cahier des charges par un ou deux chefs** avant le premier pilote, pour valider R2 à R6 (Opérations).
-- **L'annexer au contrat de prestation du chef** (Juridique). Il faut prévoir ce qui se passe si le chef ne respecte pas le cahier des charges.
-- Désigner qui conçoit l'accord mets-jus, maintenant qu'il n'y a plus de sommelier invité (Produit). Voir [[2026 1028 Staffing aux jauges de la Finance - équipe fixe sans sommelier]], § 4.
+- **L'annexer au contrat de prestation du chef** (modèle M02 du Juridique), avec la fiche d'hygiène. Il faut prévoir ce qui se passe si le chef ne respecte pas le cahier des charges.
+- Confirmer qui compose l'accord mets-jus : le winemaker d'AdVini (offre du Produit : « conçu par le vigneron invité ») ou Pop Tables (Produit). Voir [[2026 1029 Staffing dans l'enveloppe de la Finance]], § 4.
