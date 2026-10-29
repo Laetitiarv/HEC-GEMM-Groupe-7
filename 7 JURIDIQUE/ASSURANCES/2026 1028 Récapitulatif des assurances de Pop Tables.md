@@ -21,7 +21,7 @@ Légende (voir [[RULES]]) : **F** = fait constaté sur la source citée · **I**
 | **D-17** : associé gastronomique et investisseurs | Responsabilité des dirigeants à couvrir au moment de la levée |
 | **D-02** et **D-08** : plus de mariages ni d'événements familiaux, plus de photographe | Ces risques sortent du périmètre |
 
-**F** Volumes et montants (fichier Finance) : 9 soirées à l'unité et environ 7 privatisations en année 1 (**H**, donnée n° 8 ; le nombre de privatisations sera fixé par la Finance et les Ventes, D-16) ; jauges de 40, 35 et 30 couverts, 20 en privatisation (D-05) ; chiffre d'affaires de 10 357 € à 18 482 € HT par soirée (D-13) ; soirée de lancement de 18 000 à 38 000 € HT (note Finance sur la levée de fonds).
+**F** Volumes et montants (fichier Finance) : 9 soirées à l'unité et environ 7 privatisations en année 1 (**H**, donnée n° 8 ; le nombre de privatisations sera fixé par la Finance et les Ventes, D-16) ; jauges de 40, 35 et 30 couverts (D-05), 30 en privatisation (D-22) ; chiffre d'affaires de 10 357 € à 18 482 € HT par soirée (D-13) ; soirée de lancement de 18 000 à 38 000 € HT (note Finance sur la levée de fonds).
 
 ---
 

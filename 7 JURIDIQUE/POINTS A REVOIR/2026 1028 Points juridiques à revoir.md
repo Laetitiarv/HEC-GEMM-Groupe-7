@@ -1,6 +1,6 @@
 # Points juridiques à revoir
 
-**Version réorganisée du 28/10/2026 (nuit)** · Fonction : `7 JURIDIQUE/POINTS A REVOIR` · Production d'assistant IA à la demande du responsable Juridique · Statut : liste de travail. **Aucune analyse ici ne vaut avis juridique.**
+**Version réorganisée du 28/10/2026 (nuit), complétée le 29/10/2026** · Fonction : `7 JURIDIQUE/POINTS A REVOIR` · Production d'assistant IA à la demande du responsable Juridique · Statut : liste de travail. **Aucune analyse ici ne vaut avis juridique.**
 
 Cadre : [[2026 1028 Pop Tables - Cadre de référence]], décisions D-02 à D-24 ([[REGISTRE DES DECISIONS]]), BMC V6. La première version de cette note, construite sur l'ancien cadre (D-01), est rangée dans `OLD/` ; ses numéros sont repris au § 4.
 
@@ -49,6 +49,7 @@ Légende : **Haute** = bloquant pour le lancement (pilote de janvier 2027 et pr�
 - **Constat.** `RULES.md` dit le dépôt privé ; il est **public**. Il contient la table de capitalisation, la note de levée, les modèles de contrats et le projet de statuts.
 - **Conséquence.** Aucune information du dépôt ne peut être protégée comme confidentielle face aux restaurants, aux chefs, aux maisons de luxe et aux investisseurs (M15, M17).
 - **Ce qui reste.** Passer le dépôt en privé (point ouvert au cadre de référence, § 8). D'ici là, ne verser aucun contrat signé, aucun échange avec un tiers ni aucune donnée personnelle.
+- **Constat du 29/10/2026.** Le dépôt est toujours public. Le fichier des Ventes `4 VENTES/PARTENAIRES/2026 1028 Vivier de chefs potentiels - Paris.xlsx` désigne et évalue des chefs nommément : données personnelles et relation avec ces chefs exposées. Recommandation transmise aux Ventes ([[2026 1029 Note aux Ventes - points juridiques]]).
 
 ### H5 — Relecture des contrats nécessaires aux premières ventes
 - **Ce qui est prêt.** Modèles M01 à M21 ([[LISEZ-MOI]] du dossier `CONTRATS/MODELES/`), dont les quatre indispensables : restaurant (M01), chef (M02), conditions générales de vente des places (M08), privatisation (M09).
@@ -93,6 +94,42 @@ Légende : **Haute** = bloquant pour le lancement (pilote de janvier 2027 et pr�
 **Sortis du périmètre** (D-02) : mariages, communions, bar-mitsva, brasseries et « lieux avec cuisine » ; le montage « le client apporte ses boissons » (droit de bouchon) et la licence temporaire par une association ne sont plus utiles.
 
 ---
+
+## 3 bis. Documents manquants (constat du 29/10/2026)
+
+| N° | Document | Pourquoi il est nécessaire | Qui | Échéance |
+|---|---|---|---|---|
+| D1 | **Plan de maîtrise sanitaire** | Pop Tables est l'exploitant alimentaire (H3) ; la fiche d'hygiène des chefs y renvoie | Opérations, relu par le Juridique | Avant l'ouverture de la pré-vente du pilote |
+| D2 | **Lettre de mission de l'expert-comptable** | Code d'activité, objet social, TVA, CDD d'usage, régime des chefs non résidents (budget Finance : 100 € par mois) | Finance | Avant la signature des statuts |
+| D3 | **Contrat de domiciliation** | Adresse du siège pour les statuts (M21, art. 4), la licence et la déclaration à la DDPP | Direction | Avant la signature des statuts |
+| D4 | **Contrat de développement du site, avec cession des droits** | Budget de 15 000 € (D-19) ; sans cession écrite, le code et le design restent au prestataire | Marketing ; Juridique | Avant la commande du site |
+| D5 | **Adhésion à un médiateur de la consommation** | Obligatoire pour vendre aux particuliers ; cité dans M08 et M09 | Juridique | Avant le premier drop |
+| D6 | **Registre des traitements et accords de sous-traitance des données** | Liste privée, allergies (données de santé), paiement, envoi de courriels (M19) | Juridique, avec le Marketing | Avant la mise en ligne |
+| D7 | **Versions anglaises** du contrat du chef (M02) et, si nécessaire, des conditions de vente (M08) | Chefs étrangers ; clients étrangers ; villes à l'étranger (D-15) | Juridique | Avant le premier chef étranger |
+| D8 | **Convention de stage** | Si la Finance prévoit des stagiaires dans ses ressources humaines | Direction ; Finance | Avant l'arrivée d'un stagiaire |
+
+## 3 ter. Points non confirmés (règles appliquées par prudence, à faire vérifier)
+
+| N° | Point | Où il intervient | Règle prudente appliquée en attendant |
+|---|---|---|---|
+| C1 | Déclaration d'une licence par une société sans établissement propre | H2 ; proposition de licence | Déclaration au siège ; solution de transition en réserve |
+| C2 | Adresse de la déclaration à la DDPP ; déclaration par ville | H3 ; note sanitaire (actions 1 et 8) | Déclaration au siège ; vérification avant chaque nouvelle ville |
+| C3 | Caractère obligatoire des plats témoins | H3 | Plats témoins systématiques, 5 jours |
+| C4 | Exclusion du droit de rétractation pour une soirée à date fixe | M08, M09 | Mention claire avant l'achat |
+| C5 | Seuil à partir duquel un contrat écrit est obligatoire avec un créateur de contenu | M13 | Contrat pour toute invitation |
+| C6 | TVA et durée minimale de validité des bons cadeaux | M11 | Validité de 12 mois |
+| C7 | Fiscalité des sommes versées à un chef non résident | M02 (art. 4.3) | Question posée à l'expert-comptable (D2) |
+| C8 | Prévoyance prévue par la convention collective de la restauration | M06 ; récapitulatif des assurances | Intérim recommandé pour le pilote |
+| C9 | Seuil de l'obligation de vigilance envers les sous-traitants | M05, M07 | Attestation URSSAF demandée à partir de 5 000 € HT |
+
+## 3 quater. Incohérences entre pôles (constat du 29/10/2026)
+
+| N° | Incohérence | Conséquence juridique | Suite |
+|---|---|---|---|
+| I1 | Un fichier des Ventes décrit encore « une plateforme de location de restaurants […] à des flying chefs » | Pop Tables **produit et vend** la soirée (cadre de référence, § 1) : elle est l'exploitante alimentaire, vend le vin sous sa licence et emploie le personnel. Une location à des chefs serait un autre modèle, avec d'autres contrats, licences et assurances | Note aux Ventes |
+| I2 | Les fiches des Opérations renvoient encore à l'ancien cadre (D-01, « Fou d'un soir », photographe, sommelier) et ne reprennent pas l'orientation sanitaire | Process de la soirée non alignés sur les obligations d'exploitant alimentaire et de titulaire de licence | Note aux Opérations |
+
+Notes de transmission : [[2026 1029 Note aux Opérations - points juridiques]] · [[2026 1029 Note aux Ventes - points juridiques]] (dossier `7 JURIDIQUE/TRANSMISSIONS/`).
 
 ## 4. Correspondance avec la première version
 

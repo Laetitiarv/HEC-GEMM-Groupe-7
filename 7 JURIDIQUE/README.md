@@ -2,7 +2,7 @@
 
 Un fait par ligne, du plus ancien au plus récent, chacun avec sa source. Voir [[RULES]].
 
-Rangement : `STATUTS ET PACTE/` (qui décide quoi), `CONTRATS/` (une note par contrat ; modèles dans `CONTRATS/MODELES/`), `EQUIPE/` (recrutement, rémunérations), `POINTS A REVOIR/` (questions juridiques à traiter plus tard), `ASSURANCES/` (récapitulatif des assurances, devis, contrats d'assurance), `SECURITE ALIMENTAIRE/` (responsabilité sanitaire, clauses, fiches pour les chefs), `LICENCE ALCOOL/` (licence propre de Pop Tables, D-09) ; et, comme archiviste, `0 INBOX/`, `sources/` et [[SOURCES]].
+Rangement : `STATUTS ET PACTE/` (qui décide quoi), `CONTRATS/` (une note par contrat ; modèles dans `CONTRATS/MODELES/`), `EQUIPE/` (recrutement, rémunérations), `POINTS A REVOIR/` (questions juridiques à traiter plus tard), `ASSURANCES/` (récapitulatif des assurances, devis, contrats d'assurance), `SECURITE ALIMENTAIRE/` (responsabilité sanitaire, clauses, fiches pour les chefs), `LICENCE ALCOOL/` (licence propre de Pop Tables, D-09), `TRANSMISSIONS/` (notes du Juridique aux autres pôles) ; et, comme archiviste, `0 INBOX/`, `sources/` et [[SOURCES]].
 
 | Date | Fait | Nature (fait / inférence / proposition) | Source |
 |---|---|---|---|
@@ -18,3 +18,4 @@ Rangement : `STATUTS ET PACTE/` (qui décide quoi), `CONTRATS/` (une note par co
 | 28/10/2026 | Sécurité alimentaire : recommandations A retenues par le responsable Juridique ; interdiction des produits d'origine animale importés hors Union européenne par les chefs (fiche d'hygiène, M02), sulfites, règle sur les restes, nouvelles villes, boissons fermentées (note d'orientation, actions 6 à 9), rappels de produit (M01, M07) | Orientation du pôle | [[2026 1028 Responsabilité sanitaire - orientations retenues]] |
 | 28/10/2026 | Projet de statuts complets de la SAS Pop Tables (M21), à partir de la trame M16 ; 11 choix laissés aux associés ; non relu par un avocat | Proposition | [[2026 1028 M21 Projet de statuts de la SAS Pop Tables]] |
 | 28/10/2026 | Note « Points juridiques à revoir » réorganisée par gravité (6 points hauts, 8 moyens), avec responsables, échéances et table de correspondance ; première version rangée dans `POINTS A REVOIR/OLD/` | Proposition | [[2026 1028 Points juridiques à revoir]] |
+| 29/10/2026 | Vérification juridique d'ensemble : deux chiffres corrigés (privatisation à 30 couverts dans le récapitulatif des assurances ; cachets du chef dans M02) ; documents manquants, points non confirmés et incohérences ajoutés à la note des points juridiques ; notes de transmission aux Opérations et aux Ventes | Proposition | [[2026 1028 Points juridiques à revoir]] ; `TRANSMISSIONS/` |

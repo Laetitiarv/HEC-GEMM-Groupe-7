@@ -42,7 +42,7 @@ Pop Tables s'engage à :
 Le Chef et sa brigade appliquent le plan de maîtrise sanitaire de Pop Tables et la **Fiche d'hygiène** jointe (Annexe 2), dont le Chef accuse réception.
 
 ## Article 4 — Rémunération
-4.1. Cachet forfaitaire de [●] € HT pour la soirée (références du budget : 950 € pour un talent montant à 3 700 € pour un chef étoilé, D-21 à confirmer), [option : plus [●] % du chiffre d'affaires HT de la soirée au-delà de [●] €].
+4.1. Cachet forfaitaire de [●] € HT pour la soirée (références du modèle de la Finance, D-21 : 950 € pour Premier soir, 2 000 € pour Le Voyage, 3 500 € pour La Grande Nuit, 1 800 € pour une privatisation), [option : plus [●] % du chiffre d'affaires HT de la soirée au-delà de [●] €].
 4.2. Paiement : [30] % à la signature, le solde dans les [8] jours suivant la soirée, sur facture.
 4.3. [Chef établi à l'étranger] Les sommes sont versées sous réserve des retenues fiscales éventuellement applicables en France aux prestations de non-résidents.
 
